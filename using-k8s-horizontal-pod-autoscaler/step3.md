@@ -5,7 +5,7 @@ to spin up deployment of the nginx web server as well as Kubernetes service to e
 
 Execute the command below by clicking on it using your mouse.
 
-`kubectl run nginx --image=nginx --requests=cpu=500m,memory=500M --expose --port=3000`{{execute}}
+`kubectl run nginx --image=nginx --requests=cpu=500m,memory=500M --expose --port=80`{{execute}}
 
 Now, Kubernetes about 10 seconds to create the deployment and service. Once 10 seconds has passed, execute this
 command to make sure the nginx pod was created:
