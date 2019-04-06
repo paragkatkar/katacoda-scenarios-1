@@ -22,7 +22,7 @@ and master hands on techniqures required to work with K8S HPA.
 to operate at the best efficiency possible.
 * Be able to create a simple autoscaling deployment using K8S HPA imperatively at command line.
 * Be able to view the state of your deployment running under K8S HPA using standard `kubectl` commands.
-* Maximize that capacity of a pod and witness K8S HPA reduce load burden by adding more pods to your Kubernetes cluster
+* Impose overwhelming load on a pod and then witness K8S HPA reduce load burden by adding more pods to your Kubernetes cluster
 
 <a name="what-you-need"></a>
 ## What You Need To Know Before You Start
