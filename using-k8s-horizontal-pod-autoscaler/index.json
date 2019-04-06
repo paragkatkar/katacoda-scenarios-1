@@ -47,7 +47,15 @@
     },
     "finish": {
       "text": "finish.md"
-    }
+    },
+    "assets": {
+      "client": [
+        {
+          "file": "ping.sh",
+          "target": "~/"
+        }
+        ]
+      }
   },
   "environment": {
     "uilayout": "terminal",
