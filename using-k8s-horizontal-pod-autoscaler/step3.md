@@ -30,8 +30,8 @@ environment, or just click on the command using your mouse.
 `kubectl run -i --tty service-for-testing --image=busybox /bin/sh`{{execute}}
 
 It might take a few seconds, but you should see the command prompt, `/ #`. This prompt indicates
-that you are indeed in the Kubernetes clsuter. (You might see a message, `hit the enter key to continue`. If so, strike the
-`enter` key.)
+that you are indeed in the Kubernetes clsuter. (You might see a message, `If you don't see a command prompt, try pressing enter.`
+If do, strike the `enter` key.)
 
 Now you are in the cluster. Let's see if we can access the nginx service using the testing service.
 
