@@ -47,11 +47,22 @@
     },
     "finish": {
       "text": "finish.md"
+    },
+    "assets": {
+      "client": [
+        {
+          "file": "ping.sh",
+          "target": "~/"
+        }
+      ],
+      "host01": [
+        {
+          "file": "ping.sh",
+          "target": "~/"
+        }
+      ]
     }
   },
-  "files": [
-    "ping.sh"
-  ],
   "environment": {
     "uilayout": "terminal",
     "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\r\nType 'printenv' to do a basic interaction\u001b[m\r\n"
