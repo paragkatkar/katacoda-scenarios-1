@@ -19,7 +19,7 @@ Then execute this command to make sure the corresponding nginx service was creat
 Next, we need to to **expose the service** to the outside world so that we can test the load 
 capacity on the pods.
 
-`kubectl run -i --tty service-for-testing --image=nginx /bin/sh`{{execute}}
+`kubectl run -i --tty service-for-testing --image=busybox /bin/sh`{{execute}}
 
 Now you are in the cluster. Let's see if we can access the nginx service using the testing service.
 
