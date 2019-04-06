@@ -1,7 +1,9 @@
 # Examining Your Kubernetes Cluster
 
-`kubectl get nodes'`{{execute}}
+`clear`{{execute}}
 
-`kubectl get pods'`{{execute}}
+`kubectl get nodes`{{execute}}
 
-`kubectl get deployments'`{{execute}}
+`kubectl get pods`{{execute}}
+
+`kubectl get deployments`{{execute}}
