@@ -16,6 +16,16 @@ to operate as the best efficiency possible.
 * Be able to create a simple autoscaling deployment using K8S HPA imperatively at command line.
 * Be able to view the state of your deployment running under K8S HPA using standard `kubectl` commands.
 
+## What You Need To Know Before You Start
+
+In order to get full benefit from this scenario, we expect that you have some introductory familiarity
+with Kubernetes. You need to have a working knowledge of [clusters](https://kubernetes.io/docs/concepts/cluster-administration/cluster-administration-overview/), [pods](https://kubernetes.io/docs/concepts/workloads/pods/pod-overview/),
+[deployments](https://kubernetes.io/docs/concepts/workloads/controllers/deployment/) and [services](https://kubernetes.io/docs/concepts/services-networking/service/). Also, you should be
+comfortable working with the command, [`kubectl`](https://kubernetes.io/docs/reference/kubectl/overview/).
+
+We'll show you exactly the commands you will be using, but having a conceptual understanding of the commands and
+object we're working with will help you learn in a more meaningful way, beyond simple rote recital.
+
 ## Scenario Contents
 
 ### Step 1: Working with Katakoda
