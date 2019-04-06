@@ -1,11 +1,11 @@
 {
   "title": "Using Kubernetes Horizontal Pod Autoscaler",
-  "description": "Lesson 1: Introduction to HPA",
+  "description": "Scenario 1: Introduction to K8S HPA",
   "difficulty": "beginner",
   "time": "15 minutes",
   "details": {
     "steps": [{
-      "title": "Step 1 - Working with Katakoda",
+      "title": "Step 1 - Working with Katakoda Interactive Learning Environment",
       "text": "step1.md"
     },
       {
