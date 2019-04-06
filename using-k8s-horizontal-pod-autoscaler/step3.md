@@ -1,4 +1,4 @@
-TO BE PROVIDED
+INTRODUCTORY TEXT TO BE PROVIDED
 
 **First, let's create a deployment** that uses an nginx web server. We'll use the Kubernetes `kubectl run` command
 to spin up deployment of the nginx web server as well as Kubernetes service to expose the pods in the deployment.
@@ -18,6 +18,12 @@ Then execute this command to make sure the corresponding nginx service was creat
 
 Next, we need to to **expose the service** to the outside world so that we can test the load 
 capacity on the pods.
+
+`kubectl run -i --tty service-for-testing --image=nginx /bin/sh`{{execute}}
+
+Now you are in the cluster. Let's see if we can access the nginx service using the testing service.
+
+`wget -q -O- http://service-for-testing.default.svc.cluster.local`{{execute}}
 
 `COMMAND TO BE PROVIDED`
 
