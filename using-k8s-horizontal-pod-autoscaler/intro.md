@@ -1,10 +1,16 @@
-# What is K8S Horizontal Pod Autoscaler and Why is it important?
 
+ * [Educational Objective](#eductional-objective)
+ * [What To Expect](#what-to-expect)
+ * [What You Need To Know Before You Start](#what-you-need)
+ * [Understanding why Kubernetes Horizonatl Pod Autoscaler is important](#understanding-hpa)
+ * [Scenario Contents](#scenario-contents)
+
+<a name="eductional-objective"></a>
 ## Educational Objective
 
 To teach the learner the nature and use of [Kubneretes Horizontal Pod Autoscaler](https://kubernetes.io/docs/tasks/run-application/horizontal-pod-autoscale/), which is also known by the
  shorthard term, K8S HPA.
-
+<a name="what-to-expect"></a>
 ## What To Expect
 
 After taking this scneario you will:
@@ -16,6 +22,7 @@ to operate as the best efficiency possible.
 * Be able to create a simple autoscaling deployment using K8S HPA imperatively at command line.
 * Be able to view the state of your deployment running under K8S HPA using standard `kubectl` commands.
 
+<a name="what-you-need"></a>
 ## What You Need To Know Before You Start
 
 In order to get full benefit from this scenario, we expect that you have some introductory familiarity
@@ -26,6 +33,11 @@ comfortable working with the command, [`kubectl`](https://kubernetes.io/docs/ref
 We'll show you exactly the commands you will be using, but having a conceptual understanding of the commands and
 objects we're working with will help you learn in a more meaningful way, beyond simple rote recital.
 
+<a name="understanding-hpa"></a>
+## Understanding why Kubernetes Horizonatl Pod Autoscaler is important.
+
+TO BE PROVIDED
+<a name="scenario-contents"></a>
 ## Scenario Contents
 
 ### Step 1: Working with Katakoda
