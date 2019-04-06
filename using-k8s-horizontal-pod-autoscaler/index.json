@@ -1,0 +1,31 @@
+{
+  "title": "Using Kubernetes Horizontal Pod Autoscaler",
+  "description": "Lesson 1: Introduction to HPA",
+  "difficulty": "beginner",
+  "time": "5 minutes",
+  "details": {
+    "steps": [{
+      "title": "Step 1 - Examining Your Cluster",
+      "text": "step1.md"
+    },
+      {
+        "title": "Step 2 - Creating a Deployment Under K8S HPA",
+        "text": "step2.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md",
+      "credits": ""
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "terminal",
+    "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\r\nStart Kubernetes using `launch.sh`\u001b[m\r\n"
+  },
+  "backend": {
+    "imageid": "kubernetes-cluster-running"
+  }
+}
