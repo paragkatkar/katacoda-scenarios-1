@@ -16,7 +16,8 @@ Then execute this command to make sure the corresponding nginx service was creat
 
 `master $ kubectl get service | grep nginx`{{execute}}
 
-Next, we need to to **expose the service** to the outside world so that we test load capacity on the pods.
+Next, we need to to **expose the service** to the outside world so that we can test the load 
+capacity on the pods.
 
 `COMMAND TO BE PROVIDED`
 

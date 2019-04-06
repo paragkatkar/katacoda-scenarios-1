@@ -24,7 +24,7 @@ with Kubernetes. You need to have a working knowledge of [clusters](https://kube
 comfortable working with the command, [`kubectl`](https://kubernetes.io/docs/reference/kubectl/overview/).
 
 We'll show you exactly the commands you will be using, but having a conceptual understanding of the commands and
-object we're working with will help you learn in a more meaningful way, beyond simple rote recital.
+objects we're working with will help you learn in a more meaningful way, beyond simple rote recital.
 
 ## Scenario Contents
 
