@@ -2,12 +2,12 @@
 
 ## Educational Objective
 
-To teach the learner the nature and use of Kubneretes Horizontal Pod Autoscaler which is also known by the
+To teach the learner the nature and use of [Kubneretes Horizontal Pod Autoscaler](https://kubernetes.io/docs/tasks/run-application/horizontal-pod-autoscale/), which is also known by the
  shorthard term, K8S HPA.
 
 ## What To Expect
 
-After taking this lesson you will:
+After taking this scneario you will:
 
 * Understand how to use the  Katakoda interactive learning environment to understand key concepts
 and master hands on techniqures required to work with K8S HPA.
@@ -16,7 +16,7 @@ to operate as the best efficiency possible.
 * Be able to create a simple autoscaling deployment using K8S HPA imperatively at command line.
 * Be able to view the state of your deployment running under K8S HPA using standard `kubectl` commands.
 
-## Lesson Contents
+## Scenario Contents
 
 ### Step 1: Working with Katakoda
 In this step well show you the basics of working with the Katakoda iteractive learning environment
