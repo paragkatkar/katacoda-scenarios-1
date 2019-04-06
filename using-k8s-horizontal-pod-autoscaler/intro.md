@@ -2,7 +2,8 @@
 
 ## Educational Objective
 
-To teach the learner the nature and use of Kubneretes Horizontal Pod Autoscaler (K8S HPA).
+To teach the learner the nature and use of Kubneretes Horizontal Pod Autoscaler which is also known by the
+ shorthard term, K8S HPA.
 
 ## What To Expect
 
