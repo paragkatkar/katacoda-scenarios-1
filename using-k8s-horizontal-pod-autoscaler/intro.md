@@ -42,7 +42,7 @@ TO BE PROVIDED
 <a name="scenario-contents"></a>
 ## Scenario Contents
 
-**Step 1: Working with Katakoda
+**Step 1: Working with Katakoda**
 In this step well show you the basics of working with the Katakoda iteractive learning environment
 
 **Step 2: Examining Your Kubernetes Cluster**
