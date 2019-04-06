@@ -5,7 +5,7 @@
   "time": "15 minutes",
   "details": {
     "steps": [{
-      "title": "Step 1 - Working with Katakoda Interactive Learning Environment",
+      "title": "Step 1 - Working with the Katacoda Interactive Learning Environment",
       "text": "step1.md"
     },
       {
