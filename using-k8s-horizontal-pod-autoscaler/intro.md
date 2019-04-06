@@ -1,10 +1,11 @@
 
- * [Educational Objective](#eductional-objective)
- * [What To Expect](#what-to-expect)
- * [What You Need To Know Before You Start](#what-you-need)
- * [Understanding why Kubernetes Horizonatl Pod Autoscaler is important](#understanding-hpa)
- * [Scenario Contents](#scenario-contents)
-
+ * **Educational Objective**
+ * **What To Expect**
+ * **What You Need To Know Before You Start**
+ * **Understanding why Kubernetes Horizonatl Pod Autoscaler is important**
+ * **Scenario Contents**
+ 
+ 
 <a name="eductional-objective"></a>
 ## Educational Objective
 
