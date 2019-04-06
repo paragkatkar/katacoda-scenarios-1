@@ -2,7 +2,7 @@
  * **Educational Objective**
  * **What To Expect**
  * **What You Need To Know Before You Start**
- * **Understanding why Kubernetes Horizonatl Pod Autoscaler is important**
+ * **Understanding why Kubernetes Horizontal Pod Autoscaler is important**
  * **Scenario Contents**
  
  
