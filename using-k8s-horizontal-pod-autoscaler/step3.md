@@ -1,3 +1,6 @@
+
+**Time to complete step:** 3 Minutes
+
 INTRODUCTORY TEXT TO BE PROVIDED
 
 **First, let's create a deployment** that uses an nginx web server. We'll use the Kubernetes `kubectl run` command

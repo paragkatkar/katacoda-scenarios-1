@@ -1,3 +1,5 @@
+**Time to complete step:** 2 Minutes
+
 ------
 
 **IMPORTANT**: You need to have done tasks described previouly in Step 4 in order for all the concepts and instructions
