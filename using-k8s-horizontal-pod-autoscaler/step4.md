@@ -13,14 +13,17 @@ Now, let's run the loop in the background and then check the state of the pods
 
 `nohup /loops.sh &> /dev/null &`{{execute}}
 
-While the loop is running, let's see how the nodes are doing:
-
-`docker stats --no-stream`{{execute}}
 
 Let's exit of out the container so what can can see the big picture
 
 `exit`{{execute}}
 
+Now let's do a trivial autoscale
+
+`kubectl autoscale deployment nginx --cpu-percent=50 --min=1 --max=1`{{execute}}
+
+
+`kubectl get hpa`{{execute}}
 
 
 
