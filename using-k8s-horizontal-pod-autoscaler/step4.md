@@ -2,14 +2,14 @@
 
 ------
 
-**IMPORTANT**: You need to have done tasks described previouly in Step 3 in order for all the concepts and instructions
+**IMPORTANT**: You need to have done tasks described previously in Step 3 in order for all the concepts and instructions
 in this step to make sense and work. If you have not done Step 3, please go back!
 
 ------
 
-In this step we're going to go back into a pod in the testing deployment in the cluster. Then, from within the
-cluster, we're going to create a loop in a bash script that keeps calling the nginx service. The loop will place a burden on the
-pods backing the nginx service.
+In this step we're going to go back into the cluster by way of a pod in the testing deployment we created earlier.
+Then, from within the cluster, we're going to create a loop in a bash script that keeps calling the nginx service.
+The loop will place a burden on the pods backing the nginx service.
 
 We need to get back into the cluster. The first thing we need to do is to find a pod that is part of
 the deployment, `deployment-for-testing`. To do this, we'll get a list of all pods that start with the prefix,
@@ -36,7 +36,7 @@ is a special pod name, unique to the installation.
 Then once you've identified a pod, use the `kubectl exec` command to access the pod, like so, by typing the following
 into the Katacoda interactiver terminal.
 
-`kubectl exec -i --tty deployment-for-testing-5f8b464b59-rk96v /bin/sh`
+`kubectl exec -it deployment-for-testing-5f8b464b59-rk96v /bin/sh`
 
 **Note:** *You'll need to work directly at the command line because each installation's pod names will be special.*
 
