@@ -33,7 +33,8 @@ with Kubernetes. You need to have a working knowledge of [clusters](https://kube
 comfortable working with the command, [`kubectl`](https://kubernetes.io/docs/reference/kubectl/overview/).
 
 We'll show you exactly the commands you will be using, but having a conceptual understanding of the commands and
-objects you're working with will help you learn in a more meaningful way, well beyond simple rote entry of commands in terminal window.
+objects you're working with will help you learn in a more meaningful way, well beyond simple rote entry of
+commands in a terminal window.
 
 <a name="understanding-hpa"></a>
 ## Understanding why Kubernetes Horizontal Pod Autoscaler is important.
