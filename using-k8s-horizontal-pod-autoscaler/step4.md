@@ -14,15 +14,15 @@ Now, let's run the loop in the background and then check the state of the pods
 `nohup /loops.sh &> /dev/null &`{{execute}}
 
 
-Let's exit of out the container so what can can see the big picture
+**TODO:** `Figure how to open up a second terminal into the master`
 
-`exit`{{execute}}
 
-Now let's do an autoscale
+Now let's open another terminal window do an autoscale
 
 `kubectl autoscale deployment nginx --cpu-percent=50 --min=1 --max=5`{{execute}}
 
 
+Let's see the status of the Horizontal Pod Autoscaler
 `kubectl get hpa`{{execute}}
 
 
