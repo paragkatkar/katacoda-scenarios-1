@@ -3,11 +3,19 @@ in this step to make sense and work. If you have not done Step 3, please go back
 
 Let's create a little looping program in bash and save it to the file, `loops.sh`.
 
+`echo "while true; do wget -q -O- http://nginx.default.svc.cluster.local ; done" > loops.sh`{{execute}}
+
 We need to give it execute permissions, like so:
 
 `chmod +x /loops.sh`{{execute}}
 
 Now, let's run the loop in the background and then check the state of the pods
+
+`sh /loops.sh &`{{execute}}
+
+While the loop is running, in the second terminal window, let's see how the nodes are doing:
+
+`kubectl top nodes`{{execute}}
 
 
 
