@@ -4,7 +4,7 @@
 INTRODUCTORY TEXT TO BE PROVIDED
 
 **First, let's create a deployment** that uses an nginx web server. We'll use the Kubernetes `kubectl run` command
-to spin up deployment of the nginx web server as well as Kubernetes service to expose the pods in the deployment.
+to spin up a deployment of the nginx web server as well as a Kubernetes service that uses the pods in the deployment.
 
 Execute the command below by clicking on it using your mouse.
 
@@ -23,7 +23,7 @@ nginx-59b864868f-6sqv2                    1/1       Running   0          5m
 
 **WHERE**
 
-`nginx-59b864868f-6sqv2` is the name of the pod assigned by Kubernetes to the deployment. Remember, by default,
+`nginx-59b864868f-6sqv2` is the special name of the pod assigned by Kubernetes to the deployment. Remember, by default,
 Kubernetes will special name the pod upon creation.
 
 Next, execute this command to make sure the corresponding nginx service was created:
@@ -38,14 +38,17 @@ the ngnix default service. We'll create a deployment called, `deployment-for-tes
 as part of the imperative execution from the command line, we'll use the option `-it` to login directly
 to the pod running under the deployment.
 
+(In this case, the testing deployment will create a pod with a [busybox](https://hub.docker.com/_/busybox) container.)
+
 Execute this command, either by typing it out at the command line of the Katacoda interactive learning
 environment, or just click on the command using your mouse.
 
 `kubectl run -it deployment-for-testing --image=busybox /bin/sh`{{execute}}
 
 It might take a few seconds, but you should see the command prompt, `/ #`. This prompt indicates
-that you are indeed in the Kubernetes clsuter. (You might see a message, `If you don't see a command prompt, try pressing enter.`
-If do, strike the `enter` key.)
+that you are indeed in the Kubernetes cluster. (You might see a message, `If you don't see a command prompt,
+try pressing enter.`
+If you do, strike the `enter` key.)
 
 Now you are in the cluster. Let's see if we can access the nginx service using the testing service.
 
@@ -87,9 +90,9 @@ Now we can access the service from inside the cluster. Let's exit the cluster fo
 `exit`{{execute}} 
 
 (**DEV NOTE**: There is a bug that when the `exit` command is clicked, it terminates the entire Katacoda sesssion. 
-However, entering `exit` at the interactive command line exists only the cluster, as expected.)
+However, entering `exit` manually at the command line of the Katacoda terminal will exit the cluster, as expected.)
 
-We'll get back to working with the service shortly, but before that time we need to
+We'll get back to working directly with the cluster shortly, but before that time we need to
 apply a Horizontal Pod Autoscaler to the the deployment.
 
 
