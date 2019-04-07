@@ -7,13 +7,19 @@ your work in an uncluttered manner.
 `clear`{{execute}}
 
 Next, let's get a sense of the number of [nodes](https://kubernetes.io/docs/concepts/architecture/nodes/) in the 
-Kubernetes cluster that was created automatically for you by the interactive learning environment. (You can type the command below into the interactive terminal,
+Kubernetes cluster that were created automatically for you by the interactive learning environment. (You can type the command below into the interactive terminal,
 or simple click the command directly with your mouse.)
 
 `kubectl get nodes`{{execute}}
 
-If all is as it should be, you will see displayed one master node, named `master` and a single worker node
-name, `node01`. 
+If all is as it should be, you'll see displayed one master node, named `master` and a single worker node
+name, `node01`, as shown below
+
+```
+NAME      STATUS    ROLES     AGE       VERSION
+master    Ready     master    4m        v1.11.3
+node01    Ready     <none>    4m        v1.11.3
+```
 
 Now that we have a simple Kubernetes cluster up and running, let's take a look at the [pods](https://kubernetes.io/docs/concepts/workloads/pods/pod-overview/) in the `default` [namespace](https://kubernetes.io/docs/tasks/administer-cluster/namespaces-walkthrough/) of Kubernetes. (You can type the command below into the interactive terminal,
  or simple click the command directly with your mouse.)
