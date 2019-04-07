@@ -3,12 +3,12 @@
 
 INTRODUCTORY TEXT TO BE PROVIDED
 
-**First, let's create a deployment** that uses an nginx web server. We'll use the Kubernetes `kubectl create` command
+**First, let's create a deployment** that uses an nginx web server. We'll use the Kubernetes `kubectl run` command
 to spin up a deployment of the nginx web server as well as a Kubernetes service that uses the pods in the deployment.
 
 Execute the command below by clicking on it using your mouse.
 
-`kubectl create nginx --image=nginx --requests=cpu=500m,memory=500M --expose --port=80`{{execute}}
+`kubectl run nginx --image=nginx --requests=cpu=500m,memory=500M --expose --port=80`{{execute}}
 
 Now, give Kubernetes about 10 seconds to create the deployment and service. Once 10 seconds has passed, execute this
 command to make sure the nginx pod was created:
@@ -43,7 +43,7 @@ to the pod running under the deployment.
 Execute this command, either by typing it out at the command line of the Katacoda interactive learning
 environment, or just click on the command using your mouse.
 
-`kubectl create -it deployment-for-testing --image=busybox /bin/sh`{{execute}}
+`kubectl run -it deployment-for-testing --image=busybox /bin/sh`{{execute}}
 
 It might take a few seconds, but you should see the command prompt, `/ #`. This prompt indicates
 that you are indeed in the Kubernetes cluster. (You might see a message, `If you don't see a command prompt,
