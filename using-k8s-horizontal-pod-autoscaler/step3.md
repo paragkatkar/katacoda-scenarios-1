@@ -10,7 +10,7 @@ Execute the command below by clicking on it using your mouse.
 
 `kubectl run nginx --image=nginx --requests=cpu=500m,memory=500M --expose --port=80`{{execute}}
 
-Now, Kubernetes about 10 seconds to create the deployment and service. Once 10 seconds has passed, execute this
+Now, give Kubernetes about 10 seconds to create the deployment and service. Once 10 seconds has passed, execute this
 command to make sure the nginx pod was created:
 
 `kubectl get pods | grep nginx`{{execute}}
@@ -30,7 +30,7 @@ Next, execute this command to make sure the corresponding nginx service was crea
 
 `kubectl get service | grep nginx`{{execute}}
 
-Next, we need a way to access the nginx service so we can test the load 
+Now, we need a way to access the nginx service so we can test the load 
 capacity on the nginx pod(s).
 
 Let's create a simple testing deployment that will allow us access into the cluster so that we can exercise
