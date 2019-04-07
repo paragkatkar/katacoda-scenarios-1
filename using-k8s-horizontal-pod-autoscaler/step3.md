@@ -12,17 +12,28 @@ command to make sure the nginx pod was created:
 
 `kubectl get pods | grep nginx`{{execute}}
 
-Then execute this command to make sure the corresponding nginx service was created:
+If all is well you will see that pod is `running`, as shown in the following output:
+
+```
+nginx-59b864868f-6sqv2                    1/1       Running   0          5m
+```
+
+**WHERE**
+
+`nginx-59b864868f-6sqv2` is the name of the pod assigned by kubernetes to the deployment. Remember, by default,
+Kubernetes will special name the pod upon creation.
+
+Next, execute this command to make sure the corresponding nginx service was created:
 
 `kubectl get service | grep nginx`{{execute}}
 
 Next, we need a way to access the nginx service so we can test the load 
 capacity on the nginx pod(s).
 
-Let's create a simple testing deplyment that will allow us access into the cluster so that we can exercise
+Let's create a simple testing deployment that will allow us access into the cluster so that we can exercise
 the ngnix service. We'll create a deployment called, `deployment-for-testing` using the `kubectl run` command. And
 as part of the imperative execution from the command line, we'll use the option `-it` to login directly
-to the pod running under the service, `service-for-testing`.
+to the pod running under the deployment.
 
 Execute this command, either by typing it out at the command line of the Katacoda interactive learning
 environment, or just click on the command using your mouse.
@@ -68,7 +79,7 @@ Commercial support is available at
 </body>
 </html>
 ```
-Now we can access the service from inside the cluster. Let's exit the pod for now. 
+Now we can access the service from inside the cluster. Let's exit the cluster for now. 
 
 `exit`{{execute}}
 
