@@ -11,9 +11,9 @@ We need to give it execute permissions, like so:
 
 Now, let's run the loop in the background and then check the state of the pods
 
-`sh /loops.sh &`{{execute}}
+`sh /loops.sh & > /dev/null &`{{execute}}
 
-While the loop is running, in the second terminal window, let's see how the nodes are doing:
+While the loop is running, let's see how the nodes are doing:
 
 `kubectl top nodes`{{execute}}
 
