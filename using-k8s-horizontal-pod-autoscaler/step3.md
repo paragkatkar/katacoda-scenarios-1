@@ -3,7 +3,7 @@
 
 INTRODUCTORY TEXT TO BE PROVIDED
 
-**First, let's create a deployment** that uses an nginx web server. We'll use the Kubernetes `kubectl run` command
+**First, let's create a deployment** that uses an nginx web server. We'll use the Kubernetes `kubectl create` command
 to spin up a deployment of the nginx web server as well as a Kubernetes service that uses the pods in the deployment.
 
 Execute the command below by clicking on it using your mouse.
@@ -34,7 +34,7 @@ Now, we need a way to access the nginx service so we can test the load
 capacity on the nginx pod(s).
 
 Let's create a simple testing deployment that will allow us access into the cluster so that we can exercise
-the ngnix default service. We'll create a deployment called, `deployment-for-testing` using the `kubectl run` command. And
+the ngnix default service. We'll create a deployment called, `deployment-for-testing` using the `kubectl create` command. And
 as part of the imperative execution from the command line, we'll use the option `-it` to login directly
 to the pod running under the deployment.
 
@@ -43,7 +43,7 @@ to the pod running under the deployment.
 Execute this command, either by typing it out at the command line of the Katacoda interactive learning
 environment, or just click on the command using your mouse.
 
-`kubectl run -it deployment-for-testing --image=busybox /bin/sh`{{execute}}
+`kubectl create -it deployment-for-testing --image=busybox /bin/sh`{{execute}}
 
 It might take a few seconds, but you should see the command prompt, `/ #`. This prompt indicates
 that you are indeed in the Kubernetes cluster. (You might see a message, `If you don't see a command prompt,
