@@ -15,7 +15,13 @@ Now, let's run the loop in the background and then check the state of the pods
 
 While the loop is running, let's see how the nodes are doing:
 
-`kubectl top nodes`{{execute}}
+`docker stats --no-stream`{{execute}}
+
+Let's exit of out the container so what can can see the big picture
+
+`exit`{{execute}}
+
+
 
 
 
