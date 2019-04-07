@@ -9,7 +9,7 @@ In this step we're going to go back into a pod in the testing deployment in the 
 cluster, we're going to create a loop in a bash script that keeps calling the nginx service. The loop will place a burden on the
 pods backing the nginx service.
 
-First we need to get back into the cluster. The first thing we need to do is to find a pod that is part of
+We need to get back into the cluster. The first thing we need to do is to find a pod that is part of
 the deployment, `deployment-for-testing`. To do this, we'll get a list of all pods that start with the prefix,
 `deployment-for-testing`. (When you create a deployment, Kubernetes will automatically create the pods and start the
 name of each pod with the name of the deployment.)
