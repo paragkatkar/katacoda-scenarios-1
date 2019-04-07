@@ -68,13 +68,14 @@ Commercial support is available at
 </body>
 </html>
 ```
-Now we can access the service from inside the cluster.
+Now we can access the service from inside the cluster. Let's exit the pod for now. 
+
+`exit`{{execute}}
+
+We'll get back to working with the service shortly, but before that time we need to
+apply a Horizontal Pod Autoscaler to the the deployment.
 
 
-**Next we need to max out the capacity of the nginx server**
-running on the pod. Once we max out the pod, we'll apply the Kubernetes Horizontal Pod Autoscaler.
-K8S HPA will create just the righ number of pods required to reduce the request burden.
 
-We'll cover this entire process in the next step.
 
 
