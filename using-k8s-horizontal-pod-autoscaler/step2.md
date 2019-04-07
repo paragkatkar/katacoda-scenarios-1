@@ -1,7 +1,7 @@
 **Time to complete step:** 2 Minutes
 
 First, we need to clear the screen of your interactive learning environment so that you can view
-your work in an uncluttered view.
+your work in an uncluttered manner.
 
 
 `clear`{{execute}}
