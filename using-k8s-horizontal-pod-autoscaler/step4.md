@@ -11,7 +11,7 @@ We need to give it execute permissions, like so:
 
 Now, let's run the loop in the background and then check the state of the pods
 
-`sh /loops.sh & > /dev/null &`{{execute}}
+`nohup /loops.sh &> /dev/null &`{{execute}}
 
 While the loop is running, let's see how the nodes are doing:
 
