@@ -18,9 +18,9 @@ Let's exit of out the container so what can can see the big picture
 
 `exit`{{execute}}
 
-Now let's do a trivial autoscale
+Now let's do an autoscale
 
-`kubectl autoscale deployment nginx --cpu-percent=50 --min=1 --max=1`{{execute}}
+`kubectl autoscale deployment nginx --cpu-percent=50 --min=1 --max=5`{{execute}}
 
 
 `kubectl get hpa`{{execute}}
