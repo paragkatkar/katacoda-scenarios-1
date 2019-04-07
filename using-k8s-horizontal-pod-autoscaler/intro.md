@@ -9,7 +9,7 @@
 <a name="eductional-objective"></a>
 ## Educational Objective
 
-The purpose of this scenario o teach the learner with some basic understanding of Kubernetes the nature and use
+The purpose of this scenario is to help the learner understand Kubernetes the nature and use
 of [Kubneretes Horizontal Pod Autoscaler](https://kubernetes.io/docs/tasks/run-application/horizontal-pod-autoscale/), which is also known by the
 shorthard term, `K8S HPA`.
 <a name="what-to-expect"></a>
