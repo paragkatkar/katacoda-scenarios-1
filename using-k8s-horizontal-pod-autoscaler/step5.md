@@ -16,7 +16,7 @@ command.
 To open a second terminal window, click the `+ ` sign at the top of the Katacoda's interative terminal, as shown in 
 the this illustration:
 
-![katacoda second terminal](images/step-05-01.png)
+![katacoda second terminal](/root/images/step-05-01.png)
 
 Execute the following command to create an HPA against the deployemnt, `nginx`.
 
