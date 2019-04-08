@@ -48,8 +48,7 @@
     "finish": {
       "text": "finish.md"
     },
-    "assets": { "host01": [ {"file": "ping-02.sh", "target": "/root", "chmod": "+x"},
-      {"file": "step-05-01.png", "target": "/root/images"}]}
+    "assets": { "host01": [ {"file": "ping-02.sh", "target": "/root", "chmod": "+x"}]}
   },
   "environment": {
     "uilayout": "terminal",
