@@ -47,6 +47,9 @@
     },
     "finish": {
       "text": "finish.md"
+    },
+    "assets": { "client": [{"file": "ping-01.sh", "target": "/root", "chmod": "+x"}],
+                "host01": [ {"file": "ping-02.sh", "target": "/root", "chmod": "+x"}]
     }
   },
   "environment": {
