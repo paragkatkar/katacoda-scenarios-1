@@ -13,7 +13,7 @@ loads placed on the pods in a deployment.
 Let's open a second terminal window and imperatively create an HPA on the nginx deployment using the `kubectrl autoscale`
 command. 
 
-To open a second terminal window, click the `+ ` sign at the top of the Katacoda's interative terminal ot the right.
+To open a second terminal window, click the `+ ` sign at the top of the Katacoda's interative terminal to the right.
 
 Execute the following command to create an HPA against the deployemnt, `nginx`.
 
@@ -27,7 +27,7 @@ Let's see the status of the Horizontal Pod Autoscaler
 
 ------
 
-**DEV NOTE:** `HPA` is not yet working. Need to install the appropriate monitor in the Katacoda environment.                           |
+**DEV NOTE:** `HPA` is not yet working. Need to install the appropriate monitor in the Katacoda environment.
 
 ------
 
