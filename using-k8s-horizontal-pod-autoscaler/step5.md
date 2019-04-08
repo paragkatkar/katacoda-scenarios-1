@@ -16,7 +16,9 @@ command.
 To open a second terminal window, click the `+ ` sign at the top of the Katacoda's interative terminal, as shown in 
 the this illustration:
 
-![katacoda second terminal](https://github.com/reselbob/katacoda-scenarios/blob/master/using-k8s-horizontal-pod-autoscaler/assets/step-05-01.png)
+<img src="https://github.com/reselbob/katacoda-scenarios/blob/master/using-k8s-horizontal-pod-autoscaler/assets/step-05-01.png"
+     alt="katacoda second terminal"
+/>
 
 Execute the following command to create an HPA against the deployemnt, `nginx`.
 
