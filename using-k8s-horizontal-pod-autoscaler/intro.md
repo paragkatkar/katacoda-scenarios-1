@@ -40,8 +40,17 @@ commands in a terminal window.
 <a name="understanding-hpa"></a>
 ## Understanding why Kubernetes Horizontal Pod Autoscaler is important.
 
-TO BE PROVIDED
-<a name="scenario-contents"></a>
+Kubernetes Horizontal Pod Autoscaler (HPA) addresses a basic problem in distributed, container based architecture: scaling the
+computing environment up or down to meet load demand. When you apply HPA to a Kubernetes deployment or replicaset, intelligence
+in HPA will keep an eye on the CPU utilization of the pods in force. When a particular pod starts to approach a usage
+threshold, HPA will create additional pods to alleviate the load burden of the pod(s) that is reaching the utilization limit.
+
+The autoscaling capabilities of Kubernetes Horizontal Pod Autoscaler safeguard pods against runtime performance degradation
+due to capacity overloads.
+
+**However, please be advised** that HPA will only create pods in existing nodes of a cluster. It does not have the capability
+to create new nodes when the cluster becomes overloaded. To apply node autoscaling to the cluster, you need to use
+a tool such as [Cluster Autoscaler](https://github.com/kubernetes/autoscaler/blob/master/cluster-autoscaler/FAQ.md#what-is-cluster-autoscaler).
 ## Scenario Contents
 
 **Step 1: Working with the Katacoda Interactive Learning Environment**
