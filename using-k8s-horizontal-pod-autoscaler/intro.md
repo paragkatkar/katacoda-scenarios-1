@@ -15,7 +15,7 @@ shorthard term, `K8S HPA`.
 <a name="what-to-expect"></a>
 ## What To Expect
 
-After taking this scneario you will:
+After taking this scenario you will:
 
 * Understand how to use the  Katacoda interactive learning environment to understand key concepts
 and master hands on techniqures required to work with K8S HPA.
