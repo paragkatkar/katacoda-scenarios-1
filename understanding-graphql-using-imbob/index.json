@@ -5,9 +5,17 @@
   "time": "15 minutes",
   "details": {
     "steps": [{
-      "title": "Step 1 - Querying for Actors in the Data Graph",
+      "title": "Step 1 - Setting Up The GraphQL API",
       "text": "step1.md"
-    }
+    },
+      {
+        "title": "Step 2 - Authenticating to the API",
+        "text": "step2.md"
+      },
+      {
+        "title": "Step 3 - Executing Basic Queries",
+        "text": "step3.md"
+      }
     ],
     "intro": {
       "text": "intro.md",

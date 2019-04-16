@@ -14,13 +14,13 @@ Make the Docker image that represents the GraphQL API
 
 Now, create the container
 
-`docker run -d -p 4000:4000 imbob`{{execute}}
+`docker run -d -p 80:4000 imbob`{{execute}}
 
 
 Let's check to see that the GraphQL API is up and running
 
-`curl 'http://localhost:4000/' -H 'Accept-Encoding: gzip, deflate, br' -H 'Content-Type: application/json' -H 'Accept: application/json' -H 'Connection: keep-alive' -H 'DNT: 1' -H 'Origin: http://localhost:4000' -H 'authorization: ch3ddarch33s3' --data-binary '{"query":"mutation{\n  ping(payload: \"This is a test payload\") {\n    createdAt\n    payload\n    name\n    id\n  }\n}"}' --compressed`{{execute}}
+`curl 'http://localhost/' -H 'Accept-Encoding: gzip, deflate, br' -H 'Content-Type: application/json' -H 'Accept: application/json' -H 'Connection: keep-alive' -H 'DNT: 1' -H 'Origin: http://localhost:4000' -H 'authorization: ch3ddarch33s3' --data-binary '{"query":"mutation{\n  ping(payload: \"This is a test payload\") {\n    createdAt\n    payload\n    name\n    id\n  }\n}"}' --compressed`{{execute}}
 
 Go to the link below to bring the GraphQL Playground up in your browser
 
-https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com:4000
+https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com
