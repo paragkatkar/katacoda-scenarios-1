@@ -1,4 +1,21 @@
-TO BE PROVIDED
+First, let's set up the GraphQL API.
+
+Get the code from GitHub:
+
+`git clone https://github.com/reselbob/IMBOB.git`{{execute}}
+
+Go to the folder that has the source code and Dockerfile
+
+`cd IMBOB`{{execute}}
+
+Make the Docker image that represents the GraphQL API
+
+`docker build -t imbob .`{{execute}}
+
+Now, create the container
+
+`docker run -d -p 4000:4000 imbob`{{execute}}
+
 
 Let's check to see that the GraphQL API is up and running
 
