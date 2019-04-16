@@ -7,6 +7,8 @@
  * **Scenario Contents**
  
  
+ 
+ 
 <a name="eductional-objective"></a>
 ## Educational Objective
 The purpose of the scenario is TO BE PROVIDED
@@ -25,5 +27,7 @@ TO BE PROVIDED
 
 <a name="understanding"></a>
 ## Working with GraphQL and IMBOB
+
+[![https://drive.google.com/file/d/1rmTe6pexo1Mnts7WHInLiZkhaEVn4WJp/view?usp=sharing](http://img.youtube.com/vi/hl1GV5GUOGs/0.jpg)](http://www.youtube.com/watch?v=hl1GV5GUOGs "Understanding GraphQL Using IMBOB")
 
 TO BE PROVIDED
