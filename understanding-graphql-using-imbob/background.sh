@@ -3,7 +3,7 @@
 git clone https://github.com/reselbob/IMBOB.git
 
 #go into the app folder
-cd imbob
+cd IMBOB
 
 #build the container image
 docker build -t imbob .
