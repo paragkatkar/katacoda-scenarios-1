@@ -3,7 +3,7 @@
  * **Educational Objective**
  * **What To Expect**
  * **What You Need To Know Before You Start**
- * **Understanding why Kubernetes Horizontal Pod Autoscaler is important**
+ * **Working with GraphQL and IMBOB**
  * **Scenario Contents**
  
  
