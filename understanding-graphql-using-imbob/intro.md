@@ -28,6 +28,6 @@ TO BE PROVIDED
 <a name="understanding"></a>
 ## Working with GraphQL and IMBOB
 
-[![https://drive.google.com/file/d/1rmTe6pexo1Mnts7WHInLiZkhaEVn4WJp/view?usp=sharing](http://img.youtube.com/vi/hl1GV5GUOGs/0.jpg)](http://www.youtube.com/watch?v=hl1GV5GUOGs "Understanding GraphQL Using IMBOB")
+<iframe width="560" height="315" src="https://www.youtube.com/embed/hl1GV5GUOGs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 TO BE PROVIDED
