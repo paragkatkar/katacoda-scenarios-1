@@ -12,4 +12,4 @@ https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com
 Add the following JSON to the headers section of GraphQL Playground to authenticate the UI to the
 IMBOB GraphQL API
 
-`{authentication: ch3ddarch33se}`
+`{"authorization":"ch3ddarch33s3"}`{{copy}}

@@ -18,15 +18,14 @@ Go to the link below to bring the GraphQL Playground up in your browser:
  {
    movies {
      title
-     releaseDate
+     releaseDate  
      actors{
-       firstName
-       lastName
+       firstName  
+       lastName  
      }
      directors{
-       firstName
-       lastName
+       firstName  
+       lastName  
      }
    }
- }
- `{{copy}}
+ }`{{copy}}
