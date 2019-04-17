@@ -9,7 +9,7 @@ Go to the link below to bring the GraphQL Playground up in your browser
 
 https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com
 
-Add the following JSON to the headers section of GraphQL Playground to authenticate the UI to the
-IMBOB GraphQL API
+Add the following JSON to the HTTP Headers section in the lower left of GraphQL Playground to
+authenticate the UI to the IMBOB GraphQL API
 
 `{"authorization":"ch3ddarch33s3"}`{{copy}}
