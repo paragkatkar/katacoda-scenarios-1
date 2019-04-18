@@ -1,3 +1,5 @@
+ <img src="https://drive.google.com/file/d/1q2sQCdOOCni5dv4R0kqFiXGS4RaaIxV4/view?usp=sharing" width="400" alt="Step Video Goes Here" />
+
 First, let's set up the GraphQL API.
 
 Get the code from GitHub:
