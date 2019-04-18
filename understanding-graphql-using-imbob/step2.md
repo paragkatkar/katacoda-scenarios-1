@@ -6,6 +6,8 @@ consistent. Otherwise, you'll get behaviors that might be confusing.
 
 ------
 
+<img src="https://drive.google.com/file/d/1q2sQCdOOCni5dv4R0kqFiXGS4RaaIxV4/view?usp=sharing" width="400" alt="Step Video Goes Here" />
+
 Go to the URL shown below to bring the GraphQL Playground up in your browser
 
 https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com
