@@ -13,8 +13,16 @@
         "text": "step2.md"
       },
       {
-        "title": "Step 3 - Executing Basic Queries",
+        "title": "Step 3 - Executing a Sample GraphQL Query",
         "text": "step3.md"
+      },
+      {
+        "title": "Step 4 - Registering a Subscription",
+        "text": "step4.md"
+      },
+      {
+        "title": "Step 5 - Firing a Subscription Event using the Mutation, Ping",
+        "text": "step5.md"
       }
     ],
     "intro": {
