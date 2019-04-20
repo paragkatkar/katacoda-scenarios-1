@@ -55,7 +55,7 @@
       {"name": "Master-View 1", "target": "host01"},
       {"name": "Master-View 2", "target": "host01"}
     ],
-    "uilayout": "terminal-terminal",
+    "uilayout": "terminal",
     "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\r\nType 'printenv' to do a basic interaction\u001b[m\r\n"
   },
   "backend": {
