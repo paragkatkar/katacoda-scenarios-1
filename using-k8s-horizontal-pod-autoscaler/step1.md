@@ -1,3 +1,8 @@
+
+**View the video that describes this step**
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Mblcnh58qtE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ------
 
 **IMPORTANT**: You need to do the steps in sequence in order for the state of the lesson's learning environment to be
