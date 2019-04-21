@@ -1,4 +1,6 @@
-**Time to complete step:** 2 Minutes
+**This preview video shows you exactly what you're going to do in this step.**
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/5SLD598s67Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ------
 
@@ -6,6 +8,9 @@
 in this step to make sense and work. If you have not done Step 4, please go back!
 
 ------
+
+**Time to complete step:** 2 Minutes
+
 At this point we should have the following activities in play:
 
 * The testing container is continually making `wget` calls to the service, `hpa-demo-web` internally in the kubernetes cluster

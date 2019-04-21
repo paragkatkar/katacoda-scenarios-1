@@ -1,5 +1,5 @@
 
-**This video show you exactly what you're going to do in this step.**
+**This preview video shows you exactly what you're going to do in this step.**
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/HyNvJIAh5cs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
