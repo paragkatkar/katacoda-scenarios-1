@@ -1,14 +1,20 @@
 
-**Instructor's Welcome Video**
+**Instructor's Welcome Message and Scenario Overiew**
 <iframe width="560" height="315" src="https://www.youtube.com/embed/zdo1WSuIocM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
- 
+ * **Scenario Contents**
  * **Educational Objective**
  * **What To Expect**
  * **What You Need To Know Before You Start**
- * **Understanding why Kubernetes Horizontal Pod Autoscaler is important**
- * **Scenario Contents**
+ * **Understanding Why Kubernetes Horizontal Pod Autoscaler is Important**
  
+## Scenario Contents
+
+* Step 1: Installing the Kubernetes Metric Server
+* Step 2: Creating the Single Pod Deployment to be Autoscaled
+* Step 3: Stressing the Pod in the Deployment
+* Step 4: Applying Horizontal Pod Autoscaling the Alleviate CPU Stress
+* Step 5: Viewing the HPA in Action
  
 <a name="eductional-objective"></a>
 ## Educational Objective
@@ -40,7 +46,7 @@ objects you're working with will help you learn in a more meaningful way, well b
 commands in a terminal window.
 
 <a name="understanding-hpa"></a>
-## Understanding why Kubernetes Horizontal Pod Autoscaler is important.
+## Understanding Why Kubernetes Horizontal Pod Autoscaler is Important.
 
 Kubernetes Horizontal Pod Autoscaler (HPA) addresses a basic problem in distributed, container based architecture: scaling the
 computing environment up or down to meet load demand. When you apply HPA to a Kubernetes deployment or replicaset, intelligence
@@ -54,10 +60,3 @@ due to capacity overloads.
 to create new nodes when the cluster becomes overloaded. To apply node autoscaling to the cluster, you need to use
 a tool such as [Cluster Autoscaler](https://github.com/kubernetes/autoscaler/blob/master/cluster-autoscaler/FAQ.md#what-is-cluster-autoscaler).
 
-## Scenario Contents
-
-* Step 1: Installing the Kubernetes Metric Server
-* Step 2: Creating the Single Pod Deployment to be Autoscaled
-* Step 3: Stressing the Pod in the Deployment
-* Step 4: Applying Horizontal Pod Autoscaling the Alleviate CPU Stress
-* Step 5: Viewing the HPA in Action
