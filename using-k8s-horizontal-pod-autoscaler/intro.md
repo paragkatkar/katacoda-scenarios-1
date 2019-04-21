@@ -1,5 +1,3 @@
-
-**Instructor's Welcome Message and Scenario Overiew**
 <iframe width="560" height="315" src="https://www.youtube.com/embed/zdo1WSuIocM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
  * **Scenario Contents**
