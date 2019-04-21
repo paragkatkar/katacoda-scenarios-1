@@ -9,7 +9,7 @@ in this step to make sense and work. If you have not done Step 4, please go back
 
 ------
 
-**Time to complete step:** 2 Minutes
+**Time to complete step:** 3 Minutes
 
 At this point we should have the following activities in play:
 
