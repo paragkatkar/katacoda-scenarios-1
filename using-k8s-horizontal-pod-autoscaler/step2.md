@@ -6,7 +6,7 @@ your work in an uncluttered manner.
 
 `clear`{{execute}}
 
-The objective now is to create the single pod deployment service to which we're going to apply Horizontal
+The objective now is to create the single pod deployment (and service) to which we're going to apply Horizontal
 Pod Autoscaling (HPA). Also, we'll bind a Kubernetes service to the deployment.
 
 We'll use the Kubernetes `kubectl run` command to spin up a single pod deployment. The pod will have a web server

@@ -15,18 +15,19 @@ At this point we should have the following activities in play:
 
 If all goes according to intention, HPA should be spinning up some new pods as the existing pod exceeds it resource allocation.
 
-Let take another look at the status of the running HPA. Execute the following command:
+Let's wait 60 seconds and then take another look at the status of the running HPA.
 
-`kubectl get hpa`{{execute}} 
+Click the following command to view the status of the HPA.
+
+`kubectl get hpa`{{execute T1}} 
 
 
-Now, let's apply a Linux `watch` get a continuous update on the Kubernetes pods in play. Execute the following command:
+Let get a full view of the number of pods in force. Click the following command a list of `hpa-demo-web` pods that are up and
+running.
 
-`watch -n 45 "kubectl get pod"`{{execute}}
+`kubectl get pod | grep hpa-demo-web`{{execute T1}}
 
-Over time we should see the number of pods increase as the first pod goes beyond it allocation for CPU utilization.
-
-And get some output the looks like this:
+And get some output the looks similar to this:
 
 ```
 NAME                                      READY     STATUS    RESTARTS   AGE
@@ -36,8 +37,6 @@ hpa-demo-web-5c4b4789bf-bmq2v             1/1       Running   0          6m
 hpa-demo-web-5c4b4789bf-lppwr             1/1       Running   0          3m
 hpa-demo-web-5c4b4789bf-z7xgg             1/1       Running   0          3m
 ```
-
-When you are through observing the `watch`, type <kbd>Ctrl</kbd>+<kbd>C</kbd>
 
 As you can see, even though we started with a deployment that had a only 1 pod, HPA made it so that we as that single
 pod exceeded it resource allocation, HPA created more pods to alleviate the burden.

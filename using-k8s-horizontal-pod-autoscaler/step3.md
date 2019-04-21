@@ -6,9 +6,9 @@ Kubernetes cluster, we'll create
 
 
 In this step we'll create a simple test container that we'll use to access the Kubernetes service, `hpa-demo-web` from
-within the cluster. We'll set up continuously running loop in the test container that keeps calling the
-service, `hpa-demo-web`. Continuously calling the `hpa-demo-web` will stress out the underlying container. Later we'll
-apply HPA to alleviate the stress. HPA will create more instances of the pod, `hpa-demo-web`.
+within the cluster. We'll set up continuously a running loop in the test container that keeps calling the
+service, `hpa-demo-web`. Continuously calling the service, `hpa-demo-web` will stress out the underlying deployment's
+container. Later we'll apply HPA to alleviate the stress. HPA will create more instances of the pod, `hpa-demo-web`.
 
 
 
