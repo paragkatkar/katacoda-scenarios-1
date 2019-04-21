@@ -3,7 +3,7 @@
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Mblcnh58qtE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-**Time to complete step:** 2 Minutes
+**Time to complete step:** 3 Minutes
 
 ------
 

@@ -2,7 +2,7 @@
   "title": "Using Kubernetes Horizontal Pod Autoscaler",
   "description": "Scenario 1: Introduction to K8S HPA",
   "difficulty": "intermediate",
-  "time": "15 minutes",
+  "time": "17 minutes",
   "details": {
     "steps": [{
       "title": "Step 1 - Installing the Kubernetes Metric Server",

@@ -10,7 +10,7 @@ in this step to make sense and work. If you have not done Step 3, please go back
 
 ------
 
-**Time to complete step:** 3 Minutes
+**Time to complete step:** 4 Minutes
 
 In the last step we created a testing container that has code that keeps calling the service, `hpa-demo-web`, thus causing
 the underlying pod to push the limits of CPU capacity.
