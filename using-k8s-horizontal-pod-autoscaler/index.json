@@ -5,7 +5,7 @@
   "time": "15 minutes",
   "details": {
     "steps": [{
-      "title": "Step 1 - Working with the Katacoda Interactive Learning Environment",
+      "title": "Step 1 - Installing the Kubernetes Metric Server",
       "text": "step1.md"
     },
       {
@@ -52,8 +52,7 @@
   },
   "environment": {
     "terminals": [
-      {"name": "Master-View 1", "target": "host01"},
-      {"name": "Master-View 2", "target": "host01"}
+      {"name": "Watch Terminal", "target": "host01"},
     ],
     "uilayout": "terminal",
     "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\r\nType 'printenv' to do a basic interaction\u001b[m\r\n"

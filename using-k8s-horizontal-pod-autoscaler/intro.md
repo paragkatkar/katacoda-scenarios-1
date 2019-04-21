@@ -53,9 +53,10 @@ to create new nodes when the cluster becomes overloaded. To apply node autoscali
 a tool such as [Cluster Autoscaler](https://github.com/kubernetes/autoscaler/blob/master/cluster-autoscaler/FAQ.md#what-is-cluster-autoscaler).
 ## Scenario Contents
 
-**Step 1: Working with the Katacoda Interactive Learning Environment**
+**Step 1: Installing the Kubernetes Metric Serve**
 
-In this step well show you the basics of working with the Katakoda iteractive learning environment
+In this step we'll install the metrics server that Kubernetes uses to get utilization information required by the 
+Horizontal Pod Autoscaler.
 
 **Step 2: Examining Your Kubernetes Cluster**
 

@@ -42,7 +42,7 @@ into the Katacoda interactiver terminal.
 
 Now that you are in the cluster, let's create a little looping program in bash and save it to the file, `loops.sh`.
 
-`echo "while true; do wget -q -O- http://nginx.default.svc.cluster.local ; done" > loops.sh`{{execute}}
+`echo "while true; do wget -q -O- http://hpa-demo-web.default.svc.cluster.local ; done" > loops.sh`{{execute}}
 
 We need to give it execute permissions, like so:
 
@@ -50,11 +50,11 @@ We need to give it execute permissions, like so:
 
 Now let's put some burden on the nginx pod and run the loop in the background 
 
-`nohup /loops.sh &> /dev/null &`{{execute}}
+`sh /loops.sh`{{execute}}
 
 Right now we are effectively trying to max out the single pod in the nginx service.
 
-**In the next step we'll apply an HPA to the nginx deployment**. Applying the HPA tells Kubernetes to keep an eye
+**In the next step we'll apply an HPA to the `hpa-demo-web` deployment**. Applying the HPA tells Kubernetes to keep an eye
 on the pods in the deployment and when the CPU utilization goes beyond a certain threshold, increase the number
 of pods backing the service.
 
