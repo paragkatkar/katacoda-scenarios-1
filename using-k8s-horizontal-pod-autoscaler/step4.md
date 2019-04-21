@@ -25,7 +25,7 @@ You should see output that shows a pod with the prefix `grep hpa-demo-web` on it
 
 Next, let used ask the metrics server for a list of the top running pods using the `kubectl top` command.
 
-Click the following command to go back a list of pods according to CPU utilization.
+Click the following command to get a list of pods according to CPU utilization.
 
 `kubectl top pods --all-namespaces`{{execute T1}}
 
@@ -82,8 +82,9 @@ Also, you'll notice that in the output above only pod (`REPLICAS 1``) is running
 that help is needed. HPA polls the metrics server at a default value of 15 seconds in order to figure out if help is needed. When
 we take another look at HPA 8 minutes later, we get output that looks similar to this:
 
-```NAME           REFERENCE                 TARGETS   MINPODS   MAXPODS   REPLICAS   AGE
-   hpa-demo-web   Deployment/hpa-demo-web   99%/5%    1         5         5          8m
+```
+NAME           REFERENCE                 TARGETS   MINPODS   MAXPODS   REPLICAS   AGE
+hpa-demo-web   Deployment/hpa-demo-web   99%/5%    1         5         5          8m
 
 ```
 

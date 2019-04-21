@@ -17,8 +17,6 @@ shorthard term, `K8S HPA`.
 
 After taking this scenario you will:
 
-* Understand how to use the  Katacoda interactive learning environment to understand key concepts
-and master hands on techniqures required to work with K8S HPA.
 * Understand how K8S HPA ensures that your application or service always has the number of pods necessary
 to operate at the best efficiency possible.
 * Be able to create a simple autoscaling deployment using K8S HPA [imperatively](https://kubernetes.io/docs/concepts/overview/object-management-kubectl/imperative-command/) at the command line.

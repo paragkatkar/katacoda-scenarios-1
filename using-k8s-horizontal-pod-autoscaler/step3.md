@@ -1,6 +1,13 @@
 
 **Time to complete step:** 3 Minutes
 
+------
+
+**IMPORTANT**: You need to do the steps in sequence in order for the state of the lesson's learning environment to be
+consistent. Otherwise, you'll get behaviors that might be confusing.
+
+------
+
 Is the last step we created the the web service application and go it up and running in a single pod in the
 Kubernetes cluster, we'll create
 
@@ -68,7 +75,7 @@ OK!OK!OK!OK!OK!OK!OK!OK!OK!OK!OK!OK!OK!OK!OK!OK!OK!OK!OK!OK!OK!OK!OK!OK!OK!OK!OK
 ``` 
 
 We're at the point now where the pod should be maxing out the CPU of the node in which it's running. In the next step we're
-going to take look at the how the pod is faring without HPA. Then will apply HPA and see some new pods spin up.
+going to take look at the how the pod is faring without HPA. Then we'll apply HPA and see some new pods spin up.
 
 
 

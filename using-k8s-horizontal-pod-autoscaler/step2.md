@@ -1,5 +1,12 @@
 **Time to complete step:** 2 Minutes
 
+------
+
+**IMPORTANT**: You need to do the steps in sequence in order for the state of the lesson's learning environment to be
+consistent. Otherwise, you'll get behaviors that might be confusing.
+
+------
+
 First, we need to clear the screen of your interactive learning environment so that you can view
 your work in an uncluttered manner.
 
