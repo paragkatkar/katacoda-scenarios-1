@@ -17,7 +17,7 @@ a particular deployment. If a pod's utilization starts to exceed it allocation, 
 that a node on the cluster has the space to accommodate an additional pod.
 
 But, in order to work, there need to be a metrics controller installed that will report to HPA utilization activity on
-the pods. In the case of this scenario, we need to install the metrics controller. The controller will use is ]Kubernetes
+the pods. In the case of this scenario, we need to install the metrics controller. The controller will use is [Kubernetes
 Metric Server](https://github.com/kubernetes-incubator/metrics-server).
 
 The installation process is a 3 step process.
