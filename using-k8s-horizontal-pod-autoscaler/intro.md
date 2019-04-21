@@ -53,35 +53,9 @@ to create new nodes when the cluster becomes overloaded. To apply node autoscali
 a tool such as [Cluster Autoscaler](https://github.com/kubernetes/autoscaler/blob/master/cluster-autoscaler/FAQ.md#what-is-cluster-autoscaler).
 ## Scenario Contents
 
-**Step 1: Installing the Kubernetes Metric Serve**
-
-In this step we'll install the metrics server that Kubernetes uses to get utilization information required by the 
-Horizontal Pod Autoscaler.
-
-**Step 2: Examining Your Kubernetes Cluster**
-
-TO BE PROVIDED <img src="http://www.gosc.org/_Media/under-construction-yellow-d_med.png" width="40" alt="under construction" />
-
-**Step 3: Creating an Autoscaling Deployment under K8S HPA**
-
-TO BE PROVIDED <img src="http://www.gosc.org/_Media/under-construction-yellow-d_med.png" width="40" alt="under construction" />
-
-**Step 4: Viewing Your Deployment Running Under K8S HPA**
-
-TO BE PROVIDED <img src="http://www.gosc.org/_Media/under-construction-yellow-d_med.png" width="40" alt="under construction" />
-
-**Step 5: Putting K8S HPA to the Test**
-
-TO BE PROVIDED <img src="http://www.gosc.org/_Media/under-construction-yellow-d_med.png" width="40" alt="under construction" />
-
-**Step 6: Viewing K8S HPA in Action**
-
-TO BE PROVIDED <img src="http://www.gosc.org/_Media/under-construction-yellow-d_med.png" width="40" alt="under construction" />
-
-**Step 7: Review**
-
-TO BE PROVIDED <img src="http://www.gosc.org/_Media/under-construction-yellow-d_med.png" width="40" alt="under construction" />
-
-**Step 8: Next Steps**
-
-TO BE PROVIDED <img src="http://www.gosc.org/_Media/under-construction-yellow-d_med.png" width="40" alt="under construction" />
+* Step 1: Installing the Kubernetes Metric Server**
+* Step 2: Examining Your Kubernetes Cluster**
+* Step 3: Creating an Autoscaling Deployment under K8S HPA**
+* Step 4: Viewing Your Deployment Running Under K8S HPA**
+* Step 5: Putting K8S HPA to the Test**
+* Step 6: Viewing K8S HPA in Action**

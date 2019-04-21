@@ -97,7 +97,7 @@ Execute this `kubectl` command to verify the metrics server is installed
 
 Wait 60 seconds for the metrics server to warm up, then type this command to ensure the the metrics server is working:
 
-`kubectl top pod --all-namespaces`
+`kubectl top pod --all-namespaces`{{execute}}
 
 You should get some metrics info, similar to, but not exactly like this:
 

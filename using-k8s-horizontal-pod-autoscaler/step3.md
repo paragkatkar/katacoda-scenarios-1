@@ -52,7 +52,7 @@ Execute this command to verify that we can indeed access the nginx service:
 If all is going according to plan, you should see the HTML for the nginx Welcome Page, like so:
 
 ```
-OK
+OK!
 ```
 Now we can access the service from inside the cluster. Let's exit the cluster for now. 
 
