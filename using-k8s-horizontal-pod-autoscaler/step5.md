@@ -8,28 +8,42 @@
 in this step to make sense and work. If you have not done Step 4, please go back!
 
 ------
+At this point we should have the following activities in play:
 
-In this step we're going to take a look how Kubernetes uses the Horizonal Pod Autoscaler to accommodate increased
-loads placed on the pods in a deployment.
+* The testing container is continually making `wget` calls to the service, `hpa-demo-web` internally in the kubernetes cluster
+* An HPA is in force monitoring the pods in the `hpa-demo-web` deployment
 
-Let's open the second terminal window titled, and imperatively create an HPA for the deployment, `hpa-demo-web` using the `kubectrl autoscale`
-command. 
+If all goes according to intention, HPA should be spinning up some new pods as the existing pod exceeds it resource allocation.
 
-To open a second terminal window, click the `+ ` sign at the top of the Katacoda's interative terminal to the right.
-
-Execute the following command to create an HPA against the deployemnt, `nginx`.
-
-`kubectl autoscale deployment hpa-demo-web --cpu-percent=5 --min=1 --max=5`{{execute}}
-
-The HPA will keep an eye on the pods that are backing the nginx service. We'll set the `--cpu-pecentage` option
-on the `kubectrl autoscale` command to a threshold of 5%. Also, we'll tell the HPA to have a mininum of 1 pod running
-(`--min=1`), but no more than 5 pods (`--max=5`).
-
-Let's wait 45 seconds for HPA to ingratiate itself into Kubernetes cluster. Then execute the following command:
+Let take another look at the status of the running HPA. Execute the following command:
 
 `kubectl get hpa`{{execute}} 
 
-As you can see, the HPA is running and we're getting back useful information.
 
-**In the next step we'll take a more in-depth view the behavior of the HPA.**
+Now, let's apply a Linux `watch` get a continuous update on the Kubernetes pods in play. Execute the following command:
+
+`watch -n 45 "kubectl get pod"`{{execute}}
+
+Over time we should see the number of pods increase as the first pod goes beyond it allocation for CPU utilization.
+
+And get some output the looks like this:
+
+```
+NAME                                      READY     STATUS    RESTARTS   AGE
+deployment-for-testing-5cf785f6d7-sb2cc   1/1       Running   0          5m
+hpa-demo-web-5c4b4789bf-5cgrb             1/1       Running   0          3m
+hpa-demo-web-5c4b4789bf-bmq2v             1/1       Running   0          6m
+hpa-demo-web-5c4b4789bf-lppwr             1/1       Running   0          3m
+hpa-demo-web-5c4b4789bf-z7xgg             1/1       Running   0          3m
+```
+
+When you are through observing the `watch`, type <kbd>Ctrl</kbd>+<kbd>C</kbd>
+
+As you can see, even though we started with a deployment that had a only 1 pod, HPA made it so that we as that single
+pod exceeded it resource allocation, HPA created more pods to alleviate the burden.
+
+
+Pretty cool, huh? HPA does a lot of work and it's built right into Kubernetes! Who could ask for me?
+
+This is the last step in this scenario. Let's continue on the a review.
 

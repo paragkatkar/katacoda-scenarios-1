@@ -51,11 +51,11 @@ due to capacity overloads.
 **However, please be advised** that HPA will only create pods in existing nodes of a cluster. It does not have the capability
 to create new nodes when the cluster becomes overloaded. To apply node autoscaling to the cluster, you need to use
 a tool such as [Cluster Autoscaler](https://github.com/kubernetes/autoscaler/blob/master/cluster-autoscaler/FAQ.md#what-is-cluster-autoscaler).
+
 ## Scenario Contents
 
 * Step 1: Installing the Kubernetes Metric Server
-* Step 2: Examining Your Kubernetes Cluster
-* Step 3: Creating an Autoscaling Deployment under K8S HPA
-* Step 4: Viewing Your Deployment Running Under K8S HPA
-* Step 5: Putting K8S HPA to the Test
-* Step 6: Viewing K8S HPA in Action
+* Step 2: Creating the Single Pod Deployment to be Autoscaled
+* Step 3: Stressing the Pod in the Deployment
+* Step 4: Applying Horizontal Pod Autoscaling the Alleviate CPU Stress
+* Step 5: Viewing the HPA in Action

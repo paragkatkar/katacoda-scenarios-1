@@ -7,56 +7,49 @@ in this step to make sense and work. If you have not done Step 3, please go back
 
 ------
 
-In this step we're going to go back into the cluster by way of a pod in the testing deployment we created earlier.
-Then, from within the cluster, we're going to create a loop in a bash script that keeps calling the nginx service.
-The loop will place a burden on the pods backing the nginx service.
+In the last step we created a testing container that has code that keeps calling the service, `hpa-demo-web`, thus causing
+underly pod to push the limits of CPU capacity.
 
-We need to get back into the cluster. The first thing we need to do is to find a pod that is part of
-the deployment, `deployment-for-testing`. To do this, we'll get a list of all pods that start with the prefix,
-`deployment-for-testing`. (When you create a deployment, Kubernetes will automatically create the pods and start the
-name of each pod with the name of the deployment.)
+In this step we're going to use HPA to accommodate alleviate the burden the single pod is creating. We'll apply HPA
+to the deployment, `hpa-demo-web`. Then, in the following step we'll take a look at the results.
 
-Execute the command, 
+Let's open the second terminal window titled, and imperatively create an HPA for the deployment, `hpa-demo-web` using the `kubectrl autoscale`
+command. 
 
-`kubectl get pods | grep deployment-for-testing`{{execute}}
+Let's go back to the original terminal window and take look at a few things.
 
-The command output will show the pods in the deployment like so:
+First, let's look at how many instance of the pod, `hpa-demo-web` are running. Click the following command to go back to the
+first terminal window and get a list of the `hpa-demo-web` running in Kubernetes:
 
-```
-master $ kubectl get pods | grep deployment-for-testing
-|NAME                                   READY     STATUS    RESTARTS   AGE
-deployment-for-testing-5f8b464b59-rk96v   1/1       Running   1          14m
-```
-**WHERE**
+`kubectl get pods | grep hpa-demo-web`{{execute T1}
 
-`deployment-for-testing-5f8b464b59-rk96v`
+Next, let used ask the metrics server for a list of the top running pods using the `kubectl top` command.
 
-is a special pod name, unique to the installation.
+Click the following command to go back a list of pods according to CPU utilization.
 
-Then once you've identified a pod, use the `kubectl exec` command to access the pod, like so, by typing the following
-into the Katacoda interactiver terminal.
+`kubectl top pods --all-namespaces`{{execute T1}
 
-`kubectl exec -it deployment-for-testing-5f8b464b59-rk96v /bin/sh`
 
-**Note:** *You'll need to work directly at the command line because each installation's pod names will be special.*
+Click the following command to create an HPA against the deployment, `hpa-demo-web`.
 
-Now that you are in the cluster, let's create a little looping program in bash and save it to the file, `loops.sh`.
+`kubectl autoscale deployment hpa-demo-web --cpu-percent=5 --min=1 --max=5`{{execute T1}}
 
-`echo "while true; do wget -q -O- http://hpa-demo-web.default.svc.cluster.local ; done" > loops.sh`{{execute}}
+The HPA will keep an eye on the pods that are backing the `hpa-demo-web` deployment. We'll set the `--cpu-pecentage` option
+on the `kubectrl autoscale` command to a CPU threshold of 5%. Also, we'll tell the HPA to have a mininum of 1 pod running
+(`--min=1`), but no more than 5 pods (`--max=5`).
 
-We need to give it execute permissions, like so:
+Let's give HPA 60 seconds to get applied to the deployment.
 
-`chmod +x /loops.sh`{{execute}}
+Now, let's take a look at the status of the recently created HPA. 
 
-Now let's put some burden on the nginx pod and run the loop in the background 
+Click the following command to view the status of the HPA.
 
-`sh /loops.sh`{{execute}}
+`kubectl get hpa`{{execute T1}}
 
-Right now we are effectively trying to max out the single pod in the nginx service.
+`[Show output]`
 
-**In the next step we'll apply an HPA to the `hpa-demo-web` deployment**. Applying the HPA tells Kubernetes to keep an eye
-on the pods in the deployment and when the CPU utilization goes beyond a certain threshold, increase the number
-of pods backing the service.
+OK, so the HPA is up and running. The next step is to observe that HPA has indeed created new pods to accomodate the overload
+the the deployment is placing on CPU utilization.
 
 
 

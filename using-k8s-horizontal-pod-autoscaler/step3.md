@@ -1,42 +1,28 @@
 
 **Time to complete step:** 3 Minutes
 
-INTRODUCTORY TEXT TO BE PROVIDED
-
-**First, let's create a deployment** that uses a web application that does nothing more than return a `OK` response.
-
-We'll use the Kubernetes `kubectl run` command to spin up a deployment.
-
-`kubectl run hpa-demo-web --image=k8s.gcr.io/hpa-example --requests=cpu=200m --port=80`{{execute}}
-
-The command shown above will get the web application container image from Google Cloud.
-
-Let's make sure the pod is running by executing the following command:
-
-`kubectl get pod | grep hpa-demo-web`{{execute}}
-
-You should see something like this:
-
-Next, let's start a service that uses the deployment:
-
-`kubectl expose deployment hpa-demo-web --type=NodePort`{{execute}}
-
-Let's check the service is running:
-
-`kubectl get service | grep hpa-demo-web`{{execute}}
+Is the last step we created the the web service application and go it up and running in a single pod in the
+Kubernetes cluster, we'll create
 
 
-We need to create a simple testing deployment that will allow us access into the cluster so that we can exercise
-the service, `hpa-demo-web`. We'll create a deployment called, `deployment-for-testing` using the `kubectl create` command. And
-as part of the imperative execution from the command line, we'll use the option `-it` to login directly
+In this step we'll create a simple test container that we'll use to access the Kubernetes service, `hpa-demo-web` from
+within the cluster. We'll set up continuously running loop in the test container that keeps calling the
+service, `hpa-demo-web`. Continuously calling the `hpa-demo-web` will stress out the underlying container. Later we'll
+apply HPA to alleviate the stress. HPA will create more instances of the pod, `hpa-demo-web`.
+
+
+
+In order to create the testing container, we'll create a deployment called, `deployment-for-testing` using the `kubectl create`
+command. And as part of the imperative execution from the command line, we'll use the option `-it` to login directly
 to the pod running under the deployment.
+
+Creating the test container will be done in a new terminal window in the interactive learning environment.,
 
 (In this case, the testing deployment will create a pod with a [busybox](https://hub.docker.com/_/busybox) container.)
 
-Execute this command, either by typing it out at the command line of the Katacoda interactive learning
-environment, or just click on the command using your mouse.
+Click the following command to create the test container deployment in a new terminal window.
 
-`kubectl run -it deployment-for-testing --image=busybox /bin/sh`{{execute}}
+`kubectl run -it deployment-for-testing --image=busybox /bin/sh`{{execute  T2}}
 
 It might take a few seconds, but you should see the command prompt, `/ #`. This prompt indicates
 that you are indeed in the Kubernetes cluster. (You might see a message, `If you don't see a command prompt,
@@ -54,15 +40,35 @@ If all is going according to plan, you should see the HTML for the nginx Welcome
 ```
 OK!
 ```
-Now we can access the service from inside the cluster. Let's exit the cluster for now. 
 
-`exit`{{execute}} 
+Now that you are in the test container, let's create a little looping program in bash and save it to the file, `loops.sh`.
 
-(**DEV NOTE**: There is a bug that when the `exit` command is clicked, it terminates the entire Katacoda sesssion. 
-However, entering `exit` manually at the command line of the Katacoda terminal will exit the cluster, as expected.)
 
-We'll get back to working directly with the cluster shortly, but now we need to
-apply a Horizontal Pod Autoscaler to the the deployment.
+Click the following command to create bash file that will container the looping program.
+
+`echo "while true; do wget -q -O- http://hpa-demo-web.default.svc.cluster.local ; done" > loops.sh`{{execute T2}}
+
+We need to give it execute permissions. Click on the following command:
+
+`chmod +x /loops.sh`{{execute T2}}
+
+Now let's burden on the pod, `hpa-demo-web` by running the bash script. 
+
+`sh /loops.sh`{{execute}}
+
+The instructions in the script will keep calling the pod, `hpa-demo-web`. You should see output in the terminal window similar
+to the following:
+```
+OK!OK!OK!OK!OK!OK!OK!OK!OK!OK!OK!OK!OK!OK!OK!OK!OK!OK!OK!OK!OK!OK!OK!OK!OK!OK!OK!OK!OK!
+OK!OK!OK!OK!OK!OK!OK!OK!OK!OK!OK!OK!OK!OK!OK!OK!OK!OK!OK!OK!OK!OK!OK!OK!OK!OK!OK!OK!OK!
+OK!OK!OK!OK!OK!OK!OK!OK!OK!OK!OK!OK!OK!OK!OK!OK!OK!OK!OK!OK!OK!OK!OK!OK!OK!OK!OK!OK!OK!
+OK!OK!OK!OK!OK!OK!OK!OK!OK!OK!OK!OK!OK!OK!OK!OK!OK!OK!OK!OK!OK!OK!OK!OK!OK!OK!OK!OK!OK!
+OK!OK!OK!OK!OK!OK!OK!OK!OK!OK!OK!OK!OK!OK!OK!OK!OK!OK!OK!OK!OK!OK!OK!OK!OK!OK!OK!OK!OK!
+OK!OK!OK!OK!OK!OK!OK!OK!OK!OK!OK!OK!OK!OK!OK!OK!OK!OK!OK!OK!OK!OK!OK!OK!OK!OK!OK!OK!OK!
+``` 
+
+We're at the point now where the pod should be maxing out the CPU of the node in which it's running. In the next step we're
+going to take look at the how the pod is faring without HPA. Then will apply HPA and see some new pods spin up.
 
 
 

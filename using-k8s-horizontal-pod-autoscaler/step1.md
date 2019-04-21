@@ -23,8 +23,8 @@ Metric Server](https://github.com/kubernetes-incubator/metrics-server).
 The installation process is a 3 step process.
 
 * Get the metrics server code from GitHub
-* Add a setting in the yaml manifest file, `deploy/1.8+/metrics-server-deployment.yaml` to allow the metrics server in the scenario
-computing environment
+* Add a setting in the yaml manifest file, `deploy/1.8+/metrics-server-deployment.yaml` to allow the metrics server to
+ work in the scenario interactive computing environment
 * Apply the manifest files to the Kubernetes cluster running in the scenario to install the metric server
 * Verify the metrics server is running
 The details are as follows.
@@ -115,4 +115,4 @@ kube-system   weave-net-5x6ns                   1m           57Mi
 kube-system   weave-net-b9cm6                   1m           52Mi
 `
 
-The next step is to install an application that we'll use to tax out CPU utilization and which HPA will rememdy.
+The next step is to install an application that we'll use to burden CPU utilization and which HPA will remedy.

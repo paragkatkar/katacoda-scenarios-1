@@ -6,32 +6,30 @@ your work in an uncluttered manner.
 
 `clear`{{execute}}
 
-Next, let's get a sense of the number of [nodes](https://kubernetes.io/docs/concepts/architecture/nodes/) in the 
-Kubernetes cluster that were created automatically for you by the interactive learning environment. (You can type the command below into the interactive terminal,
-or simple click the command directly with your mouse.)
+The objective now is to create the single pod deployment service to which we're going to apply Horizontal
+Pod Autoscaling (HPA). Also, we'll bind a Kubernetes service to the deployment.
 
-`kubectl get nodes`{{execute}}
+We'll use the Kubernetes `kubectl run` command to spin up a single pod deployment. The pod will have a web server
+application that does nothing more than response `OK!` when a request is made.
 
-If all is as it should be, you'll see displayed one master node, named `master` and a single worker node
-name, `node01`, as shown below
+Execute the following command to create the deployment which we'll name, `hpa-demo-web`.
 
-```
-NAME      STATUS    ROLES     AGE       VERSION
-master    Ready     master    4m        v1.11.3
-node01    Ready     <none>    4m        v1.11.3
-```
+`kubectl run hpa-demo-web --image=k8s.gcr.io/hpa-example --requests=cpu=200m --port=80 --replicas=1`{{execute}}
 
-Now that we have a simple Kubernetes cluster up and running, let's take a look at the [pods](https://kubernetes.io/docs/concepts/workloads/pods/pod-overview/) in the `default` [namespace](https://kubernetes.io/docs/tasks/administer-cluster/namespaces-walkthrough/) of Kubernetes. (You can type the command below into the interactive terminal,
- or simple click the command directly with your mouse.)
- 
-`kubectl get pods`{{execute}}
+The command shown above will get the web application container image from Google Cloud.
 
-Notice there are no pods installed. Let's take a look the [deployments](https://kubernetes.io/docs/concepts/workloads/controllers/deployment/).
-(You can type the command below into the interactive terminal,
- or simple click the command directly with your mouse.) 
+Let's make sure the pod is running by executing the following command:
 
-`kubectl get deployments`{{execute}}
+`kubectl get pod | grep hpa-demo-web`{{execute}}
 
-As you can see, there are no deployments either.
+You should see something like this:
 
-The next step is to create a deployment that will run under a Kubernetes Horizontal Pod Autoscaler. Click the Continue button shown below to continue.
+Next, let's start a service that uses the deployment:
+
+`kubectl expose deployment hpa-demo-web --type=NodePort`{{execute}}
+
+Let's check the service is running:
+
+`kubectl get service | grep hpa-demo-web`{{execute}}
+
+**The next step** is to create stress on the single pod of the web server application we've just created.
