@@ -1,7 +1,9 @@
 
-**View the video that describes this step**
+**This video show you exactly what you're going to do in this step.**
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Mblcnh58qtE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+**Time to complete step:** 2 Minutes
 
 ------
 

@@ -1,5 +1,7 @@
 
-**Time to complete step:** 3 Minutes
+**This video show you exactly what you're going to do in this step.**
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/YTOHqrAwprs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ------
 
@@ -7,6 +9,8 @@
 consistent. Otherwise, you'll get behaviors that might be confusing.
 
 ------
+
+**Time to complete step:** 3 Minutes
 
 Is the last step we created the the web service application and go it up and running in a single pod in the
 Kubernetes cluster, we'll create

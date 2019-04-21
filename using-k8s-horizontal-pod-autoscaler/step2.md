@@ -1,4 +1,7 @@
-**Time to complete step:** 2 Minutes
+
+**This video show you exactly what you're going to do in this step.**
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/HyNvJIAh5cs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ------
 
@@ -6,6 +9,8 @@
 consistent. Otherwise, you'll get behaviors that might be confusing.
 
 ------
+
+**Time to complete step:** 2 Minutes
 
 First, we need to clear the screen of your interactive learning environment so that you can view
 your work in an uncluttered manner.
