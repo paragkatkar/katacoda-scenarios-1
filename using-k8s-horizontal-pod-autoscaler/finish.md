@@ -10,3 +10,6 @@ In this scenario you learned how to:
 
 We hope you found this scenario informative, engaging and fun. We have more scenarios in the works that cover
 man different aspects of Kubernetes . We hope you return to make more of our offerings soon!
+
+To learn more about Kubernetes Horizontal Autoscaling, visit the topic on the Kubernetes
+web site, [here](https://kubernetes.io/docs/tasks/run-application/horizontal-pod-autoscale/).
