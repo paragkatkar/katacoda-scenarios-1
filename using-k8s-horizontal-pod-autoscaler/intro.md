@@ -53,9 +53,9 @@ to create new nodes when the cluster becomes overloaded. To apply node autoscali
 a tool such as [Cluster Autoscaler](https://github.com/kubernetes/autoscaler/blob/master/cluster-autoscaler/FAQ.md#what-is-cluster-autoscaler).
 ## Scenario Contents
 
-* Step 1: Installing the Kubernetes Metric Server**
-* Step 2: Examining Your Kubernetes Cluster**
-* Step 3: Creating an Autoscaling Deployment under K8S HPA**
-* Step 4: Viewing Your Deployment Running Under K8S HPA**
-* Step 5: Putting K8S HPA to the Test**
-* Step 6: Viewing K8S HPA in Action**
+* Step 1: Installing the Kubernetes Metric Server
+* Step 2: Examining Your Kubernetes Cluster
+* Step 3: Creating an Autoscaling Deployment under K8S HPA
+* Step 4: Viewing Your Deployment Running Under K8S HPA
+* Step 5: Putting K8S HPA to the Test
+* Step 6: Viewing K8S HPA in Action
