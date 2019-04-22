@@ -46,6 +46,10 @@ After you've cloned the metrics server code from GitHub, to the metrics server d
 cd metrics-server/
 `{{execute}}
 
+We need to add some information to the manifest yaml file, `deploy/1.8+/metrics-server-deployment.yam` in order to have
+Metric Server work properly in this interactive learning environment. We're going to open the yaml file in the terminal
+window using the `vi` text editor. Then, we're going to make the necessary addition and finally save the file.
+
 Open the yaml file, `deploy/1.8+/metrics-server-deployment.yaml` in `vi` using the following command:
 
 `
