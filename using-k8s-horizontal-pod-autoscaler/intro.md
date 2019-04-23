@@ -19,7 +19,7 @@
 
 The purpose of this scenario is to help the learner understand the nature and use
 of [Kubneretes Horizontal Pod Autoscaler](https://kubernetes.io/docs/tasks/run-application/horizontal-pod-autoscale/), which is also known by the
-shorthard term, `K8S HPA`.
+shortharnd term, `K8S HPA`.
 <a name="what-to-expect"></a>
 ## What To Expect
 
