@@ -108,7 +108,7 @@ Wait 60 seconds for the metrics server to warm up, then type this command to ens
 
 You should get some metrics info, similar to, but not exactly like this:
 
-`
+```
 kube-system   coredns-78fcdf6894-n48vg          2m           10Mi
 kube-system   coredns-78fcdf6894-rkbgg          2m           9Mi
 kube-system   etcd-master                       14m          85Mi
@@ -120,6 +120,6 @@ kube-system   kube-scheduler-master             7m           14Mi
 kube-system   metrics-server-7dfcc96bd9-txz92   2m           14Mi
 kube-system   weave-net-5x6ns                   1m           57Mi
 kube-system   weave-net-b9cm6                   1m           52Mi
-`
+```
 
 The next step is to install an application that we'll use to burden CPU utilization and which HPA will remedy.
