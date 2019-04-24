@@ -21,13 +21,11 @@ within the cluster. We'll set up continuously a running loop in the test contain
 service, `hpa-demo-web`. Continuously calling the service, `hpa-demo-web` will stress out the underlying deployment's
 container. Later we'll apply HPA to alleviate the stress. HPA will create more instances of the pod, `hpa-demo-web`.
 
-
-
 In order to create the testing container, we'll create a deployment called, `deployment-for-testing` using the `kubectl create`
 command. And as part of the imperative execution from the command line, we'll use the option `-it` to login directly
 to the pod running under the deployment.
 
-Creating the test container will be done in a new terminal window in the interactive learning environment.,
+Creating the test container will be done in a new terminal window in the interactive learning environment.
 
 (In this case, the testing deployment will create a pod with a [busybox](https://hub.docker.com/_/busybox) container.)
 
@@ -63,7 +61,7 @@ We need to give it execute permissions. Click on the following command:
 
 `chmod +x /loops.sh`{{execute T2}}
 
-Now let's burden on the pod, `hpa-demo-web` by running the bash script. 
+Now let's burden the pod, `hpa-demo-web` by running the bash script. 
 
 `sh /loops.sh`{{execute}}
 
