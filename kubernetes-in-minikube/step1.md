@@ -1,12 +1,12 @@
  <img src="http://www.gosc.org/_Media/under-construction-yellow-d_med.png" width="60" alt="under construction" />
  
- `clear`{{execute}}
- 
 **Step 1:** Clear the screen to  get an uncluttered view.
  
 `clear`{{execute}}
   
 **Step 2:** Confirm that `kubectl` and `minikube` are up and running
+
+What a minute or two. It takes a bit of time for minikube to get up and running in the interactive learning environment.
 
 `kubectl version`{{execute}}
 
