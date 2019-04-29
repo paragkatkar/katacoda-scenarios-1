@@ -1,11 +1,11 @@
 {
-  "title": "Using Kubernetes In MiniKube (UNDER CONSTRUCTION)",
-  "description": "Basic Skills in Minikube",
+  "title": "Using Kubernetes With MiniKube (UNDER CONSTRUCTION)",
+  "description": "Learning the Basics Operational Vocabulary Required to Work the K8S",
   "difficulty": "Beginner",
   "time": "17 minutes",
   "details": {
     "steps": [{
-      "title": "Step 1 - Testing the Minikube",
+      "title": "Step 1 - Checking out the Kubernetes Environment",
       "text": "step1.md"
     }
     ],
@@ -21,7 +21,7 @@
   },
   "environment": {
     "uilayout": "terminal",
-    "uimessage1": "\u001b[32mWelcome!\u001b[m\r\n"
+    "uimessage1": "\u001b[32mWelcome to the Interactive Learning Environment!\u001b[m\r\n"
   },
   "backend": {
     "imageid": "minikube"
