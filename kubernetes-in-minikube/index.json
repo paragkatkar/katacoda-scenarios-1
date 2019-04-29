@@ -1,5 +1,5 @@
 {
-  "title": "Using Kubernetes In MiniKube",
+  "title": "Using Kubernetes In MiniKube (UNDER CONSTRUCTION)",
   "description": "Basic Skills in Minikube",
   "difficulty": "Beginner",
   "time": "17 minutes",
@@ -19,7 +19,7 @@
   },
   "environment": {
     "uilayout": "terminal",
-    "uimessage1": "Welcome"
+    "uimessage1": "\u001b[32mWelcome!"
   },
   "backend": {
     "imageid": "minikube"
