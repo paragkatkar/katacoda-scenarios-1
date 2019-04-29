@@ -1,0 +1,27 @@
+{
+  "title": "Using Kubernetes In MiniKube",
+  "description": "Basic Skills in Minikube",
+  "difficulty": "Beginner",
+  "time": "17 minutes",
+  "details": {
+    "steps": [{
+      "title": "Step 1 - Testing the Minikube",
+      "text": "step1.md"
+    }
+    ],
+    "intro": {
+      "text": "intro.md",
+      "credits": ""
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "terminal",
+    "uimessage1": "Welcome"
+  },
+  "backend": {
+    "imageid": "minikube"
+  }
+}
