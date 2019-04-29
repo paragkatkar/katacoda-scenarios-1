@@ -19,7 +19,7 @@
   },
   "environment": {
     "uilayout": "terminal",
-    "uimessage1": "\u001b[32mWelcome!"
+    "uimessage1": "\u001b[32mWelcome!\u001b[m\r\n"
   },
   "backend": {
     "imageid": "minikube"
