@@ -1,4 +1,10 @@
+Go into the lesson directory
+
 `cd k8s-4-it-pros/day-1/lesson-04-pods`{{execute}}
+
+Clear the screen in order to get an uncluttered workspace
+
+`clear`
 
 ## Create a pod with one container declaratively
 
@@ -26,6 +32,10 @@ To access the shell of the only container in the pod you just created, `simplepo
 
 `kubectl exec -it simplepod -- sh`{{execute}}
 
+Run a command in the shell
+
+`printenv`{{execute}}
+
 To exit the container's shell and go back to the machine prompt, type or click:
 
 `exit`{{execute}}
@@ -38,9 +48,13 @@ To view the manifest, type or click:
 
 `cat ./complexpod.yaml`{{execute}}
 
-To access the `hpa-example` container, which is one of the two containers in the pod, type or click:
+To access the `pinger` container, which is one of the two containers in the pod, type or click:
 
-`kubectl exec -it complexpod  --container hpa-example -- sh`{{execute}}
+`kubectl exec -it complexpod  --container pinger -- sh`{{execute}}
+
+Run a command in the shell
+
+`curl localhost:3000`{{execute}}
 
 To exit the container's shell and go back to the machine prompt, type or click:
 
