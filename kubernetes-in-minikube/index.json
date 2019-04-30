@@ -19,9 +19,8 @@
       },
       {
         "title": "Step 4 - Pods",
-        "text": "step4.md",
-        "courseData": "step4-background.sh",
-        "code": "step4-foreground.sh"
+        "code": "step4-foreground.sh",
+        "text": "step4.md"
       }
     ],
     "intro": {
