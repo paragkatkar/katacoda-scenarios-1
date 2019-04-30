@@ -21,6 +21,14 @@ Get some general information about the current cluster
 
 `kubectl cluster-info`{{execute}}
 
+
+**Example Output**
+
+```bash
+Kubernetes master is running at https://172.17.0.74:8443
+KubeDNS is running at https://172.17.0.74:8443/api/v1/namespaces/kube-system/services/kube-dns:dns/proxy
+```
+
 ## Clusters and Contexts in Kubernetes
 
 A `context` binds together a `user` and a `cluster`. For example, on this machine there is a `cluster` named `minikube` and 
@@ -30,6 +38,28 @@ To view the configuration file that describes the clusters and context to which 
 by executing the following `kubectl` command:
 
 `kubectl config view`{{execute}}
+
+```yaml
+apiVersion: v1
+clusters:
+- cluster:
+    certificate-authority: /root/.minikube/ca.crt
+    server: https://172.17.0.74:8443
+  name: minikube
+contexts:
+- context:
+    cluster: minikube
+    user: minikube
+  name: minikube
+current-context: minikube
+kind: Config
+preferences: {}
+users:
+- name: minikube
+  user:
+    client-certificate: /root/.minikube/client.crt
+    client-key: /root/.minikube/client.key
+```
 
 To view the current context execute the following `kubectl` command:
 
