@@ -4,9 +4,14 @@
   "difficulty": "Beginner",
   "time": "17 minutes",
   "details": {
-    "steps": [{
-      "title": "Step 1 - Checking out the Kubernetes Environment",
-      "text": "step1.md"
+    "steps": [
+      {
+        "title": "Step 1 - Overview of Kubernetes Architecture",
+        "text": "step1.md"
+      },
+      {
+      "title": "Step 2 - Users, Clusters and Contexts",
+      "text": "step2.md"
     }
     ],
     "intro": {
