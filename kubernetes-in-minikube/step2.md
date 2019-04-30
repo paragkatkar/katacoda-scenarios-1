@@ -39,6 +39,8 @@ by executing the following `kubectl` command:
 
 `kubectl config view`{{execute}}
 
+**Example Output**
+
 ```yaml
 apiVersion: v1
 clusters:
@@ -63,7 +65,7 @@ users:
 
 To view the current context execute the following `kubectl` command:
 
-`kubectl config view current-context`{{execute}}
+`kubectl config current-context`{{execute}}
 
 
 If you want to switch to another context, use the the following command, where **<CONTEXT NAME>** is the name of the context
