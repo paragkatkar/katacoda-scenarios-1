@@ -1,12 +1,10 @@
-**Navigate to** the lesson directory
 
-`cd k8s-4-it-pros/day-1/lesson-04-pods`{{execute}}
+According to Kubernetes
 
-**Clear the screen** in order to get an uncluttered workspace
+*"A pod (as in a pod of whales or pea pod) is a group of one or more containers (such as Docker containers), with shared storage/network, and a specification for how to run the containers. A pod’s contents are always co-located and co-scheduled, and run in a shared context. A pod models an application-specific “logical host” - it contains one or more application containers which are relatively tightly coupled — in a pre-container world, being executed on the same physical or virtual machine would mean being executed on the same logical host."*
 
-`clear`{{execute}}
-
-There are two ways to create API Resource objects in Kubernetes, ***imperatively*** and ***declaratively***.
+**There are two ways** to create API Resource objects in Kubernetes, ***imperatively*** and ***declaratively***. Let's look
+at each technique
 
 ## Create a pod with one container imperatively
 
@@ -20,6 +18,15 @@ Let's see if the pod is running by executing the following command. Type or clic
 `kubectl get pods`{{execute}}
 
 **Example Output**
+
+```bash
+NAME     READY   STATUS    RESTARTS   AGE
+pinger   1/1     Running   0          12s
+```
+
+To delete the pod, type or click:
+
+`kubectl delete pod pinger`{{execute}}
 
 ## Create a pod with one container declaratively
 
