@@ -1,12 +1,25 @@
-Go into the lesson directory
+**Navigate to** the lesson directory
 
 `cd k8s-4-it-pros/day-1/lesson-04-pods`{{execute}}
 
-Clear the screen in order to get an uncluttered workspace
+**Clear the screen** in order to get an uncluttered workspace
 
-`clear`
+`clear`{{execute}}
+
+There are two way to create API Resource objects in Kubernetes, ***imperatively*** and ***declaratively***.
+
+## Create a pod with one container imperatively
+
+Imperative creation is done by issuing a command at the command line. For example:
+
+[PUT AN EXAMPLE HERE]
 
 ## Create a pod with one container declaratively
+
+Declarative creation is done using a manfiest file. A manifest file describes the resource to create. A manifest file
+can be in YAML or JSON format. You create a resource declaratively using the command `kubectl apply -f  MANIFEST_FILE`, **WHERE**
+`MANIFEST_FILE` is the path the manifest file. The following command will create a post based on the settings it the manifest
+file, `simplepod.yaml`. Type or click:
 
 `kubectl apply -f ./simplepod.yaml`{{execute}}
 
@@ -54,7 +67,7 @@ To access the `pinger` container, which is one of the two containers in the pod,
 
 Run a command in the shell
 
-`curl localhost:3000`{{execute}}
+`wget -q -O- localhost:3000`{{execute}}
 
 To exit the container's shell and go back to the machine prompt, type or click:
 
