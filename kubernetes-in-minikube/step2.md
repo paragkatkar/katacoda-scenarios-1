@@ -68,9 +68,9 @@ To view the current context execute the following `kubectl` command:
 `kubectl config current-context`{{execute}}
 
 
-If you want to switch to another context, use the the following command, where **<CONTEXT NAME>** is the name of the context
+If you want to switch to another context, use the the following command, where **CONTEXT_NAME** is the name of the context
 
 
-`kubectl config use-context <CONTEXT NAME>`
+`kubectl config use-context CONTEXT_NAME`
 
 

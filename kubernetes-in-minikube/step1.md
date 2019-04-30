@@ -27,6 +27,10 @@ The Kube-proxy is an implementation of a network proxy and a load balancer, and 
 ### cAdvisor
 cAdvisor is an agent that monitors and gathers resource usage and performance metrics such as CPU, memory, file and network usage of containers on each node.
 
+To view the control plane artifacts running in your cluster, type or click:
+
+`kubectl get pods -n kube-system`{{execute}}
+
 ## Topology
 
 ![Topology](https://raw.githubusercontent.com/reselbob/k8s-4-it-pros/master/day-1/lesson-01-k8s-architecture/images/topology.png)
