@@ -6,13 +6,14 @@
 
 `clear`{{execute}}
 
-There are two way to create API Resource objects in Kubernetes, ***imperatively*** and ***declaratively***.
+There are two ways to create API Resource objects in Kubernetes, ***imperatively*** and ***declaratively***.
 
 ## Create a pod with one container imperatively
 
-Imperative creation is done by issuing a command at the command line. For example:
+Imperative creation is done by issuing a command at the command line. For example the following command will
+create a pod with the name, `pinger` with a single container:
 
-[PUT AN EXAMPLE HERE]
+`kubectl run --generator=run-pod/v1 pinger-dk --image=reselbob/pinger:v2.1`{{execute}}
 
 ## Create a pod with one container declaratively
 
