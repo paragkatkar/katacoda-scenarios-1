@@ -18,7 +18,7 @@ Imperative creation is done by issuing a command at the command line. For exampl
 
 Declarative creation is done using a manfiest file. A manifest file describes the resource to create. A manifest file
 can be in YAML or JSON format. You create a resource declaratively using the command `kubectl apply -f  MANIFEST_FILE`, **WHERE**
-`MANIFEST_FILE` is the path the manifest file. The following command will create a post based on the settings it the manifest
+`MANIFEST_FILE` is the path the manifest file. The following command will create a pod based on the settings it the manifest
 file, `simplepod.yaml`. Type or click:
 
 `kubectl apply -f ./simplepod.yaml`{{execute}}
