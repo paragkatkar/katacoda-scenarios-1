@@ -10,7 +10,7 @@ consistent. Otherwise, you'll get behaviors that might be confusing.
 
 Go to the URL shown below to bring the GraphQL Playground up in your browser
 
-https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com:4000
+https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com
 
 Add the following JSON to the HTTP Headers section in the lower left of GraphQL Playground to
 authenticate the UI to the IMBOB GraphQL API
