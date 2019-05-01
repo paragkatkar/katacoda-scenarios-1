@@ -18,7 +18,7 @@
 * Step 15: Transport Layer Security (TLS)
 * Step 16: Roles Based Access Control (RBAC)
 * Step 17: Helm
-* Step 19: Creating a Cluster with KubeAdm
+* Step 19: Creating a Cluster with KubeAdm (Under Construction)
 * Step 20: Rolling Update (Under Construction)
 * Step 21: DaemonSets  (Under Construction)
 * Step 22: StatefulSets (Under Construction)
