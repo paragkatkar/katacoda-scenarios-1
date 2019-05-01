@@ -65,3 +65,22 @@ Let's add another movie. Copy the following mutation into the current tab:
 
 Now go back to the tab in which you registered the subscription, `onMovieAdded`. You should see messaging activity.
 
+Then, come back and copy this query into the browser window to see the movie list:
+
+ `
+ {
+   movies {
+     title
+     releaseDate  
+     actors{
+       firstName  
+       lastName  
+     }
+     directors{
+       firstName  
+       lastName  
+     }
+   }
+ }`{{copy}}
+ 
+
