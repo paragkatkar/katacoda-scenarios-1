@@ -35,6 +35,5 @@ TO BE PROVIDED
 <a name="understanding"></a>
 ## Working with GraphQL and IMBOB
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/hl1GV5GUOGs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 TO BE PROVIDED
