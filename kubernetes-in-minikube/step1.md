@@ -1,4 +1,4 @@
-![Kubernetes Architecture](https://raw.githubusercontent.com/reselbob/k8s-4-it-pros/master/day-1/lesson-01-k8s-architecture/images/Kubernetes-arch.jpeg)
+![Kubernetes Architecture](https://raw.githubusercontent.com/reselbob/k8s-4-it-pros/master/lesson-01-k8s-architecture/images/Kubernetes-arch.jpeg)
 
 ## The Control Plane
 

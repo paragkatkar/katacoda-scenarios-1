@@ -48,7 +48,7 @@
     {
       "title": "Step 9 - Horizontal Pod Autoscaler",
       "code": "step9-foreground.sh",
-      "text": "step4.md"
+      "text": "step9.md"
     },
     {
       "title": "Step 10 - ConfigMaps",
@@ -67,27 +67,27 @@
     }
     ,
     {
-      "title": "Step 13 - Services",
+      "title": "Step 13 - Ingress",
       "code": "step13-foreground.sh",
       "text": "step13.md"
     },
     {
-      "title": "Step 14 - Horizontal Pod Autoscaler",
+      "title": "Step 14 - TLSr",
       "code": "step14-foreground.sh",
       "text": "step14.md"
     },
     {
-      "title": "Step 15 - ConfigMaps",
+      "title": "Step 15 - RBAC",
       "code": "step15-foreground.sh",
       "text": "step15.md"
     },
     {
-      "title": "Step 16 - Persistent Volumes",
+      "title": "Step 16 - Helm",
       "code": "step16-foreground.sh",
       "text": "step16.md"
     },
     {
-      "title": "Step 17 - Secrets",
+      "title": "Step 17 - kubeadm",
       "code": "step17-foreground.sh",
       "text": "step17.md"
     }
