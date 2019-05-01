@@ -13,7 +13,7 @@ Open another new tab in GraphQL Playground.
 
 Add the security access token by copy and pasting
 
-{"authorization": "ch3ddarch33s3"}`{{copy}}
+`{"authorization": "ch3ddarch33s3"}`{{copy}}
 
 We're going to execute a GraphQL mutation in this pane 
 that will fire the event, `eventAdded` on the server side. This event will be published by the
@@ -24,7 +24,7 @@ execute arrow in the GraphQL Playground UI.
 
 `
 mutation{
-  ping(payload: This is a simple payload message."){
+  ping(payload: "This is a simple payload message."){
     createdAt
     payload
     name

@@ -8,10 +8,6 @@
  
  ------
 
- 
- <img src="https://drive.google.com/file/d/1q2sQCdOOCni5dv4R0kqFiXGS4RaaIxV4/view?usp=sharing" width="400" alt="Step Video Goes Here" />
-
-
 If you do not have the GraphQL Playground for the IMBOB API in a brower window, go to the following URL
 
 Go to the link below to bring the GraphQL Playground up in your browser:

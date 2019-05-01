@@ -44,11 +44,9 @@ Copy the following mutation into the tab you just created in GraphQL Playground:
 `mutation {
     addMovie(movie: {
         title: "2001: A Space Odyssey",
-        releaseDate: "1968-05-12"
-
-    }) {
-        id
-        title
+        releaseDate: "1968-05-12"}) {
+          id
+          title
     }
 }`{{copy}}
 
@@ -57,15 +55,13 @@ and execute it by clicking the circled arrow in GraphQL Playground
 Let's add another movie. Copy the following mutation into the current tab:
 
 `mutation {
-    addMovie(movie: {
-        title: "2001: A Space Odyssey",
-        releaseDate: "1968-05-12"
-
-    }) {
-        id
-        title
-    }
-}`{{copy}}
+     addMovie(movie: {
+         title: "Yellow Submarine",
+         releaseDate: "1968-11-13"}) {
+           id
+           title
+     }
+ }`{{copy}}
 
 Now go back to the tab in which you registered the subscription, `onMovieAdded`. You should see messaging activity.
 

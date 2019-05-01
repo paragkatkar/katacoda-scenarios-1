@@ -13,7 +13,7 @@ Go the your browser window that has the GraphQL Playground page we called in ear
 
 Add the security access token by copy and pasting
 
-{"authorization": "ch3ddarch33s3"}`{{copy}}
+`{"authorization": "ch3ddarch33s3"}`{{copy}}
 
 to the HTTP HEADERS section in the lower left of the GraphQL Playground
 
