@@ -9,9 +9,13 @@ consistent. Otherwise, you'll get behaviors that might be confusing.
 
 ------
 
- <img src="https://drive.google.com/file/d/1q2sQCdOOCni5dv4R0kqFiXGS4RaaIxV4/view?usp=sharing" width="400" alt="Step Video Goes Here" />
-
 Go the your browser window that has the GraphQL Playground page we called in earlier steps.
+
+Add the security access token by copy and pasting
+
+{"authorization": "ch3ddarch33s3"}`{{copy}}
+
+to the HTTP HEADERS section in the lower left of the GraphQL Playground
 
 Open a new tab in GraphQL Playground. We'll register the event, `eventAdded` by copying the following
 GraphQL `subscription` declaration into the new tab pane and then click the execute arrow in the GraphQL
