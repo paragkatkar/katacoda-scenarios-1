@@ -1,4 +1,6 @@
- <img src="https://drive.google.com/file/d/1q2sQCdOOCni5dv4R0kqFiXGS4RaaIxV4/view?usp=sharing" width="400" alt="Step Video Goes Here" />
+![Video Under Construction](https://raw.githubusercontent.com/reselbob/katacoda-scenarios/master/understanding-graphql-using-imbob/images/video-under-construction.jpg)
+ 
+<img src="http://www.gosc.org/_Media/under-construction-yellow-d_med.png" width="60" alt="under construction" />
 
 First, let's set up the GraphQL API.
 
