@@ -6,22 +6,91 @@
   "details": {
     "steps": [
       {
-        "title": "Step 1 - Overview of Kubernetes Architecture",
-        "text": "step1.md"
+      "title": "Step 1 - Overview of Kubernetes Architecture",
+      "code": "step1-foreground.sh",
+      "text": "step1.md"
       },
       {
       "title": "Step 2 - Users, Clusters and Contexts",
+      "code": "step2-foreground.sh",
       "text": "step2.md"
     },
-      {
-        "title": "Step 3 - API Resources and K8S Manifests",
-        "text": "step3.md"
-      },
-      {
-        "title": "Step 4 - Pods",
-        "code": "step4-foreground.sh",
-        "text": "step4.md"
-      }
+    {
+      "title": "Step 3 - API Resources and K8S Manifests",
+      "code": "step3-foreground.sh",
+      "text": "step3.md"
+    },
+    {
+      "title": "Step 4 - Pods",
+      "code": "step4-foreground.sh",
+      "text": "step4.md"
+    },
+    {
+      "title": "Step 5 - Deployments",
+      "code": "step5-foreground.sh",
+      "text": "step5.md"
+    },
+    {
+      "title": "Step 6 - Liveliness",
+      "code": "step6-foreground.sh",
+      "text": "step6.md"
+    },
+    {
+      "title": "Step 7 - Namespaces",
+      "code": "step7-foreground.sh",
+      "text": "step7.md"
+    },
+    {
+      "title": "Step 8 - Services",
+      "code": "step8-foreground.sh",
+      "text": "step8.md"
+    },
+    {
+      "title": "Step 9 - Horizontal Pod Autoscaler",
+      "code": "step9-foreground.sh",
+      "text": "step4.md"
+    },
+    {
+      "title": "Step 10 - ConfigMaps",
+      "code": "step10-foreground.sh",
+      "text": "step10.md"
+    },
+    {
+      "title": "Step 11 - Persistent Volumes",
+      "code": "step11-foreground.sh",
+      "text": "step11.md"
+    },
+    {
+      "title": "Step 12 - Secrets",
+      "code": "step12-foreground.sh",
+      "text": "step12.md"
+    }
+    ,
+    {
+      "title": "Step 13 - Services",
+      "code": "step13-foreground.sh",
+      "text": "step13.md"
+    },
+    {
+      "title": "Step 14 - Horizontal Pod Autoscaler",
+      "code": "step14-foreground.sh",
+      "text": "step14.md"
+    },
+    {
+      "title": "Step 15 - ConfigMaps",
+      "code": "step15-foreground.sh",
+      "text": "step15.md"
+    },
+    {
+      "title": "Step 16 - Persistent Volumes",
+      "code": "step16-foreground.sh",
+      "text": "step16.md"
+    },
+    {
+      "title": "Step 17 - Secrets",
+      "code": "step17-foreground.sh",
+      "text": "step17.md"
+    }
     ],
     "intro": {
       "text": "intro.md",

@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-cd k8s-4-it-pros/lesson-11-persistent-volumes
+cd /root/cd k8s-4-it-pros/lesson-11-persistent-volumes
 
 clear
 
