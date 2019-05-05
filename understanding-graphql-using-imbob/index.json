@@ -5,15 +5,15 @@
   "time": "15 minutes",
   "details": {
     "steps": [{
-      "title": "Step 1 - Setting Up The GraphQL API",
+      "title": "Step 1 - Running Up The GraphQL API on Katacoda",
       "text": "step1.md"
     },
       {
-        "title": "Step 2 - Authenticating to the API",
+        "title": "Step 2 - Accessing and Authenticating to the API",
         "text": "step2.md"
       },
       {
-        "title": "Step 3 - Executing a Sample GraphQL Query",
+        "title": "Step 3 - Executing Sample GraphQL Queries",
         "text": "step3.md"
       },
       {
@@ -25,7 +25,7 @@
         "text": "step5.md"
       },
       {
-        "title": "Step 6 - Working with onMovieAdded",
+        "title": "Step 6 - Working with onMovieAdded to Add Data and Generate Asynchronous Messages",
         "text": "step6.md"
       }
 
