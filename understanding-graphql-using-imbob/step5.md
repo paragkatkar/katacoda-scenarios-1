@@ -24,9 +24,9 @@ execute arrow in the GraphQL Playground UI.
 
 `
 mutation{
-  ping(payload: "This is a simple payload message."){
+  ping(messageBody: "This is a simple message body."){
     createdAt
-    payload
+    body
     name
     id
   }

@@ -26,7 +26,7 @@ subscription eventAdded{
   eventAdded{
     id  
     name  
-    payload  
+    body  
     createdAt  
     storedAt  
   }
