@@ -213,7 +213,7 @@ while the previous query returned last name values starting with `A`. This is pa
 state of the current query session are special to IMBOB. Different APIs will have pagination structures that meet their
 special requirements.
 
-Now what we have a basic idea how to use the GraphQL Query language, let move onto the next step where you'll learn
+Now what we have a basic idea how to use the GraphQL Query language, **let's move onto the next step** where you'll learn
 how to register to a GraphQL [subscription](https://graphql.github.io/graphql-spec/June2018/#sec-Subscription) on IMBOB to create a
 [websocket](https://en.wikipedia.org/wiki/WebSocket) connection and then receive messages
 asynchronously when a query or mutation associated with a particular subscription is executed.

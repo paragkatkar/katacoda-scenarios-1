@@ -23,3 +23,6 @@ to the HTTP Headers section in the lower left of GraphQL Playground as shown the
 ![Authenticate to GraphQL](https://raw.githubusercontent.com/reselbob/katacoda-scenarios/master/understanding-graphql-using-imbob/images/graphql-authorization-01.png)
  
 This will authenticate your session the IMBOB API. Now you can do some work.
+
+**Let's move onto the next step** where you'll learn how to execute simple and complex queries against the IMBOB API
+using the GraphQL Query Language in GraphQL Playground.
