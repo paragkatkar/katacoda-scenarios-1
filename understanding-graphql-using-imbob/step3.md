@@ -14,6 +14,9 @@ your browser's address bar.
  
  https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com`
  
+The purpose of this step is to have you execute a simple query against the IMBOB API in GraphQL Playground. Also, you'll
+execute a more complex query that uses pagination.
+ 
 ## Executing a Simple Query
 
 Let's do a simple query of the IMBOB API. In this task we're going to execute the query, `movies` to get a
