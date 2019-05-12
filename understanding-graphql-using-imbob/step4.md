@@ -22,8 +22,8 @@ GraphQL `subscription` declaration into the new tab pane and then click the exec
 Playground UI.
 
 `
-subscription eventAdded{
-  eventAdded{
+subscription onEventAdded{
+  onEventAdded{
     id  
     name  
     body  
