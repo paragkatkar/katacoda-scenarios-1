@@ -58,7 +58,7 @@ First Query
     }
   }
 } 
-`{copy}}
+`{{copy}}
 
 Result
 
