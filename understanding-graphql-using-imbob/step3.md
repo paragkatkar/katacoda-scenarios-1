@@ -122,7 +122,7 @@ Second query
     }
   }
 } 
-`{copy}}
+`{{copy}}
 
 Result
 
