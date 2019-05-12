@@ -59,6 +59,7 @@ We define such as query the GraphQL Query Language like so:
  
 **Task 1:** Copy the `movies` query shown above into GraphQL Playground to execute the query. (An example is shown in the
 figure below.)
+
 ![Movies Query Result](https://raw.githubusercontent.com/reselbob/katacoda-scenarios/master/understanding-graphql-using-imbob/images/movies-query-exec-01.png)
 
 ## Executing a Query with Pagination
@@ -211,3 +212,8 @@ while the previous query returned last name values starting with `A`. This is pa
 **Please be advised** that the `CursorPaginationInput` the define pagination input and`PageInfo` that define the pagination
 state of the current query session are special to IMBOB. Different APIs will have pagination structures that meet their
 special requirements.
+
+Now what we have a basic idea how to use the GraphQL Query language, let move onto the next step where you'll learn
+how to register to a GraphQL [subscription](https://graphql.github.io/graphql-spec/June2018/#sec-Subscription) on IMBOB to create a
+[websocket](https://en.wikipedia.org/wiki/WebSocket) connection and then receive messages
+asynchronously when a query or mutation associated with a particular subscription is executed.
