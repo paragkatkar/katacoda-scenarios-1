@@ -8,16 +8,34 @@
  
  ------
 
-If you do not have the GraphQL Playground for the IMBOB API in a brower window, go to the following URL
+If you do not have the GraphQL Playground for the IMBOB API in a brower window, enter the following URL in
+your browser's address bar.
 
-Go to the link below to bring the GraphQL Playground up in your browser:
  
  https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com`
  
-## Simple Query
+## Executing a Simple Query
 
- Let's do a simple query. Enter the following GraphQL code in the Query pane of the GraphQL Playground, or do
- a copy and paste from the clipboard to the GraphQL Playground.
+Let's do a simple query of the IMBOB API. In this task we're going to execute the query, `movies` to get a
+list of all movies stored in the API.
+
+One of the key benefits of GraphQL is that you can declare only the fields you want in the JSON that gets
+returned from a particular query. In this case, we're going to declare the following fields for the query to return.
+
+* title
+* releaseDate
+* actors
+* directors
+
+As you can see in the figure below, the fields, `actors` and `directors` represent arrays of `actor` and`person`
+objects respectively.
+
+ ![Movies Query](https://raw.githubusercontent.com/reselbob/katacoda-scenarios/master/understanding-graphql-using-imbob/images/movies-query-01.jpg)
+ 
+Thus, we need to define in the GraphQL query exactly the fields of interest in each array. For both `actors` and 
+`directors `we're interested in `firstName` and `lastName`. 
+
+We define such as query the GraphQL Query Language like so:
  
  `
  {
@@ -35,13 +53,25 @@ Go to the link below to bring the GraphQL Playground up in your browser:
    }
  }`{{copy}}
  
-**Understanding This Step**
+ 
+**Task 1:** Copy the `movies` query shown above into GraphQL Playground to execute the query. (An example is shown in the
+figure below.)
+![Movies Query Result](https://raw.githubusercontent.com/reselbob/katacoda-scenarios/master/understanding-graphql-using-imbob/images/movies-query-exec-01.png)
 
+## Executing a Query with Pagination
 
-## Query with Pagination
+In the real world, most clients using GraphQL will be working with arrays of data that are very big. 
+The alternative is to get the information you need in chunks, from a particular starting point. This technique is called pagination.
 
-First Query
-
+ Pagination is not built in not part of the specification. But, most APIs create implementations that their own pagination mechanisms.
+ 
+ The way IMBOB supports pagination is by way of a special object, `CursorPaginationInput`, which is the type associated'
+ with the query parameter, `paginationSpec`. The `persons` query shown below configures an implicit `CursorPaginationInput` object
+ to return the first 5 objects starting at the beginning of the server-sid list of `person`
+ objects, and sort according to `lastName`.
+  
+**Task 1:** Execute the query below by typing or copying it into the query panel of the GraphQL Playground instance you
+have running in your browser.
 `
 {
   persons(paginationSpec:{first:5, 
@@ -60,7 +90,7 @@ First Query
 } 
 `{{copy}}
 
-Result
+You should see the results like the following. Play attention to the field, `pageInfo`.
 
 ```JSON
 {
@@ -102,8 +132,16 @@ Result
  }
 ```
 
-Second query
+The field, `pageInfo` shown in the return value above reports the current state of your pagination activity. Effectively
+what `pageInfo` is reporting is `endCursor`, which is the `id` of the last `person` in the returned list. Also, `pageInfo`
+reports that there are more items to be retrieved, (` "hasNextPage": true`).
 
+Thus, we use this information to configure the `paginationSpec: CursorPaginationInput` parameter when we re-query
+`persons` for more data. Notice that we set the value of `after` to `ad382532-4d32-4bbe-b3ea-69213be4703a`. Effectively
+we're telling IMBOB to get the first 5 persons in the last starting after the person with the `id` `ad382532-4d32-4bbe-b3ea-69213be4703a`
+
+**Task 2:** Execute the query `persons` again according the new pagination information by entering or copying the following
+GraphQL query into the query panel of GraphQL Playground.
 
 `
 {
@@ -124,7 +162,8 @@ Second query
 } 
 `{{copy}}
 
-Result
+You should get results as shwon below. Notice that this new query returns values starting with the last name of `B`,
+while the previous query returned last name values starting with `A`. This is pagination in action.
 
 ```JSON
 {
@@ -165,3 +204,7 @@ Result
   }
 }
 ```
+
+**Please be advised** that the `CursorPaginationInput` the define pagination input and`PageInfo` that define the pagination
+state of the current query session are special to IMBOB. Different APIs will have pagination structures that meet their
+special requirements.
