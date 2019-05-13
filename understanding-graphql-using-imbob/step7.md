@@ -9,6 +9,15 @@ consistent. Otherwise, you'll get behaviors that might be confusing.
 
 CONTENT TO BE PROVIDED
 
+
+First, let's try using the directive `@isAdmin` with the `curl` command.
+
+Execute the following
+
+`curl 'http://localhost:80/' -H 'Accept-Encoding: gzip, deflate, br' -H 'Content-Type: application/json' -H 'Accept: application/json' -H 'Connection: keep-alive' -H 'DNT: 1' -H 'Origin: http://localhost:80' -H 'authorization: ch3ddarch33s3' --data-binary '{"query":"mutation{\n  ping(messageBody: \"This is a simple message body.\") @isAdmin {\n    createdAt\n    body\n    name\n    id\n  }\n}"}' --compressed`{{execute}}
+
+Then we can try it in the GraphQL Playground UI.
+
 `
 mutation{
   ping(messageBody: "This is a simple message body.") @isAdmin{

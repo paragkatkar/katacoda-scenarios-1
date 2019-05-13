@@ -25,7 +25,7 @@ Let's check to see that the GraphQL API is up and running
 
 **Task 5:**: Click the following command the verify that the GraphQL API is up and running.
 
-`curl 'http://localhost:80/' -H 'Accept-Encoding: gzip, deflate, br' -H 'Content-Type: application/json' -H 'Accept: application/json' -H 'Connection: keep-alive' -H 'DNT: 1' -H 'Origin: http://localhost:4000' -H 'authorization: ch3ddarch33s3' --data-binary '{"query":"mutation{\n  ping(messageBody: \"This is a simple message body.\"){\n    createdAt\n    body\n    name\n    id\n  }\n}"}' --compressed`{{execute}}
+`curl 'http://localhost:80/' -H 'Accept-Encoding: gzip, deflate, br' -H 'Content-Type: application/json' -H 'Accept: application/json' -H 'Connection: keep-alive' -H 'DNT: 1' -H 'Origin: http://localhost:80' -H 'authorization: ch3ddarch33s3' --data-binary '{"query":"mutation{\n  ping(messageBody: \"This is a simple message body.\"){\n    createdAt\n    body\n    name\n    id\n  }\n}"}' --compressed`{{execute}}
 
 If all is well you should see a response similar to the following 
 (`id` and `createdAt` values will differ by installation.):
