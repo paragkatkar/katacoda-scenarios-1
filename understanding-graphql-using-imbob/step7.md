@@ -31,7 +31,7 @@ mutation{
 
 You will get a response that looks similar to this:
 
-```
+`
 {"data":{
     "ping":{"createdAt":"Mon May 13 2019 06:30:49 GMT+0000 (Coordinated Universal Time)",
     "body":{"data":"This is a simple message body.",
@@ -63,6 +63,5 @@ You will get a response that looks similar to this:
               "id":"80b38554-73fa-4472-90da-74ed69929a5f"
               }
         }
-}
-             
-```
+}           
+`
