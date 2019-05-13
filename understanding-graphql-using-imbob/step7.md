@@ -8,3 +8,21 @@
 consistent. Otherwise, you'll get behaviors that might be confusing.
 
 CONTENT TO BE PROVIDED
+
+`
+mutation{
+  ping(messageBody: "This is a simple message body.") @isAdmin{
+    createdAt
+    body
+    name
+    id
+  }
+}
+`{{copy}}
+
+You will get a response that looks similar to this:
+
+```graphql
+TO BE PROVIDED
+
+```
