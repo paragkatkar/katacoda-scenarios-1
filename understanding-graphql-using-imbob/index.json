@@ -27,6 +27,10 @@
       {
         "title": "Step 6 - Working with onMovieAdded to Add Data and Generate Asynchronous Messages",
         "text": "step6.md"
+      },
+      {
+        "title": "Step 7 - Working with the @isAdmin Directive",
+        "text": "step7.md"
       }
 
     ],

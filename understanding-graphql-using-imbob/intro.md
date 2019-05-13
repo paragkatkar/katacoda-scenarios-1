@@ -72,4 +72,6 @@ TO BE PROVIDED
 
 **Step 5** - Firing a Subscription Event using the Mutation, `Ping`
 
-**Step 6** - Working with onMovieAdded to Add Data and Generate Asynchronous Messages
+**Step 6** - Working with `onMovieAdded` to Add Data and Generate Asynchronous Messages
+
+**Step 7** - Working with the `@isAdmin` Directive
