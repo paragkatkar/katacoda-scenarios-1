@@ -18,7 +18,7 @@ usually when a query or mutation is executed upon the API.
 **Task 1:** Go the your browser window that has the GraphQL Playground page we called in earlier steps. Create new tab by 
 clicking on `New Tab` and the end of line of tabs in the GraphQL Playground window.
 
-**Task 2:** Then add the security accesstoken by copy and pasting
+**Task 2:** Then add the security authorization token by copy and pasting
 
 `{"authorization": "ch3ddarch33s3"}`{{copy}}
 

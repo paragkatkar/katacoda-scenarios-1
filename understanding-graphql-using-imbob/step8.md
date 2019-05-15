@@ -117,6 +117,7 @@ You'll get a response similar to following:
 Now, let do the search in a new tab in the GraphQL Playground web page.
  
 **Task 2:** Open a new tab in GraphQL Playground.
+![](https://raw.githubusercontent.com/reselbob/katacoda-scenarios/master/understanding-graphql-using-imbob/images/new-tab-button.png)
 
 **Task 3:** Once in GraphQL Playground of IMBOB, add the following authorization JSON to the HTTP Headers
 pane on the lower left of the Web Page, as shown in the illustration below.
