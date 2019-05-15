@@ -7,6 +7,20 @@
 **IMPORTANT**: You need to do the steps in sequence in order for the state of the lesson's learning environment to be
 consistent. Otherwise, you'll get behaviors that might be confusing.
 
+## Understanding Connections
+
+
+The concept behind the data graph is that data exists as distinct entities within a domain, with an entity being
+structured according to properties (aka, attributes or fields). In addition, an entity can have none, one or 
+many relationships to another entity. For example on entity can "know" another entity.
+
+
+In [discrete mathematics](https://en.wikipedia.org/wiki/Discrete_mathematics), the discipline that gave birth to the concept of
+the data graph, we call an entity, a node. A relationship between two nodes is called an edge. IMBOB captures a number of edges that can exist between nodes.
+
+
+## Using Connections
+
 Let's do a search of Persons, looking for `Nicholas` `Roeg`. 
 
 The search query we'll run looks like this:
@@ -58,12 +72,20 @@ Now, let do the search in a new tab in the GraphQL Playground web page.
 **Task 2:** Open a new tab in GraphQL Playground.
 
 **Task 3:** Once in GraphQL Playground of IMBOB, add the following authorization JSON to the HTTP Headers
-pane on the lower left of the Web Page 
-            
+pane on the lower left of the Web Page, as shown in the illustration below.
+
+![Authorization JSON](https://raw.githubusercontent.com/reselbob/katacoda-scenarios/master/understanding-graphql-using-imbob/images/graphql-authorization-only.png)
+  
+  
+You can copy the Authorization JSON by clicking on the copy icon and then pasting it into the UI directly.            
 `
 {"authorization":"ch3ddarch33s3"}`{{copy}}
 
-**Task 4:** Copy the following query into the 
+
+
+**Task 4:** Copy the following query into the query panel as shown in the illustration below:
+
+![Search Query](https://raw.githubusercontent.com/reselbob/katacoda-scenarios/master/understanding-graphql-using-imbob/images/graphql-search-query.png)
 
 `
 {
@@ -91,7 +113,7 @@ pane on the lower left of the Web Page
 }
 `{{copy}}
 
-Result
+You should get a result that looks similar to the one below
 
 `
 {
@@ -145,3 +167,4 @@ Result
   }
 }
 `
+
