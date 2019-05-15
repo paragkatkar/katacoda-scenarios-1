@@ -77,3 +77,6 @@ You will get a response that looks similar to this:
   }
 }           
 `
+
+Now that we've covered `directives`, let's move onto the way IMBOB implements connections. Connection are a convention that's
+evolved iwth in the GraphQL community as a way to describe relationships between objects within a GraphQL API.
