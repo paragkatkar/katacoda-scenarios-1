@@ -40,8 +40,10 @@ among the GraphQL community. For example,  IMBOB describes a `likes` relationshi
 ![Likes Connection](https://raw.githubusercontent.com/reselbob/katacoda-scenarios/master/understanding-graphql-using-imbob/images/likesConnection.png)
 
 
-The important thing to understand about connections in IMBOB is that the array that returned is made up of two fields, `pageInfo`
-and `edges`,
+The important thing to understand about connections in IMBOB is that data that's returned is an array of `PersonConnection`
+objects. `PersonConnection`is made up of two fields, `pageInfo` and `edges`
+
+------
 
 **WHERE**
 
@@ -51,20 +53,22 @@ and `edges`,
 the given `PersonEdge` object in and entire list of `PersonEdge` objects  and the `Person` object which contains the actual
 data about th person. 
 
-The reason a `PersonEdge` object is used is because a `likeConnection` might container hundred, if not thousands
+------
+
+The reason a `PersonEdge` object is used is because a `likeConnection` might container hundreds, if not thousands
 of edges. Thus, we need to have the `likesConnection` query support pagination. In order to support pagination
 the query needs the `cursor` information provide by `PersonEdge`.
 
 ![Like Connection Documentation](https://raw.githubusercontent.com/reselbob/katacoda-scenarios/master/understanding-graphql-using-imbob/images/likes-collection-doc.png)
 
-We'll use the fields in the `searchPerson` query we'll perform next.
+
 
 The exercise that follows demonstrates how to query IMBOB to get the `likesConnection` of a particular person, in this case
 `Nicholas Roeg`.
 
 ## Using Connections
 
-Let's do a search of Persons, looking for `Nicholas` `Roeg`. 
+Let's do a search of Persons, looking for `Nicholas` `Roeg` using the query, `searchPerson`.
 
 The search query we'll run looks like this:
 
