@@ -42,4 +42,4 @@ If all is well you should see a response similar to the following
 The purpose of this step was to get the IMBOB API server up and running so that we can experiment with
 GraphQL queries, mutations and subscriptions.
 
-**In the next step** we'll working the GraphQL Playground web page that ships with Apollo server to do work.
+**In the next step** we'll be working the GraphQL Playground web page that ships with Apollo server to do work.
