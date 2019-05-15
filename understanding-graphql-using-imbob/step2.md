@@ -14,7 +14,7 @@ address bar.
 
 https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com
 
-Then once in GraphQL Playground and the IMBOB, add the following JSON
+Then once in GraphQL Playground of IMBOB, add the following JSON
 
 `{"authorization":"ch3ddarch33s3"}`{{copy}}
 
