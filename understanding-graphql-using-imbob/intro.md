@@ -54,9 +54,9 @@ back to show data for only a few movies.
 The reason only a few movies are represented is to provide just enough related data thus enabling
 the underlying object graph to make sense in term of organization and assocation.
 
-Please bea advised that the API does provide mutations that allow users to build out the undrelying
-object graph. However, be advised that if a mishap occurs, all that required to start over and
-set the scenario and IMBOB to its initial state is to refresh this web page.
+Please be advised that the IMBOB API does provide mutations that allow users to build out the underlying
+object graph. However, if a mishap occurs, all that required to set the scenario and IMBOB to its initial
+state is to refresh this web page.
 
 TO BE PROVIDED
 
@@ -75,3 +75,5 @@ TO BE PROVIDED
 **Step 6** - Working with `onMovieAdded` to Add Data and Generate Asynchronous Messages
 
 **Step 7** - Working with the `@isAdmin` Directive
+
+**Step 8** - Working with Connections
