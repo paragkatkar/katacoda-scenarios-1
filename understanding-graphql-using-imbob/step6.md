@@ -26,7 +26,7 @@ subscription onMovieAdded {
         name
         createdAt
         storedAt
-        payload
+        body
     }
 }
 `{{copy}}
