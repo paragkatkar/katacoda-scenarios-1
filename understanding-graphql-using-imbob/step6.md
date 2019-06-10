@@ -21,7 +21,7 @@ Subscribe to the event, `onMovieAdded` by copying and pasting the following into
 
 `
 subscription onMovieAdded {
-    onMovieAdded(channelName: "MOVIE_CHANNEL") {
+    onMovieAdded(channelName: MOVIE_CHANNEL) {
         id
         name
         createdAt
