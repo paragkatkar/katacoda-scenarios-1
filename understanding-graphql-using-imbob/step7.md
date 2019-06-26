@@ -9,74 +9,93 @@ consistent. Otherwise, you'll get behaviors that might be confusing.
 
 CONTENT TO BE PROVIDED
 
+In this step we're going to examine how to use a custom GraphQL directive, `@requiresPersonalScope`.
 
-First, let's try using the directive `@isAdmin` with the `curl` command.
+You can think of a directive as way by which a developer can go into existing GraphQL
+type definition source code and “mark” it so that a rule is applied to a type or
+one of its fields. Of course, a developer must be actually program behavior for the
+defined directive somewhere in the API code.
 
-Execute the following
+In this case, the developer applied the directive, `@requiresPersonalScope` to the `email` field in the
+`Person` type as shown below:
 
-`curl 'http://localhost:80/' -H 'Accept-Encoding: gzip, deflate, br' -H 'Content-Type: application/json' -H 'Accept: application/json' -H 'Connection: keep-alive' -H 'DNT: 1' -H 'Origin: http://localhost:80' -H 'authorization: ch3ddarch33s3' --data-binary '{"query":"mutation{\n  ping(messageBody: \"This is a simple message body.\") @isAdmin {\n    createdAt\n    body\n    name\n    id\n  }\n}"}' --compressed`{{execute}}
+```text
+type Person implements Personable{
+  id: ID
+  firstName: String
+  lastName: String
+  dob: Date
+  email: String @requiresPersonalScope
+}
+```
 
-Then we can try it in the GraphQL Playground UI.
+Applying the directive makes it so that only users who have permission to view person information
+can view email addresses. Otherwise, an error message indicating that user does not have permission to the view
+the field information will be displayed.
+
+***NOTE:*** Be advised that the code for the rule logic for the directive, can be found in the custom module, `directives.js` that can
+be found [here](https://github.com/reselbob/IMBOB/blob/master/graphql/directives.js) in the GitHub repository for the
+demonstration application IMBOB.
+
+First, let take a look at what happens when a user who does NOT have permission to view personal information runs a 
+query that includes an email field.
+
+***Step 1:*** In a separate browser window, go to GraphQL Playground as this URL:
+
+https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com
+
+***Step 2:*** in the HTTP headers pane, enter the following access credential:
+
+`{"authorization":"ch3ddarch33s3"}`{{copy}}
+
+***Step 3:*** Enter the following query in the main query pane:
 
 `
-mutation{
-  ping(messageBody: "This is a simple message body.") @isAdmin{
-    createdAt
-    body
-    name
-    id
+{
+  person(id:"ad382532-4d32-4bbe-b3ea-69213be4703a"){
+    firstName
+    lastName
+    email
   }
-}
-`{{copy}}
+}`{{copy}}
 
-You will get a response that looks similar to this:
+***Step 4:*** Run the query
+
+You should see a result in which the email field is looks like the following:
+
+`"email": "You are not authorized to view personal information"`
+
+![Directive No Permission](https://raw.githubusercontent.com/reselbob/katacoda-scenarios/master/understanding-graphql-using-imbob/images/directive-no-permission.png)
+
+***Step 5:*** Now, let's change the user to one who has permission to read personal information. Change the
+authentication header in the HTTP Headers pane to have the following user token.
+
+`{"authorization":"s!ssch33s3"}`{{copy}}
+
+The user associated with token, `s!ssch33s3` does indeed have permission to access personal information.
+
+(Please be advised the the logic behind permissions assignment by token is part of the
+internals of the IMBOB demonstration project.
+
+GraphQL security is a more complex topic than what is presented here. The authentication method used is rudimentary and meant for
+demonstration purposes only. Authentication in real-world applications is much more involved.)
+
+***Step 6:*** Run the query again. Now you should see the email address in the person query.
 
 `
 {
   "data": {
-    "ping": {
-      "createdAt": "Mon May 13 2019 06:42:10 GMT+0000 (Coordinated Universal Time)",
-      "body": {
-        "data": "This is a simple message body.",
-        "adminData": {
-          "processId": 1,
-          "memoryUsage": {
-            "rss": 50790400,
-            "heapTotal": 22347776,
-            "heapUsed": 17297264,
-            "external": 37798
-          },
-          "networkInfo": {
-            "lo": [
-              {
-                "address": "127.0.0.1",
-                "netmask": "255.0.0.0",
-                "family": "IPv4",
-                "mac": "00:00:00:00:00:00",
-                "internal": true,
-                "cidr": "127.0.0.1/8"
-              }
-            ],
-            "eth0": [
-              {
-                "address": "172.18.0.2",
-                "netmask": "255.255.255.0",
-                "family": "IPv4",
-                "mac": "02:42:ac:12:00:02",
-                "internal": false,
-                "cidr": "172.18.0.2/24"
-              }
-            ]
-          },
-          "currentTime": "2019-05-13T06:42:10.846Z"
-        }
-      },
-      "name": "PING",
-      "id": "b15e2f0e-29a9-4d39-b5c3-932b7e4e5336"
+    "person": {
+      "firstName": "Anthony",
+      "lastName": "Asquith",
+      "email": "Anthony.Asquith@saul.info"
     }
   }
-}           
+}
 `
+
+![Directive Permission](https://raw.githubusercontent.com/reselbob/katacoda-scenarios/master/understanding-graphql-using-imbob/images/directive-permission.png)
+
 
 Now that we've covered `directives`, let's move onto the way IMBOB implements connections. Connection are a convention that's
 evolved iwth in the GraphQL community as a way to describe relationships between objects within a GraphQL API.

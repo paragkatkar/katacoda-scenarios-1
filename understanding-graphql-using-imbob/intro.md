@@ -74,6 +74,6 @@ TO BE PROVIDED
 
 **Step 6** - Working with `onMovieAdded` to Add Data and Generate Asynchronous Messages
 
-**Step 7** - Working with the `@isAdmin` Directive
+**Step 7** - Declaring a Secure Field Using a Custom Directive
 
 **Step 8** - Working with Connections
