@@ -1,7 +1,3 @@
-![Video Under Construction](https://raw.githubusercontent.com/reselbob/katacoda-scenarios/master/understanding-graphql-using-imbob/images/video-under-construction.jpg)
- 
-<img src="http://www.gosc.org/_Media/under-construction-yellow-d_med.png" width="60" alt="under construction" />
-
 First, let's set up the GraphQL API.
 
 **Task 1:** Get the code from GitHub:

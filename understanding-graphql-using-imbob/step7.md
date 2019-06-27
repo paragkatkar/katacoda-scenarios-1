@@ -1,9 +1,3 @@
-![Video Under Construction](https://raw.githubusercontent.com/reselbob/katacoda-scenarios/master/understanding-graphql-using-imbob/images/video-under-construction.jpg)
- 
- <img src="http://www.gosc.org/_Media/under-construction-yellow-d_med.png" width="60" alt="under construction" />
-
-------
-
 **IMPORTANT**: You need to do the steps in sequence in order for the state of the lesson's learning environment to be
 consistent. Otherwise, you'll get behaviors that might be confusing.
 
@@ -40,15 +34,15 @@ demonstration application IMBOB.
 First, let take a look at what happens when a user who does NOT have permission to view personal information runs a 
 query that includes an email field.
 
-***Step 1:*** In a separate browser window, go to GraphQL Playground as this URL:
+***Task 1:*** In a separate browser window, go to GraphQL Playground as this URL:
 
 https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com
 
-***Step 2:*** in the HTTP headers pane, enter the following access credential:
+***Task 2:*** in the HTTP headers pane, enter the following access credential:
 
 `{"authorization":"ch3ddarch33s3"}`{{copy}}
 
-***Step 3:*** Enter the following query in the main query pane:
+***Task 3:*** Enter the following query in the main query pane:
 
 `
 {
@@ -59,7 +53,7 @@ https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com
   }
 }`{{copy}}
 
-***Step 4:*** Run the query
+***Task 4:*** Run the query
 
 You should see a result in which the email field is looks like the following:
 
@@ -67,7 +61,7 @@ You should see a result in which the email field is looks like the following:
 
 ![Directive No Permission](https://raw.githubusercontent.com/reselbob/katacoda-scenarios/master/understanding-graphql-using-imbob/images/directive-no-permission.png)
 
-***Step 5:*** Now, let's change the user to one who has permission to read personal information. Change the
+***Task 5:*** Now, let's change the user to one who has permission to read personal information. Change the
 authentication header in the HTTP Headers pane to have the following user token.
 
 `{"authorization":"s!ssch33s3"}`{{copy}}
@@ -80,7 +74,7 @@ internals of the IMBOB demonstration project.
 GraphQL security is a more complex topic than what is presented here. The authentication method used is rudimentary and meant for
 demonstration purposes only. Authentication in real-world applications is much more involved.)
 
-***Step 6:*** Run the query again. Now you should see the email address in the person query.
+***Task 6:*** Run the query again. Now you should see the email address in the person query.
 
 `
 {
@@ -98,4 +92,4 @@ demonstration purposes only. Authentication in real-world applications is much m
 
 
 Now that we've covered `directives`, let's move onto the way IMBOB implements connections. Connection are a convention that's
-evolved iwth in the GraphQL community as a way to describe relationships between objects within a GraphQL API.
+evolved with in the GraphQL community as a way to describe relationships between objects within a GraphQL API.
