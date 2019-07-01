@@ -19,5 +19,5 @@ First, download Kafka
 
 **Task 5:**: Make a change in `bin/kafka-run-class.sh` so that Kafka will run in Katacoda
 
-`curl 'sed -i 's#$JAVA_HOME/bin/java#$JAVA_HOME/java#' bin/kafka-run-class.sh`{{execute}}
+`sed -i 's#$JAVA_HOME/bin/java#$JAVA_HOME/java#' bin/kafka-run-class.sh`{{execute}}
 
