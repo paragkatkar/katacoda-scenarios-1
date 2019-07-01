@@ -1,0 +1,56 @@
+{
+  "title": "Setting Up Apache Kafka to Run on KataCoda",
+  "description": "Installing Kafka and Publishing to a Topic",
+  "difficulty": "beginner",
+  "time": "15 minutes",
+  "details": {
+    "steps": [{
+      "title": "Step 1 - Download Apache Kafka",
+      "text": "step1.md"
+    },
+      {
+        "title": "Step 2 - Uncompress the Tar Ball",
+        "text": "step2.md"
+      },
+      {
+        "title": "Step 3 - Reset #JAVA_HOME in kafka-run-class.sh",
+        "text": "step3.md"
+      },
+      {
+        "title": "Step 4 - Start Zookeeper",
+        "text": "step4.md"
+      },
+      {
+        "title": "Step 5 - Start Kafka",
+        "text": "step5.md"
+      },
+      {
+        "title": "Step 6 - Create a Topic",
+        "text": "step6.md"
+      },
+      {
+        "title": "Step 7 - Write to a Topic",
+        "text": "step7.md"
+      },
+      {
+        "title": "Step 8 - Read from a Topic",
+        "text": "step8.md"
+      }
+
+    ],
+    "intro": {
+      "text": "intro.md",
+      "credits": ""
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "terminal",
+    "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\r\nType 'printenv' to do a basic interaction\u001b[m\r\n"
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}
