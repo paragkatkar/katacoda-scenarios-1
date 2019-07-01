@@ -6,6 +6,6 @@
 
 `cd kafka_2.12-2.2.0/`{{execute T2}}
 
-***Task 3:*** Start Kakfa
+***Task 3:*** Start Kafka
 
 `bin/kafka-server-start.sh config/server.properties`{{execute T2}}

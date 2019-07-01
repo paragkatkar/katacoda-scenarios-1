@@ -5,38 +5,21 @@
   "time": "15 minutes",
   "details": {
     "steps": [{
-      "title": "Step 1 - Download Apache Kafka",
+      "title": "Step 1 - Setting Up Apache Kafka",
       "text": "step1.md"
     },
       {
-        "title": "Step 2 - Uncompress the Tar Ball",
+        "title": "Step 2 - Starting Kafka",
         "text": "step2.md"
       },
       {
-        "title": "Step 3 - Reset #JAVA_HOME in kafka-run-class.sh",
+        "title": "Step 3 - Creating and Writing to a Topic",
         "text": "step3.md"
       },
       {
-        "title": "Step 4 - Start Zookeeper",
+        "title": "Step 4 - Getting Messages Using a Consumer",
         "text": "step4.md"
-      },
-      {
-        "title": "Step 5 - Start Kafka",
-        "text": "step5.md"
-      },
-      {
-        "title": "Step 6 - Create a Topic",
-        "text": "step6.md"
-      },
-      {
-        "title": "Step 7 - Write to a Topic",
-        "text": "step7.md"
-      },
-      {
-        "title": "Step 8 - Read from a Topic",
-        "text": "step8.md"
       }
-
     ],
     "intro": {
       "text": "intro.md",

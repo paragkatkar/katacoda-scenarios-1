@@ -17,7 +17,8 @@ First, download Kafka
 `sudo su`{{execute}}
 
 
-**Task 5:**: Make a change in `bin/kafka-run-class.sh` so that Kafka will run in Katacoda
+**Task 5:**: Make a change in `bin/kafka-run-class.sh` so that Kafka will run in Katacoda. (**NOTE:** This step is
+special for running in the Katacoda interactive learning environment.)
 
 `sed -i 's#$JAVA_HOME/bin/java#$JAVA_HOME/java#' bin/kafka-run-class.sh`{{execute}}
 

@@ -31,18 +31,10 @@ TO BE PROVIDED
 
 ## Scenario Contents
 
-**Step 1** - 
+**Step 1** - Setting Up Apache Kafka
 
-**Step 2** - 
+**Step 2** - Starting Kafka
 
-**Step 3** - 
+**Step 3** - Creating and Writing to a Topic
 
-**Step 4** - 
-
-**Step 5** - 
-
-**Step 6** - 
-
-**Step 7** - 
-
-**Step 8** - 
+**Step 4** - Getting Messages Using a Consumer
