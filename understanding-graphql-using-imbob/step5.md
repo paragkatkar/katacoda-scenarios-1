@@ -3,9 +3,9 @@ consistent. Otherwise, you'll get behaviors that might be confusing.
 
 ------
 
-Open another new tab in GraphQL Playground.
+**Task 1:** Open another new tab in GraphQL Playground.
 
-Add the security access token by copy and pasting
+**Task 2:** Add the security access token by copy and pasting
 
 `{"authorization": "ch3ddarch33s3"}`{{copy}}
 
@@ -13,7 +13,7 @@ We're going to execute a GraphQL mutation in this pane
 that will fire the event, `onEventAdded` on the server side. This event will be published by the
 `onEventAdded` subscription we registered to in the last step, Step 4.
 
-Copy the following GraphQL `mutation` declaration into the new tab pane and then click the
+**Task 3:** Copy the following GraphQL `mutation` declaration into the new tab pane and then click the
 execute arrow in the GraphQL Playground UI.
 
 `
@@ -27,6 +27,8 @@ mutation{
 }
 `{{copy}}
 
-**Understanding This Step**
+You have now executed the mutation, `ping`. Also, `ping` is programmed on the server-sice to fire an message to the
+`onEventAdded` subscription.
 
-TO BE PROVIDED
+**Task 4:** Go back to the `onEventAdded` tab in the GraphQL Playground UI. You will see in the tab a new
+message from IMBOB that relates to them mutation `ping`.

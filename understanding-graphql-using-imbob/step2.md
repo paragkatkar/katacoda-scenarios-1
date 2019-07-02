@@ -6,12 +6,12 @@ consistent. Otherwise, you'll get behaviors that might be confusing.
 In this step we're going to configure the GraphQL Playground with
 the authentication password that IMBOB requires for access to the API. 
 
-Go to the URL shown below to bring the GraphQL Playground up in your browser. Copy the URL in the address the browser's
+**Task 1:** Go to the URL shown below to bring the GraphQL Playground up in your browser. Copy the URL in the address the browser's
 address bar.
 
 https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com
 
-Then once in GraphQL Playground of IMBOB, add the following JSON
+**Task 2:** Then, once in GraphQL Playground of IMBOB, add the following JSON
 
 `{"authorization":"ch3ddarch33s3"}`{{copy}}
 

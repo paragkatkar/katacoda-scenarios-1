@@ -27,22 +27,22 @@ Applying the directive makes it so that only users who have permission to view p
 can view email addresses. Otherwise, an error message indicating that user does not have permission to the view
 the field information will be displayed.
 
-***NOTE:*** Be advised that the code for the rule logic for the directive, can be found in the custom module, `directives.js` that can
+**NOTE:** Be advised that the code for the rule logic for the directive, can be found in the custom module, `directives.js` that can
 be found [here](https://github.com/reselbob/IMBOB/blob/master/graphql/directives.js) in the GitHub repository for the
 demonstration application IMBOB.
 
 First, let take a look at what happens when a user who does NOT have permission to view personal information runs a 
 query that includes an email field.
 
-***Task 1:*** In a separate browser window, go to GraphQL Playground as this URL:
+**Task 1:** In a separate browser window, go to GraphQL Playground as this URL:
 
 https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com
 
-***Task 2:*** in the HTTP headers pane, enter the following access credential:
+**Task 2:** in the HTTP headers pane, enter the following access credential:
 
 `{"authorization":"ch3ddarch33s3"}`{{copy}}
 
-***Task 3:*** Enter the following query in the main query pane:
+**Task 3:** Enter the following query in the main query pane:
 
 `
 {
@@ -53,7 +53,7 @@ https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com
   }
 }`{{copy}}
 
-***Task 4:*** Run the query
+**Task 4:** Run the query
 
 You should see a result in which the email field is looks like the following:
 
@@ -61,7 +61,7 @@ You should see a result in which the email field is looks like the following:
 
 ![Directive No Permission](https://raw.githubusercontent.com/reselbob/katacoda-scenarios/master/understanding-graphql-using-imbob/images/directive-no-permission.png)
 
-***Task 5:*** Now, let's change the user to one who has permission to read personal information. Change the
+**Task 5:** Now, let's change the user to one who has permission to read personal information. Change the
 authentication header in the HTTP Headers pane to have the following user token.
 
 `{"authorization":"s!ssch33s3"}`{{copy}}
@@ -74,7 +74,7 @@ internals of the IMBOB demonstration project.
 GraphQL security is a more complex topic than what is presented here. The authentication method used is rudimentary and meant for
 demonstration purposes only. Authentication in real-world applications is much more involved.)
 
-***Task 6:*** Run the query again. Now you should see the email address in the person query.
+**Task 6:** Run the query again. Now you should see the email address in the person query.
 
 `
 {

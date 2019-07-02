@@ -69,7 +69,7 @@ The alternative is to get the information you need in chunks, from a particular 
  to return the first 5 objects starting at the beginning of the server-sid list of `person`
  objects, and sort according to `lastName`.
   
-**Task 1:** Execute the query below by typing or copying it into the query panel of the GraphQL Playground instance you
+**Task 2:** Execute the query below by typing or copying it into the query panel of the GraphQL Playground instance you
 have running in your browser.
 `
 {
@@ -139,7 +139,7 @@ Thus, we use this information to configure the `paginationSpec: CursorPagination
 `persons` for more data. Notice that we set the value of `after` to `ad382532-4d32-4bbe-b3ea-69213be4703a`. Effectively
 we're telling IMBOB to get the first 5 persons in the last starting after the person with the `id` `ad382532-4d32-4bbe-b3ea-69213be4703a`
 
-**Task 2:** Execute the query `persons` again according the new pagination information by entering or copying the following
+**Task 3:** Execute the query `persons` again according the new pagination information by entering or copying the following
 GraphQL query into the query panel of GraphQL Playground.
 
 `
