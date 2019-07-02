@@ -58,7 +58,7 @@ TO BE PROVIDED
 
 ## Scenario Contents
 
-**Step 1** - Running Up The GraphQL API on Katacoda
+**Step 1** - Setting Up The GraphQL API to Run on Katacoda
 
 **Step 2** - Accessing and Authenticating to the API
 
