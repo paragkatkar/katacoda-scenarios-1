@@ -1,8 +1,11 @@
+**This introductory video covers the tasks you'll perform in this step.**
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/jgmfApIVYIU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 **IMPORTANT**: You need to do the steps in sequence in order for the state of the lesson's learning environment to be
 consistent. Otherwise, you'll get behaviors that might be confusing.
 
 ## Understanding Nodes and Edges
-
 
 A [graph](https://en.wikipedia.org/wiki/Graph_(discrete_mathematics) (also known as an object graph or data graph) is
 the foundation on which data is organized and represented in GraphQL. 
