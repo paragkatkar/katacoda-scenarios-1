@@ -1,4 +1,4 @@
-First, download Kafka
+To download and install Kafka, do the following tasks.
 
 **Task 1:** Download the code from the mirror site:
 

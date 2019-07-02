@@ -1,5 +1,4 @@
  * **Educational Objective**
- * **What To Expect**
  * **What You Need To Know Before You Start**
  * **Working with Kafka**
  * **Scenario Contents**
@@ -11,23 +10,26 @@ consistent. Otherwise, you'll get behaviors that might be confusing.
 
 ------
  
-
 ## Educational Objective
-TO BE PROVIDED
-
-## What To Expect
-TO BE PROVIDED
-
+The objective of this scenario os to show you how to install a [Apache Kafka](https://kafka.apache.org/) message broker in the Katacoda interactive
+learning environment. Also, the scenario will walk you through the steps of setting a topic and then publishing a message
+into that topic. Finally, you'll create a consumer to retrieve all the messages submitted to the topic.
 
 
 ## What You Need To Know Before You Start
-TO BE PROVIDED
+In order to get full benefit from the concepts and tasks presented in this scenario you need to have basic understanding
+of how to enter commands in the Katacoda interactive learning environment. Each step has commands that can be entered
+into the interactive terminal automatically by clicking on the command.
+
+There is no need to type directly into the terminal window. Clicking on a command will automatically execute it.
 
 
-<a name="understanding"></a>
-## Working with KafkaB
+## Working with Kafka
 
-TO BE PROVIDED
+Apache Kafka is a platform for persistent messaging at web scale. You use Kafka to create topics and publish messages
+and message streams into the given topic. Then you create consumers against the given topic to receive messages.
+
+![Apache Kafka Architecture](https://kafka.apache.org/23/images/kafka-apis.png)
 
 ## Scenario Contents
 

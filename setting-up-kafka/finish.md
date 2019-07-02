@@ -1,12 +1,10 @@
 ## You've crossed the finish line!
 
-<img src="http://www.gosc.org/_Media/under-construction-yellow-d_med.png" width="80" alt="under construction" />
-
 In this scenario you learned:
 
-* TO BE PROVIDED
-* TO BE PROVIDED
-* TO BE PROVIDED
-* TO BE PROVIDED
+* How to set up Kafka
+* How to start up Zookeeper and Kafka
+* How to create a topic and publish messages into the topic we've created
+* How to consume messages from a topic
 
-Next we'll move on to TO BE PROVIDED
+

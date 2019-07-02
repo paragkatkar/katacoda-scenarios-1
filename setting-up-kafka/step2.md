@@ -1,3 +1,5 @@
+Now that Kafka is installed, we need to start [ZooKeeper](https://zookeeper.apache.org/), which ships with the Kafka download, and Kafka.
+
 **Task 1:** Start Zookeeper
 
 `bin/zookeeper-server-start.sh config/zookeeper.properties`{{execute}}
