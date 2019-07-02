@@ -11,7 +11,6 @@ consistent. Otherwise, you'll get behaviors that might be confusing.
 
 ------
  
- 
 <a name="eductional-objective"></a>
 ## Educational Objective
 The purpose of the scenario is to present the demonstration GraphQL API, IMBOB and to show users how to perform the following queries and mutations against the IMBOB demonstration API. 
@@ -38,8 +37,6 @@ of the syntax of the [GraphQL Query Language](https://graphql.org/learn/).
 Also it's good to have an understanding of the basics GraphQL operations of [query, mutation](https://graphql.org/learn/queries/) and
 [subscription](https://www.apollographql.com/docs/react/advanced/subscriptions).
 
-TO BE PROVIDED
-
 <a name="understanding"></a>
 ## Working with GraphQL and IMBOB
 
@@ -53,8 +50,6 @@ the underlying object graph to make sense in term of organization and assocation
 Please be advised that the IMBOB API does provide mutations that allow users to build out the underlying
 object graph. However, if a mishap occurs, all that required to set the scenario and IMBOB to its initial
 state is to refresh this web page.
-
-TO BE PROVIDED
 
 ## Scenario Contents
 
