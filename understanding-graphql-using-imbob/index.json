@@ -5,7 +5,7 @@
   "time": "15 minutes",
   "details": {
     "steps": [{
-      "title": "Step 1 - Running Up The GraphQL API on Katacoda",
+      "title": "Step 1 - Setting Up The GraphQL API to Run on Katacoda",
       "text": "step1.md"
     },
       {
