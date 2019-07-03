@@ -51,6 +51,11 @@ Please be advised that the IMBOB API does provide mutations that allow users to 
 object graph. However, if a mishap occurs, all that required to set the scenario and IMBOB to its initial
 state is to refresh this web page.
 
+## Source Code
+
+The source code for the IMBOB demonstration GraphQL API used in this scenario can
+be found on GitHub [here](https://github.com/reselbob/IMBOB) .
+
 ## Scenario Contents
 
 **Step 1** - Setting Up The GraphQL API to Run on Katacoda
