@@ -21,7 +21,7 @@ Also the scenario shows you how to use GraphQL subscriptions and directives.
 
 After taking this scenario you will be able to:
 
-* To install the IMBOB API in the Katacode interactive learning environment
+* To install the IMBOB API in the Katacoda interactive learning environment
 * To access an instance of Apollo Server GraphQL Playground bound to the IMBOB API running in the Katacoda interactive learning environment
 * To use to the interactive schema documentation published GraphQL Playground
 * To learn about the details of the IMBOB API using GraphQL introspection
