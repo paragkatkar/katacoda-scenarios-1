@@ -1,6 +1,6 @@
 **This introductory video covers the tasks you'll perform in this step.**
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/k-9eqVp0B6U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/0wmU5oFvMZg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Let's set up the GraphQL API.
 
