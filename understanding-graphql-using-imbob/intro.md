@@ -40,15 +40,15 @@ Also it's good to have an understanding of the basics GraphQL operations of [que
 <a name="understanding"></a>
 ## Working with GraphQL and IMBOB
 
-This scenario published a custom built API, IMBOB. IMBOB is a GraphQL API built using Apollo 
+This scenario published as a custom built API, IMBOB. IMBOB is a GraphQL API built using Apollo 
 Server. IMBOB publishs data that presents some basic movie information. The API is scaled
 back to show data for only a few movies.
 
-The reason only a few movies are represented is to provide just enough related data thus enabling
-the underlying object graph to make sense in term of organization and assocation.
+The reason only a few movies are represented is to provide just enough related data to make
+the underlying object graph understandable in terms of organization and assocation.
 
 Please be advised that the IMBOB API does provide mutations that allow users to build out the underlying
-object graph. However, if a mishap occurs, all that required to set the scenario and IMBOB to its initial
+object graph. However, if a mishap occurs, all that required to reset the scenario and IMBOB to its initial
 state is to refresh this web page.
 
 ## Source Code
