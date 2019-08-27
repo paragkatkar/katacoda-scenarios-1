@@ -2,9 +2,9 @@
 
 UNDER CONSTRUCTION
 
-`cd /root/pinger/app/`
+`cd /root/pinger/app/`{{execute}}
 
-`cat package.json`
+`cat package.json`{{execute}}
 
 ```json
 
@@ -14,9 +14,7 @@ UNDER CONSTRUCTION
   }
 ```
 
-`npm test`
-
-
+`npm test`{{execute}}
 
 ```text
 6 passing (113ms)
@@ -29,6 +27,6 @@ All files  |    90.91 |    81.25 |      100 |    92.86 |                   |
 -----------|----------|----------|----------|----------|-------------------|
 ```
 
-`cd /root/pinger/app/coverage`
+`cd /root/pinger/app/coverage`{{execute}}
 
-`ls -l`
+`ls -l`{{execute}}

@@ -1,7 +1,9 @@
 # Reviewing the Pinger Code
 
-`cd pinger/app/`
-
-`cat server.js`
-
 UNDER CONSTRUCTION
+
+`cd pinger/app/`{{execute}}
+
+`cat server.js`{{execute}}
+
+

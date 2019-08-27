@@ -1,7 +1,8 @@
 # Reviewing the Pinger Tests
 
-`cd pinger/app/test`
-
-`cat http-tests.js`
-
 UNDER CONSTRUCTION
+
+`cd pinger/app/test`{{execute}}
+
+`cat http-tests.js`{{execute}}
+
