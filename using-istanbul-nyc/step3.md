@@ -2,7 +2,7 @@
 
 UNDER CONSTRUCTION
 
-`cd pinger/app/test`{{execute}}
+`cd /root/pinger/app/test`{{execute}}
 
 `cat http-tests.js`{{execute}}
 

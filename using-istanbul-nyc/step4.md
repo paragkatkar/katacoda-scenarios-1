@@ -27,6 +27,9 @@ All files  |    90.91 |    81.25 |      100 |    92.86 |                   |
 -----------|----------|----------|----------|----------|-------------------|
 ```
 
+`npm run coverage`{{execute}}
+
+
 `cd /root/pinger/app/coverage`{{execute}}
 
 `ls -l`{{execute}}
