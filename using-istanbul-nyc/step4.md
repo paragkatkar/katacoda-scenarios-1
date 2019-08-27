@@ -65,4 +65,6 @@ files.
 It's the home page for the coverage report. If were to open it in browser you'd get output
 that looks like the following.
 
+![Coverage](https://github.com/reselbob/katacoda-scenarios/blob/master/using-istanbul-nyc/images/coverage.jpg)
+
 
