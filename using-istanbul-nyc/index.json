@@ -1,0 +1,39 @@
+{
+  "title": "Using Istanbul/Nyc to Test a Node Application (UNDER CONSTRUCTION)",
+  "description": "Using Istanbul/Nyc to Test a Node Application",
+  "difficulty": "beginner",
+  "time": "15 minutes",
+  "details": {
+    "steps": [{
+      "title": "Step 1 - Install the Node Application",
+      "text": "step1.md"
+    },
+      {
+        "title": "Step 2 - Review the Code",
+        "text": "step2.md"
+      },
+      {
+        "title": "Step 3 - Review the Tests",
+        "text": "step3.md"
+      },
+      {
+        "title": "Step 4 - Run the Tests and Review the Results",
+        "text": "step4.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md",
+      "credits": ""
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "terminal",
+    "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\r\nType 'printenv' to do a basic interaction\u001b[m\r\n"
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}
