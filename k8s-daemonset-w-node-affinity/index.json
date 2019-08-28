@@ -1,0 +1,39 @@
+{
+  "title": "Creating a Kubernetes DaemonSet with Node Affinity",
+  "description": "A sceario that shows you how create a K8S DaemonSet with Node Affinity",
+  "difficulty": "intermediate",
+  "time": "15 minutes",
+  "details": {
+    "steps": [{
+      "title": "Step 1 - Cloning the Demo Code from GitHub",
+      "text": "step1.md"
+    },
+      {
+        "title": "Step 2 - Creating and Deploying the DaemonSet",
+        "text": "step2.md"
+      },
+      {
+        "title": "Step 3 - Labeling the Node to Support the DaemonSet's Expectation",
+        "text": "step3.md"
+      },
+      {
+        "title": "Step 4 - Observing the Results",
+        "text": "step4.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md",
+      "credits": ""
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "terminal",
+    "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\r\nType 'docker version' to do a basic interaction\u001b[m\r\n"
+  },
+  "backend": {
+    "imageid": "kubernetes-cluster-running"
+  }
+}

@@ -11,7 +11,7 @@ consistent. Otherwise, you'll get behaviors that might be confusing.
 ------
  
 ## Educational Objective
-The objective of this scenario os to show you how to install a [Apache Kafka](https://kafka.apache.org/) message broker in the Katacoda interactive
+The objective of this scenario is to show you how to install a [Apache Kafka](https://kafka.apache.org/) message broker in the Katacoda interactive
 learning environment. Also, the scenario will walk you through the steps of setting a topic and then publishing a message
 into that topic. Finally, you'll create a consumer to retrieve all the messages submitted to the topic.
 
