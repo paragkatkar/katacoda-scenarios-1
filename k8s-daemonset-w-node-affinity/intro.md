@@ -2,6 +2,7 @@
  * **What You Need To Know Before You Start**
  * **Understanding a Kubernetes Daemonset**
  * **Scenario Contents**
+ * **Getting the Source Code from GitHub**
  
 ------
 
@@ -13,7 +14,7 @@ consistent. Otherwise, you'll get behaviors that might be confusing.
 ## Educational Objective
 The objective of this scenario is to demonstrate how to create and deploy a Kubernetes
 [DaemonSet](https://kubernetes.io/docs/concepts/workloads/controllers/daemonset/) that is bound to a specific
-Kubernetes worker node according to a label that must exist on at least on node in the cluster.
+Kubernetes worker node according to a label that must exist on at least one node in the cluster.
 
 
 ## What You Need To Know Before You Start
@@ -24,7 +25,7 @@ into the interactive terminal automatically by clicking on the command.
 There is no need to type directly into the terminal window. Clicking on a command will automatically execute it.
 
 
-## Working with Kafka
+## Understanding a Kubernetes Daemonset
 
 A Kubernetes DaemonSet is a pod that runs on every worker node in a Kubernetest Cluster once declared.
   
