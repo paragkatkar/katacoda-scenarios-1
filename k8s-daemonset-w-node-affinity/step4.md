@@ -9,7 +9,7 @@ You'll take a look at the logs from the DaemonSet's container.
 
 **Task 3:** Then look at the output from a container's logs.
 
-`kubectl logs <dumb-daemonset-SOME_ID>`
+`kubectl logs -l name=dumbdaemon`
 
 You'll see output similar to the following:
 

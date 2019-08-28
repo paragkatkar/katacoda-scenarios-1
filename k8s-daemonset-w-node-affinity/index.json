@@ -1,6 +1,6 @@
 {
   "title": "Creating a Kubernetes DaemonSet with Node Affinity",
-  "description": "A sceario that shows you how create a K8S DaemonSet with Node Affinity",
+  "description": "A scenario that shows you how create a K8S DaemonSet with Node Affinity",
   "difficulty": "intermediate",
   "time": "15 minutes",
   "details": {
