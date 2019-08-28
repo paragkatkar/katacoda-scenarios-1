@@ -29,9 +29,10 @@ There is no need to type directly into the terminal window. Clicking on a comman
 
 A Kubernetes DaemonSet is a pod that runs on every worker node in a Kubernetest Cluster once declared.
   
-A feature of a DaemonSet is that Kubernetes will assign it to a node according to a label(s) that exist on the node.
-This is also know a *[node affinity](https://www.infracloud.io/kubernetes-node-affinity/)*.
-For example, you can create a DaemonSet pod that has a container with the attribute, `nodeSelector` in its manifest, like so:
+A feature of a DaemonSet is that Kubernetes will assign its container to a node according
+to a label(s) that exist on the node. This is also known as *[node affinity](https://www.infracloud.io/kubernetes-node-affinity/)*.
+For example in order to create node affinity, you can create a DaemonSet pod that has a container
+with the attribute, `nodeSelector` in its manifest, like so:
 
 ```text
 apiVersion: apps/v1
@@ -65,9 +66,9 @@ nodeSelector:
     stooge: moe
 ```
 
-Thus, when the DaemonSet is created it will look for a Kubernetes node that has a label, `stooge: moe`. If no node
-has the label, the DaemonSet will not be installed. However, once the label is assigned to the node, Kubernetes is smart enough
-to install the DaemonSet on nodes that have the label.
+When the DaemonSet is created it will look for a Kubernetes node that has a label, `stooge: moe`. If no node
+has the label, Kubernetes will not install the  DaemonSet's container. However, once the label is assigned
+to the node, Kubernetes is smart enough to install the DaemonSet's container on nodes that have the label.
 
 
 ## Scenario Contents
