@@ -1,12 +1,14 @@
 # Reviewing the Pinger Tests
 
-UNDER CONSTRUCTION
+Now let's review the unit tests that will be executed.
 
-Let's go to the `test` directory to take a look at the tests.
+**Test 1:** Go to the `test` directory to take a look at the tests.
 
 `cd /root/pinger/app/test`{{execute}}
 
-Take a look at the `http-tests`.
+You'll see there is only one test file in force, `http-tests.js`.
+
+**Test 1:** Examine the tests in the file, `http-tests.js`.
 
 `cat http-tests.js`{{execute}}
 

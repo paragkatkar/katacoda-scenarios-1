@@ -29,9 +29,28 @@ unit tests in the [Mocha](https://mochajs.org/) test framework.
 
 
 
-## Understanding a Kubernetes Daemonset
+## Understanding Node.js Code Coverage using Istanbul/Nyc
 
+Code coverage is the process of measuring how many lines of code get exercised by the projects unit tests. The Node.js package
+used to execute unit tests on the code base and generate coverage reports based the test results
+is [Istanbul/Nyc](https://www.npmjs.com/package/nyc).
 
+You'll run the tests in Step 4 of this scenario.
+
+After you run the unit test and coverage tests you'll out put that looks something similar to this:
+
+```text
+6 passing (113ms)
+
+-----------|----------|----------|----------|----------|-------------------|
+File       |  % Stmts | % Branch |  % Funcs |  % Lines | Uncovered Line #s |
+-----------|----------|----------|----------|----------|-------------------|
+All files  |    90.91 |    81.25 |      100 |    92.86 |                   |
+ server.js |    90.91 |    81.25 |      100 |    92.86 |          15,16,29 |
+-----------|----------|----------|----------|----------|-------------------|
+```
+
+You'll go over the details of this report when you do the step.
 
 ## Scenario Contents
 
@@ -43,7 +62,7 @@ Here's a listing of the steps you'll take in the scneario.
 
 **Step 3** - Reviewing the Tests
 
-**Step 4** -  Runing the Tests with Coverage and Reviewing the Results
+**Step 4** -  Running the Tests with Coverage and Reviewing the Results
 
 To proceed, click the `Continue` button.
 
