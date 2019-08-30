@@ -56,11 +56,21 @@ Notice there is a directory, `lcov-report`. Navigate tothe directory/
 This directory contains the HTML files that describe various aspects of coverage. Take a look at the
 files.
 
+To view the HTML files in a browser go here:
+
+https://[[HOST_SUBDOMAIN]]-3001-[[KATACODA_HOST]].environments.katacoda.com/docs
+
+To shut down the Test Docs Server, curl the following URL
+
+`curl https://[[HOST_SUBDOMAIN]]-3001-[[KATACODA_HOST]].environments.katacoda.com/docs/stop`{{execute}}
+
 `ls -l`{{execute}}
 
 `index.html` is the home file. Take a look at the files's contents.
 
 `cat index.html`{{execute}}
+
+https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com
 
 It's the home page for the coverage report. If were to open it in browser you'd get output
 that looks like the following.

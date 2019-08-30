@@ -5,19 +5,19 @@
   "time": "15 minutes",
   "details": {
     "steps": [{
-      "title": "Step 1 - Install the Node Application",
+      "title": "Step 1 - Installing the Node.js Application",
       "text": "step1.md"
     },
       {
-        "title": "Step 2 - Review the Code",
+        "title": "Step 2 - Reviewing the Code",
         "text": "step2.md"
       },
       {
-        "title": "Step 3 - Review the Tests",
+        "title": "Step 3 - Reviewing the Tests",
         "text": "step3.md"
       },
       {
-        "title": "Step 4 - Run the Tests and Review the Results",
+        "title": "Step 4 - Runing the Tests with Coverage and Reviewing the Results",
         "text": "step4.md"
       }
     ],
