@@ -12,7 +12,7 @@ https://[[HOST_SUBDOMAIN]]-3000-[[KATACODA_HOST]].environments.katacoda.com/
 
 **Task 3:** To see network information about the server on which `pinger` is running in a web browser, go here:
 
-https://[[HOST_SUBDOMAIN]]-3000-[[KATACODA_HOST]].environments.katacoda.com/?type=network-info
+https://[[HOST_SUBDOMAIN]]-3000-[[KATACODA_HOST]].environments.katacoda.com/?type=networkInfo
 
 **Task 4:** To see request header information that's part of a request against `pinger` in a web browser, go here:
 
