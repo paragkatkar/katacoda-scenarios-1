@@ -78,4 +78,6 @@ To see `pinger` information in a web browser, go here:
 
 https://[[HOST_SUBDOMAIN]]-3000-[[KATACODA_HOST]].environments.katacoda.com/
 
+**Congratulations! You're done!**
+
 
