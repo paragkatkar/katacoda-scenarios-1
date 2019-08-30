@@ -58,11 +58,11 @@ files.
 
 To view the HTML files in a browser go here:
 
-https://[[HOST_SUBDOMAIN]]-3001-[[KATACODA_HOST]].environments.katacoda.com/docs
+https://[[HOST_SUBDOMAIN]]-3001-[[KATACODA_HOST]].environments.katacoda.com/
 
 To shut down the Test Docs Server, curl the following URL
 
-`curl https://[[HOST_SUBDOMAIN]]-3001-[[KATACODA_HOST]].environments.katacoda.com/docs/stop`{{execute}}
+`curl https://[[HOST_SUBDOMAIN]]-3001-[[KATACODA_HOST]].environments.katacoda.com/stop`{{execute}}
 
 `ls -l`{{execute}}
 
