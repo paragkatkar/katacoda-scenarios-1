@@ -66,11 +66,6 @@ the following URL in the second terminal window:
 
 `curl https://[[HOST_SUBDOMAIN]]-3001-[[KATACODA_HOST]].environments.katacoda.com/stop`{{execute  T2}}
 
-Let's start up the `pinger` API so see the information it provides.
-
-**Task 7:** Execute the following command to start the `pinger` API server in the second terminal window.
-
-`cd pinger/app/ && node server.js`{{execute T2}}
 
 Continue on to the next step....
 
