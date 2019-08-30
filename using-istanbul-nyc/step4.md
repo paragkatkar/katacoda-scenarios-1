@@ -72,7 +72,5 @@ Let's start up the `pinger` API so see the information it provides.
 
 `cd pinger/app/ && node server.js`{{execute T2}}
 
-To see `pinger` information in a web browser, go here:
-
-https://[[HOST_SUBDOMAIN]]-3000-[[KATACODA_HOST]].environments.katacoda.com/
+Continue on to the next step....
 

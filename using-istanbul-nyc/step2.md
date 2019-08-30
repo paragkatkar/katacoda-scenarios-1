@@ -12,6 +12,8 @@ Next we need to install the Node.js dependency packages that `pinger` needs to r
 
 `cat server.js`{{execute}}
 
+Continue on to the next step....
+
 
 
 

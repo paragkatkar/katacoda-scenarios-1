@@ -4,3 +4,5 @@ it into the Katacoda intractive learning environment.
 **Task 1:** Click or type the following in the interactive terminal to clone the `pinger` code into Katacoda.
 
 `git clone https://github.com/reselbob/pinger.git`{{execute}}
+
+Continue on to the next step....
