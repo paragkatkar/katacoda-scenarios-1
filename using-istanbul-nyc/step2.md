@@ -1,10 +1,10 @@
-Next we need to install the Node.js dependency packages that `pinger` needs to run and also needs to execute tests.
+Next we need to install the Node.js dependency packages that `pinger` needs to run  the code and also needs to execute tests.
 
 **Task 1:** Go to the directory that has the application source code.
 
 `cd pinger/app/`{{execute}}
 
-**Task 2:** Install the Node.js dependencies
+**Task 2:** Install the Node.js package dependencies
 
 `npm install`{{execute}}
 

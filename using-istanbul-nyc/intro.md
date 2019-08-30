@@ -12,14 +12,14 @@ consistent. Otherwise, you'll get behaviors that might be confusing.
 ------
  
 ## Educational Objective
-The objective of this scenario is to demonstrate how to apply Mocha testing and [Istanbul/Nyc](https://www.npmjs.com/package/nyc)
+The objective of this scenario is to demonstrate how to apply Mocha unit testing and [Istanbul/Nyc](https://www.npmjs.com/package/nyc)
 code coverage to an application running under [Node.js](https://nodejs.org/en/).
 
 
 ## What You Need To Know Before You Start
 In order to get full benefit from the concepts and tasks presented in this scenario you need to have basic understanding
 of how to enter commands in the Katacoda interactive learning environment. Each step has commands that can be entered
-into the interactive terminal automatically by clicking on the command.
+into the interactive terminal automatically by clicking on the command in the left side text pane of the interactive environment's web page.
 
 There is no need to type directly into the terminal window. Clicking on a command will automatically execute it.
 
@@ -31,8 +31,9 @@ unit tests in the [Mocha](https://mochajs.org/) test framework.
 
 ## Understanding Node.js Code Coverage using Istanbul/Nyc
 
-Code coverage is the process of measuring how many lines of code get exercised by the projects unit tests. The Node.js package
-used to execute unit tests on the code base and generate coverage reports based the test results
+Code coverage is the process of measuring how many lines of code get exercised by a project's unit tests. The Node.js package
+used to execute unit tests on the code base for the demonstration application is [Mocha](https://mochajs.org/). The 
+page used to generate coverage reports based the Mocha's test results
 is [Istanbul/Nyc](https://www.npmjs.com/package/nyc).
 
 You'll run the tests in Step 4 of this scenario.
@@ -50,11 +51,11 @@ All files  |    90.91 |    81.25 |      100 |    92.86 |                   |
 -----------|----------|----------|----------|----------|-------------------|
 ```
 
-You'll go over the details of this report when you do the step.
+You'll view the details of this report when you do the step.
 
 ## Scenario Contents
 
-Here's a listing of the steps you'll take in the scneario.
+Here's a listing of the steps you'll take in the scenario.
 
 **Step 1** - Installing the Node.js Application
 
