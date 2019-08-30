@@ -17,8 +17,12 @@
         "text": "step3.md"
       },
       {
-        "title": "Step 4 - Runing the Tests with Coverage and Reviewing the Results",
+        "title": "Step 4 - Running the Tests with Coverage and Reviewing the Results",
         "text": "step4.md"
+      },
+      {
+        "title": "Step 5 - Using the Pinger API",
+        "text": "step5.md"
       }
     ],
     "intro": {

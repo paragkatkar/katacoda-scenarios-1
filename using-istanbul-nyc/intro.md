@@ -62,7 +62,9 @@ Here's a listing of the steps you'll take in the scneario.
 
 **Step 3** - Reviewing the Tests
 
-**Step 4** -  Running the Tests with Coverage and Reviewing the Results
+**Step 4** - Running the Tests with Coverage and Reviewing the Results
+
+**Step 5** - Using the Pinger API
 
 To proceed, click the `Continue` button.
 
