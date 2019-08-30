@@ -53,24 +53,24 @@ All files  |    90.91 |    81.25 |      100 |    92.86 |                   |
 
 https://[[HOST_SUBDOMAIN]]-3001-[[KATACODA_HOST]].environments.katacoda.com/
 
-**Task 5:** To shut down the Test Documentation Server, [curl](https://www.lifewire.com/curl-definition-2184508)
-the following URL:
-
-`curl https://[[HOST_SUBDOMAIN]]-3001-[[KATACODA_HOST]].environments.katacoda.com/stop`{{execute  T1}}
-
-
 The home page for the coverage report should look something like the following
 that looks like the following.
 
 ![Coverage](https://raw.githubusercontent.com/reselbob/katacoda-scenarios/master/using-istanbul-nyc/images/coverage.png)
 
-Let's start up the `pinger` API so see the information it provides.
 
-**Task 6:** Open a second termimail window
+**Task 5:** Open a second terminal window
 
 `Click to open a second window`{{execute T2}}
 
-**Task 6:** Execute the following command to start the `pinger` API server.
+**Task 6:** To shut down the Test Documentation Server, [curl](https://www.lifewire.com/curl-definition-2184508)
+the following URL in the second terminal window:
+
+`curl https://[[HOST_SUBDOMAIN]]-3001-[[KATACODA_HOST]].environments.katacoda.com/stop`{{execute  T2}}
+
+Let's start up the `pinger` API so see the information it provides.
+
+**Task 7:** Execute the following command to start the `pinger` API server in the second terminal window.
 
 `cd pinger/app/ && node server.js`{{execute T2}}
 
