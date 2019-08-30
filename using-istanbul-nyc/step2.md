@@ -18,7 +18,7 @@ Let's start up the `pinger` API so see the information it provides.
 
 **Task 4:** Execute the following command to start the `pinger` API server.
 
-`node server.js`{{execute T2}}
+`cd pinger/app/ && node server.js`{{execute T2}}
 
 To see `pinger` information in a web browser, go here:
 
