@@ -1,5 +1,3 @@
-# Installing Pinger from the GitHub Repo
-
 The first thing we need to do is get the code for the demonstation application `pinger` from GitHub and clone
 it into the Katacoda intractive learning environment.
 

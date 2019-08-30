@@ -1,5 +1,3 @@
-# Reviewing the Pinger Tests
-
 Now let's review the unit tests that will be executed.
 
 **Test 1:** Go to the `test` directory to take a look at the tests.

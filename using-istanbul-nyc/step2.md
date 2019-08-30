@@ -1,5 +1,3 @@
-# Reviewing the Pinger Code
-
 Next we need to install the Node.js dependency packages that `pinger` needs to run and also needs to execute tests.
 
 **Task 1:** Go to the directory that has the application source code.
