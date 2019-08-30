@@ -64,11 +64,15 @@ that looks like the following.
 
 ![Coverage](https://raw.githubusercontent.com/reselbob/katacoda-scenarios/master/using-istanbul-nyc/images/coverage.png)
 
-Let's start up the `pinger` API so see the information it provides. 
+Let's start up the `pinger` API so see the information it provides.
+
+**Task 6:** Open a second termimail window
+
+`Click to open a second window`{{execute T2}}
 
 **Task 6:** Execute the following command to start the `pinger` API server.
 
-`cd pinger/app/ && node server.js`{{execute T1}}
+`cd pinger/app/ && node server.js`{{execute T2}}
 
 To see `pinger` information in a web browser, go here:
 
