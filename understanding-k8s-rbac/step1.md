@@ -1,5 +1,3 @@
-# Cloning the Source Code from GitHub
-
 *Step 1:** Clone the source code from GitHub:
 
 `git clone https://github.com/reselbob/k8sassets.git`{{execute}}

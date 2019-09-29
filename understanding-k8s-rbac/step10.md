@@ -1,5 +1,3 @@
-# Creating a Cluster Context for the New User
-
 **Step 1:** Set the security credentials of `${MAGIC_USER}` (a.k.a `dicktracy`) to the Kubernetes configuration
 
 `kubectl config set-credentials ${MAGIC_USER}@kubernetes --client-certificate=$HOME/.certs/${MAGIC_USER}.crt --client-key=$HOME/.certs/${MAGIC_USER}.key --embed-certs=true`{{execute}}

@@ -1,5 +1,3 @@
-# Creating the Security Certificates
-
 **Step 1:** Declare the name of the Kubernetes user we're going to support by setting it to an environment
 variable
 
@@ -13,7 +11,7 @@ This will generate and `dicktracy.key`.
 
 **Step 3:** Create the certificate signing request file, `dicktracy.csr`.
 
-`openssl req -new -key dicktracy.key -out dicktracy.csr -subj "/CN=dicktracy/O=acme"`{{execute}}
+`openssl req -new -key dicktracy.key -out dicktracy.csr -subj "/CN=${MAGIC_USER}/O=devs/O=tech-leads"`{{execute}}
 
 **Step 4:** take a look at the contents of `/etc/kubernetes/pki`
 

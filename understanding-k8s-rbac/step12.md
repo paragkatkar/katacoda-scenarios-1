@@ -1,5 +1,3 @@
-# Verifying RBAC
-
 **Step 1:**  Move into the context that supports `dicktracy`
 
 `kubectl config use-context ${MAGIC_USER}@kubernetes`{{execute}}
@@ -40,3 +38,20 @@ to view pods. Earlier on you were.
 
 You'll output as follows:
 
+`pod/pinger-dk created`
+
+Why can we do this? Because we switched back the the context, `kubernetes-admin@kubernetes` and the user in this context,
+`kubernetes-admin` has permission to create pods.
+
+**Step 6:** Let's verify that the newly created pod is indeed there:
+
+`master $ kubectl get pods -n test`
+
+You'll get output similar to the following:
+
+```text
+NAME        READY   STATUS    RESTARTS   AGE
+pinger-dk   1/1     Running   0          54s
+```
+
+**Next UP:** Creating Roles and RoleBindings for Groups

@@ -1,5 +1,3 @@
-# Creating Roles and RoleBindings for a User
-
 **Step 1:** Let's look at the manifest file that we'll use to create the Kubernetes Role, `pod-access`. 
 
 ```yaml

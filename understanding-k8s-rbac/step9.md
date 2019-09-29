@@ -1,5 +1,3 @@
-# Creating the Required Namespaces
-
 We'll create two namespaces using this manifest:
 
 ```yaml
