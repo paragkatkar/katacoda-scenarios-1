@@ -44,7 +44,7 @@ You'll output as follows:
 
 `pod/pinger-dk created`
 
-**Why can we do this?** Because we switched back the the context, `kubernetes-admin@kubernetes` and the user in this context,
+**Why can we do this?** Because we switched back to the context, `kubernetes-admin@kubernetes` and the user in this context,
 `kubernetes-admin` has permission to create pods.
 
 **Step 6:** Let's verify that the newly created pod is indeed there:
