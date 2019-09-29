@@ -25,7 +25,7 @@ You'll get output as follows:
 
 `No resources found.`
 
-This is good news because although there happens to be no pods found you are not being denied permission
+This is good news because although there happens to be no pods found, you are not being denied permission
 to view pods. Earlier on you were.
 
 **Step 4:** Let's switch back to the context, ` kubernetes-admin@kubernetes` and see what we can accomplish.

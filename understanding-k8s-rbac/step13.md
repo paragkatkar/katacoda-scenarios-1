@@ -89,7 +89,7 @@ You'll get output as follows:
 
 **Step 6:** Let's see if indeed `dicktracy` could make pods by virtual of the fact that the user is in the group `devs`.
 
-`kubectl get pods -n devs`
+`kubectl get pods -n devs`{{execute}}
 
 You'll get output as follows:
 
@@ -99,7 +99,10 @@ pinger-dk   1/1     Running   0          2m13s
 ```
 
 **But wait!** Something mysterious just happened. Didn't we create a pod named, `pinger-dk` in the previous step? How could this have 
-happened? Let's answer the question by switching back to the use `kubernetes-admin`.
+happened? How could we have made it so that Kubernetes accepted two pods with the same name. Jeepers! Are pod names supposed
+to be unique?
+
+Let's answer the question by switching back to the use `kubernetes-admin`.
 
 **Step 7:** Switch back to be `kubernetes-admin` by changing the context.
 

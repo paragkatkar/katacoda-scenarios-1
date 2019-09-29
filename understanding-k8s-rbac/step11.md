@@ -1,4 +1,4 @@
-**Step 1:** Let's look at the manifest file that we'll use to create the Kubernetes Role, `pod-access`. 
+**Step 1:** Let's look at the manifest file that we'll use to create the Kubernetes Role, `pod-reader`. 
 
 ```yaml
 kind: Role
