@@ -14,4 +14,71 @@ You'll get output similar to the following:
 
 `Context "dicktracy@kubernetes" created.`
 
+
+**Next Up:** Creating the Required Namespaces
+
+**Step 3:** Let's revisit the configuration to see the addition of the new context containing the new user.
+
+`kubectl config view`{{execute}}
+
+```yaml
+apiVersion: v1
+clusters:
+- cluster:
+    certificate-authority-data: DATA+OMITTED
+    server: https://172.17.0.8:6443
+  name: kubernetes
+contexts:
+- context:
+    cluster: kubernetes
+    user: dicktracy@kubernetes
+  name: dicktracy@kubernetes
+- context:
+    cluster: kubernetes
+    user: kubernetes-admin
+  name: kubernetes-admin@kubernetes
+current-context: kubernetes-admin@kubernetes
+kind: Config
+preferences: {}
+users:
+- name: dicktracy@kubernetes
+  user:
+    client-certificate-data: REDACTED
+    client-key-data: REDACTED
+- name: kubernetes-admin
+  user:
+    client-certificate-data: REDACTED
+    client-key-data: REDACTED
+```
+Notice in the above, the addition of the user, `dicktracy@kubernetes`, like so:
+
+```yaml
+users:
+- name: dicktracy@kubernetes
+  user:
+    client-certificate-data: REDACTED
+    client-key-data: REDACTED
+- name: kubernetes-admin
+  user:
+    client-certificate-data: REDACTED
+    client-key-data: REDACTED
+```
+Also, notice that the user, `dicktracy@kubernetes` now is bound to the cluster in the on the `context` named, `dicktracy@kubernetes`
+like so:
+
+```yaml
+contexts:
+- context:
+    cluster: kubernetes
+    user: dicktracy@kubernetes
+  name: dicktracy@kubernetes
+- context:
+    cluster: kubernetes
+    user: kubernetes-admin
+  name: kubernetes-admin@kubernetes
+current-context: kubernetes-admin@kubernetes
+```
+
+We're now ready to assign permissions to `dicktracy` using Kubernetes Role and RoleBindings.
+
 **Next Up:** Creating Roles and RoleBindings for a User"
