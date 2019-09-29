@@ -17,7 +17,7 @@ This will generate and `dicktracy.key`.
 
 **Step 4:** take a look at the contents of `/etc/kubernetes/pki`
 
-`ls -ltr /etc/kubernetes/pki`
+`ls -ltr /etc/kubernetes/pki`{{execute}}
 
 You'll see output similar to the following:
 
@@ -48,3 +48,8 @@ Notice that files, `ca.key` and `ca.crt`. These files will be referenced when ma
 **Step 6:** Make a directory, `$HOME/.certs` and move the files, `dicktracy.crt` and `dicktracy.key` into the directory `$HOME/.certs`.
 
 `mkdir -p $HOME/.certs && mv dicktracy.crt dicktracy.key $HOME/.certs`{{execute}}
+
+
+**Step 7:** Take a look to make sure the certificates got copied in:
+
+`ls -lh $HOME/.certs`{{execute}}

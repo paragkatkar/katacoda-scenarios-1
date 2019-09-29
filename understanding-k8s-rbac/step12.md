@@ -2,7 +2,7 @@
 
 **Step 1:**  Move into the context that supports `dicktracy`
 
-`kubectl config use-context ${MAGIC_USER}@kubenetes`{{execute}}
+`kubectl config use-context ${MAGIC_USER}@kubernetes`{{execute}}
 
 **Step 2:** Try to create a pod in the namespace, `test`
 
