@@ -1,6 +1,6 @@
 {
-  "title": "Setting Up Apache Kafka to Run on KataCoda",
-  "description": "Installing Kafka and Publishing to a Topic",
+  "title": "Understanding Kubernetes Roles Basic Access Control (RBAC)",
+  "description": "This is a project that covers the basic techniques required to create a user and group with special permissions under a Kubernetes Cluster",
   "difficulty": "beginner",
   "time": "15 minutes",
   "details": {
