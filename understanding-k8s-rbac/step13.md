@@ -114,7 +114,7 @@ You'll get output as follows:
 
 **Step 8:** Let's get the pods in all namespaces and filter by the pod name, `pinger-dk`
 
-`kubectl get pods  --all-namespaces | grep pinger-dk`
+`kubectl get pods  --all-namespaces | grep pinger-dk`{{execute}}
 
 You'll get output as follows:
 
@@ -125,3 +125,5 @@ test          pinger-dk                                 1/1     Running   0     
 The first column in the output shown above is the namespace. Notice that the namespace, `devs` has a pod named, `pinger-dk` and
 the namespace `test` has a pod named, `pinger-dk`. This is perfectly OK. You can have pods with duplicate names as long as
 each pod is in a distinct namespace.
+
+**Congratulations on completing the last step in this scenario!**
