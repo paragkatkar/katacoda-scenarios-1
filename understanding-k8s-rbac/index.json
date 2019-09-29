@@ -1,0 +1,75 @@
+{
+  "title": "Setting Up Apache Kafka to Run on KataCoda",
+  "description": "Installing Kafka and Publishing to a Topic",
+  "difficulty": "beginner",
+  "time": "15 minutes",
+  "details": {
+    "steps": [{
+      "title": "Step 1 - Cloning the Source Code from GitHub",
+      "text": "step1.md"
+    },
+      {
+        "title": "Step 2 - Understanding the Theory Behind RBAC and Secure Access to Kubernetes",
+        "text": "step2.md"
+      },
+      {
+        "title": "Step 3 - Understanding Subjects, Resources, and Operations in Kubernetes",
+        "text": "step3.md"
+      },
+      {
+        "title": "Step 4 - Understanding Kubernetes Roles",
+        "text": "step4.md"
+      },
+      {
+        "title": "Step 5 - Understanding Kubernetes Rolebindings",
+        "text": "step5.md"
+      },
+      {
+        "title": "Step 6 - Configuring Role and Rolebinding Manifests",
+        "text": "step6.md"
+      },
+      {
+        "title": "Step 7 - Reviewing the Certificate Creation Process",
+        "text": "step7.md"
+      },
+      {
+        "title": "Step 8 - Creating the Security Certificates",
+        "text": "step8.md"
+      },
+      {
+        "title": "Step 9 - Creating the Required Namespaces",
+        "text": "step9.md"
+      },
+      {
+        "title": "Step 10 - Creating a Cluster Context for the New User",
+        "text": "step10.md"
+      },
+      {
+        "title": "Step 11 - Creating Roles and RoleBindings for a User",
+        "text": "step11.md"
+      },
+      {
+        "title": "Step 12 - Verifying RBAC",
+        "text": "step12.md"
+      },
+      {
+        "title": "Step 13 - Creating Roles and RoleBindings for Groups",
+        "text": "step13.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md",
+      "credits": ""
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "terminal",
+    "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\r\nType 'printenv' to do a basic interaction\u001b[m\r\n"
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}
