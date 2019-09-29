@@ -17,7 +17,7 @@ rules:
 **Step 2:** Now, create the `pod-access` role that allows only using `kubectl get`. (This is all described in
 the manifest file shown above.)
 
-`kubectl apply -f pod-reader.yaml`{execute}
+`kubectl apply -f pod-reader.yaml`{{execute}}
 
 **Step 3:** Let's look at the manifest file that we'll use to create the Kubernetes RoleBinding, `user-pod-reader`.
 
@@ -40,4 +40,4 @@ roleRef:
 **Step 4:** Create the RoleBinding, `user-pod-reader` that allows the user, `dicktracy` to assume the 
 role, `pod-reader`.
 
-`kubectl apply -f user-pod-reader-rolebinding.yaml`{execute}
+`kubectl apply -f user-pod-reader-rolebinding.yaml`{{execute}}

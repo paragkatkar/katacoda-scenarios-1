@@ -20,9 +20,9 @@ metadata:
 
 **Step 1:** Execute the manifest that contains declarations for the namespaces, `devs` and `test`
 
-`kubectl apply -f namespaces.yaml`{execute}
+`kubectl apply -f namespaces.yaml`{{execute}}
  
  **Step 2:** Check that the namespaces have been created
  
- `kubectl get ns`{execute}
+ `kubectl get ns`{{execute}}
  

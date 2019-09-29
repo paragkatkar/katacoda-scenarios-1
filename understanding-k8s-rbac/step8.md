@@ -3,17 +3,17 @@
 **Step 1:** Declare the name of the Kubernetes user we're going to support by setting it to an environment
 variable
 
-`export MAGIC_USER=dicktracy`{execute}
+`export MAGIC_USER=dicktracy`{{execute}}
 
 **Step 2:** Generate an RSA key using `openssl`
 
-`openssl genrsa -out dicktracy.key 2048`{execute}
+`openssl genrsa -out dicktracy.key 2048`{{execute}}
 
 This will generate and `dicktracy.key`.
 
 **Step 3:** Create the certificate signing request file, `dicktracy.csr`.
 
-`openssl req -new -key dicktracy.key -out dicktracy.csr -subj "/CN=dicktracy/O=acme"`{execute}
+`openssl req -new -key dicktracy.key -out dicktracy.csr -subj "/CN=dicktracy/O=acme"`{{execute}}
 
 **Step 4:** take a look at the contents of `/etc/kubernetes/pki`
 
@@ -43,8 +43,8 @@ Notice that files, `ca.key` and `ca.crt`. These files will be referenced when ma
 
 **Step 5:** Create the `dicktracy.crt` file.
 
-`sudo openssl x509 -req -in dicktracy.csr -CA /etc/kubernetes/pki/ca.crt -CAkey /etc/kubernetes/pki/ca.key -CAcreateserial -out dicktracy.crt -days 500`{execute}
+`sudo openssl x509 -req -in dicktracy.csr -CA /etc/kubernetes/pki/ca.crt -CAkey /etc/kubernetes/pki/ca.key -CAcreateserial -out dicktracy.crt -days 500`{{execute}}
 
 **Step 6:** Make a directory, `$HOME/.certs` and move the files, `dicktracy.crt` and `dicktracy.key` into the directory `$HOME/.certs`.
 
-`mkdir -p $HOME/.certs && mv dicktracy.crt dicktracy.key $HOME/.certs`{execute}
+`mkdir -p $HOME/.certs && mv dicktracy.crt dicktracy.key $HOME/.certs`{{execute}}
