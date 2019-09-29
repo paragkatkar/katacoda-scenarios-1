@@ -16,4 +16,4 @@ so the cluster's administrative user, `kubernetes-admin` and the new user we cre
 same Kubernetes `config` file. In the real world, the new user, `dicktracy` would be given a `.config` file
 that contains only access information that is particular to the permissions granted to, `dicktracy`.
  
- **Next Up:** Creating the Security Certificates
+**Next Up:** Creating the Security Certificates
