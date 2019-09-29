@@ -1,5 +1,11 @@
 ![RBAC RoleBindings](https://github.com/reselbob/k8sassets/blob/master/rbac/images/RBAC-RoleBinding.jpeg?raw=true)
 
- MORE TO BE PROVIDED
+As mentioned previously in Step, the assignment of a `Role` to a subject -- a user, group or even a services (process) -- is the purpose of
+a `RoleBinding`.
+
+The illustration above describes a RoleBinding in which a user, `reselbob` is assigned to the Role, `pds-viewer`.
+Also, the group, `Developers` is assigned to the Role, `pds-viewer`.
+
+The next step will show how how to create a Role and RoleBinding using a manifest.
  
  **Next Up:** Configuring Role and RoleBinding Manifests
