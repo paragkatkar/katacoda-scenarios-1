@@ -39,3 +39,5 @@ roleRef:
 role, `pod-reader`.
 
 `kubectl apply -f user-pod-reader-rolebinding.yaml`{{execute}}
+
+**Next Up:** Verifying RBAC

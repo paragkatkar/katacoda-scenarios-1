@@ -5,3 +5,5 @@
 **Step 2:** Create a new Kubernetes context
 
 `kubectl config set-context ${MAGIC_USER}@kubernetes --cluster=kubernetes --user=${MAGIC_USER}@kubernetes`{{execute}}
+
+**Next Up:** Creating Roles and RoleBindings for a User"

@@ -7,5 +7,5 @@ that will be used in the steps that follow.
  
  `cd k8sassets/rbac`{{execute}}
  
- **Next Up:**  Understanding the Theory Behind RBAC and Secure Access to Kubernetes
+**Next Up:**  Understanding the Theory Behind RBAC and Secure Access to Kubernetes
  

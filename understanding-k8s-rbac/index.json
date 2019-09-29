@@ -21,11 +21,11 @@
         "text": "step4.md"
       },
       {
-        "title": "Step 5 - Understanding Kubernetes Rolebindings",
+        "title": "Step 5 - Understanding Kubernetes RoleBinding",
         "text": "step5.md"
       },
       {
-        "title": "Step 6 - Configuring Role and Rolebinding Manifests",
+        "title": "Step 6 - Configuring Role and RoleBinding Manifests",
         "text": "step6.md"
       },
       {

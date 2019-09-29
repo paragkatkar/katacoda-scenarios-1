@@ -24,3 +24,4 @@ metadata:
  
  `kubectl get ns`{{execute}}
  
+ **Next Up:** Creating a Cluster Context for the New User

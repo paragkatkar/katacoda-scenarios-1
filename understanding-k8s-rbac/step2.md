@@ -5,3 +5,5 @@ Take a look at the configuratoni
  `kubectl config view`{{execute}}
  
  MORE TO BE PROVIDED
+ 
+ **Next Up:** Understanding Subjects, Resources, and Operations in Kubernetes

@@ -51,3 +51,5 @@ Notice that files, `ca.key` and `ca.crt`. These files will be referenced when ma
 **Step 7:** Take a look to make sure the certificates got copied in:
 
 `ls -lh $HOME/.certs`{{execute}}
+
+**Next Up:** Creating the Required Namespaces
