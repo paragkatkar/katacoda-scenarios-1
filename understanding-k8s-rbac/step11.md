@@ -17,6 +17,10 @@ the manifest file shown above.)
 
 `kubectl apply -f pod-reader.yaml`{{execute}}
 
+You'll get output similar to the following:
+
+`role.rbac.authorization.k8s.io/pod-reader created`
+
 **Step 3:** Let's look at the manifest file that we'll use to create the Kubernetes RoleBinding, `user-pod-reader`.
 
 ```yaml
@@ -39,5 +43,9 @@ roleRef:
 role, `pod-reader`.
 
 `kubectl apply -f user-pod-reader-rolebinding.yaml`{{execute}}
+
+You'll get output similar to the following:
+
+`rolebinding.rbac.authorization.k8s.io/user-pod-reader created`
 
 **Next Up:** Verifying RBAC

@@ -19,9 +19,30 @@ metadata:
 **Step 1:** Execute the manifest that contains declarations for the namespaces, `devs` and `test`
 
 `kubectl apply -f namespaces.yaml`{{execute}}
+
+You'll get output similar to the following:
+
+```text
+namespace/devs created
+namespace/test created
+```
  
  **Step 2:** Check that the namespaces have been created
  
  `kubectl get ns`{{execute}}
+ 
+ You'll get output similar to the following:
+ 
+ ```text
+NAME              STATUS   AGE
+default           Active   31m
+devs              Active   1s
+kube-node-lease   Active   31m
+kube-public       Active   31m
+kube-system       Active   31m
+test              Active   1s
+```
+ 
+ All is well.
  
  **Next Up:** Creating a Cluster Context for the New User

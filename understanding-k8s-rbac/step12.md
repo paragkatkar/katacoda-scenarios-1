@@ -19,7 +19,7 @@ Why? Because the user `dicktracy` does not have permission to `create` a pod.
 
 **Step 3:** But try to view pods in the namespace, `test`
 
-`kubectl get pods -n test`
+`kubectl get pods -n test`{{execute}}
 
 You'll get output as follows:
 
@@ -32,6 +32,10 @@ to view pods. Earlier on you were.
 
 `kubectl config use-context kubernetes-admin@kubernetes`{{execute}}
 
+You'll get output as follows:
+
+`Switched to context "kubernetes-admin@kubernetes".`
+
 **Step 5:** Now try to create the deployment:
 
 `kubectl run --generator=run-pod/v1 pinger-dk --image=reselbob/pinger:v2.3 -n test`{{execute}}
@@ -40,12 +44,12 @@ You'll output as follows:
 
 `pod/pinger-dk created`
 
-Why can we do this? Because we switched back the the context, `kubernetes-admin@kubernetes` and the user in this context,
+**Why can we do this?** Because we switched back the the context, `kubernetes-admin@kubernetes` and the user in this context,
 `kubernetes-admin` has permission to create pods.
 
 **Step 6:** Let's verify that the newly created pod is indeed there:
 
-`master $ kubectl get pods -n test`
+`kubectl get pods -n test`{{execute}}
 
 You'll get output similar to the following:
 
@@ -54,4 +58,4 @@ NAME        READY   STATUS    RESTARTS   AGE
 pinger-dk   1/1     Running   0          54s
 ```
 
-**Next UP:** Creating Roles and RoleBindings for Groups
+**Next Up:** Creating Roles and RoleBindings for Groups

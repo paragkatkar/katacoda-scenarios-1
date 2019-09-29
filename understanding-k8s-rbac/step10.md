@@ -2,8 +2,16 @@
 
 `kubectl config set-credentials ${MAGIC_USER}@kubernetes --client-certificate=$HOME/.certs/${MAGIC_USER}.crt --client-key=$HOME/.certs/${MAGIC_USER}.key --embed-certs=true`{{execute}}
 
+You'll get output similar to the following:
+
+`User "dicktracy@kubernetes" set.`
+
 **Step 2:** Create a new Kubernetes context
 
 `kubectl config set-context ${MAGIC_USER}@kubernetes --cluster=kubernetes --user=${MAGIC_USER}@kubernetes`{{execute}}
+
+You'll get output similar to the following:
+
+`Context "dicktracy@kubernetes" created.`
 
 **Next Up:** Creating Roles and RoleBindings for a User"
