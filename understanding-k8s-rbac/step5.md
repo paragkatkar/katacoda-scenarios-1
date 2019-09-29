@@ -1,6 +1,6 @@
 ![RBAC RoleBindings](https://github.com/reselbob/k8sassets/blob/master/rbac/images/RBAC-RoleBinding.jpeg?raw=true)
 
-As mentioned previously in Step, the assignment of a `Role` to a subject -- a user, group or even a services (process) -- is the purpose of
+As mentioned previously in Step 3, the assignment of a `Role` to a subject -- a user, group or even a services (process) -- is the purpose of
 a `RoleBinding`.
 
 The illustration above describes a RoleBinding in which a user, `reselbob` is assigned to the Role, `pds-viewer`.

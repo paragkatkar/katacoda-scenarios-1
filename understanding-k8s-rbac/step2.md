@@ -34,9 +34,9 @@ users:
  But, for now we'll work the single cluster.
  
  In this scenario, we're going to create a new user, `dicktracy` and bind that user to the cluster, `kubernetes`. Also, we're
- going to make it so that the user, `dicktracy` will belong to two groups, `devs` and `tech-leads`. We'll user Kubernetes Role
+ going to make it so that the user, `dicktracy` will belong to two groups, `devs` and `tech-leads`. We'll use Kubernetes Role
  RoleBindings to make it so that the user, `dicktracy` has a particular set of permissions. Also, we'll make it so that the 
- group., `devs` has special permissions too.
+ group, `devs` has special permissions too.
  
  Because `dicktracy` will belong to the group, `devs` that user's permissions will be expanded according to the permissions
  given to the group, `devs`.
