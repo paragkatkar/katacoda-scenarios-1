@@ -87,7 +87,7 @@ You'll get output as follows:
 
 `pod/pinger-dk created`
 
-**Step 6:** Let's see if indeed `dicktracy` could make pods by virtual of the fact that the user is in the group `devs`.
+**Step 6:** Let's see if indeed `dicktracy` could make pods by virtue of the fact that the user is in the group `devs`.
 
 `kubectl get pods -n devs`{{execute}}
 
