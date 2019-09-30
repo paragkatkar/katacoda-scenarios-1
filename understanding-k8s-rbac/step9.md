@@ -11,9 +11,9 @@ metadata:
 kind: Namespace
 apiVersion: v1
 metadata:
-  name: testers
+  name: test
   labels:
-    name: testers
+    name: test
 ```
 
 **Step 1:** Execute the manifest that contains declarations for the namespaces, `devs` and `test`
