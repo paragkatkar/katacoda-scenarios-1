@@ -81,4 +81,4 @@ current-context: kubernetes-admin@kubernetes
 
 We're now ready to assign permissions to `dicktracy` using Kubernetes Role and RoleBindings.
 
-**Next Up:** Creating Roles and RoleBindings for a User"
+**Next Up:** Creating Roles and RoleBindings for a User
