@@ -1,5 +1,5 @@
 {
-  "title": "Understanding Kubernetes Roles Basic Access Control (RBAC)",
+  "title": "Understanding Kubernetes Role-Based Access Control (RBAC)",
   "description": "This is a project that covers the basic techniques required to create a user and group with special permissions under a Kubernetes Cluster",
   "difficulty": "beginner",
   "time": "15 minutes",
