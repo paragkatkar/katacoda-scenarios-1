@@ -59,5 +59,4 @@ You'll get output similar to the following:
 NAME        READY   STATUS    RESTARTS   AGE
 pinger-dk   1/1     Running   0          54s
 ```
-
 **Next Up:** Creating Roles and RoleBindings for Groups
