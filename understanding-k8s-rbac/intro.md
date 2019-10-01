@@ -1,3 +1,5 @@
+<iframe width="560" height="315" src="https://www.youtube.com/embed/MKCH9bVPI4k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
  * **Educational Objective**
  * **What You Need To Know Before You Start**
  * **Working with Kafka**
