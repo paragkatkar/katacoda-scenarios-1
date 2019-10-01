@@ -1,3 +1,5 @@
+<iframe width="560" height="315" src="https://www.youtube.com/embed/MEm9hVJuyFI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ![Configuring Role and RoleBinding Manifests](https://github.com/reselbob/k8sassets/blob/master/rbac/images/roles-bindings.png?raw=true)
 
 The figure above illustrates the manifests for a Role and a RoleBinding.

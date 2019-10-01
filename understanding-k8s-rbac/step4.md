@@ -1,3 +1,5 @@
+<iframe width="560" height="315" src="https://www.youtube.com/embed/4QWwdHN4y8w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ![RBAC Roles](https://github.com/reselbob/k8sassets/blob/master/rbac/images/RBAC-Role.jpeg?raw=true)
 
 As mentioned in the previous step,  The association of `operations` to `resources` is what is

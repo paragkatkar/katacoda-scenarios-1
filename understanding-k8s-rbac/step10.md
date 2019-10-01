@@ -1,3 +1,5 @@
+<iframe width="560" height="315" src="https://www.youtube.com/embed/TPdilqnHA0c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 **Step 1:** Set the security credentials of `${MAGIC_USER}` (a.k.a `dicktracy`) to the Kubernetes configuration
 
 `kubectl config set-credentials ${MAGIC_USER}@kubernetes --client-certificate=$HOME/.certs/${MAGIC_USER}.crt --client-key=$HOME/.certs/${MAGIC_USER}.key --embed-certs=true`{{execute}}

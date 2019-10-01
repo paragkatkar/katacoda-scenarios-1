@@ -1,3 +1,5 @@
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Qe9CCQ0CP1s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 Before we start we need to understand the purpose and structure of the Kubernetes cluster configuration.
  
 Take a look at the Kubernetes configuration

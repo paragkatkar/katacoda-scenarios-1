@@ -1,3 +1,5 @@
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ba5gKKuFLso" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 **Step 1:**  Move into the context that supports `dicktracy`
 
 `kubectl config use-context ${MAGIC_USER}@kubernetes`{{execute}}

@@ -1,3 +1,5 @@
+<iframe width="560" height="315" src="https://www.youtube.com/embed/MGTFfoL3i2Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ![Certificate Creation Process](https://github.com/reselbob/k8sassets/blob/master/rbac/images/rbac-process.jpeg?raw=true)
 
 The process for creating security certificates for a Kubernetes cluster at the enterprise level involves

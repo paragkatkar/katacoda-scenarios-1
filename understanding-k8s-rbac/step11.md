@@ -1,3 +1,5 @@
+<iframe width="560" height="315" src="https://www.youtube.com/embed/35sDtQvG6jw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 **Step 1:** Let's look at the manifest file that we'll use to create the Kubernetes Role, `pod-reader`. 
 
 ```yaml

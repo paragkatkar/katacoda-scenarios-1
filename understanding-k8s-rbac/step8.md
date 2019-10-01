@@ -1,3 +1,5 @@
+<iframe width="560" height="315" src="https://www.youtube.com/embed/tQs3qi_GxB4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 **Step 1:** Declare the name of the Kubernetes user we're going to support by setting it to an environment
 variable
 
