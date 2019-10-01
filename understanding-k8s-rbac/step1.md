@@ -1,3 +1,5 @@
+<iframe width="560" height="315" src="https://www.youtube.com/embed/xmnyPUEQpQw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 **Step 1:** Clone the source code from GitHub:
 
 `git clone https://github.com/reselbob/k8sassets.git`{{execute}}
