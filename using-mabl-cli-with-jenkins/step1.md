@@ -31,7 +31,8 @@ You'll output that is similar to, but not exactly like the following:
 You'll output that is similar to, but not exactly like the following:
 
 ```
-To be provided
+CONTAINER ID        IMAGE               COMMAND                  CREATED             STATUS              PORTS                       NAMES
+177b9fe064b7        mabljenkins:v1      "/sbin/tini -- /usr/…"   24 seconds ago      Up 24 seconds       0.0.0.0:50000->50000/tcp,0.0.0.0:80->8080/tcp   jenkins
 ```
 
 **Step 7:** Bring up the mablJenkins server Web UI

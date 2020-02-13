@@ -38,7 +38,9 @@
     }
   },
   "environment": {
-    "uilayout": "terminal",
+        "showdashboard": true,
+    "dashboards": [{"name": "mablJenkins", "href": "https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com"}],
+    "uilayout": "terminal-iframe",
     "uimessage1": "\u001b[32mYour interactive terminal for setting up mablJenkins under Docker.\u001b[m\r\n"
   },
   "backend": {
