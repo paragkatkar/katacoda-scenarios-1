@@ -4,6 +4,11 @@
   "difficulty": "intermediate",
   "time": "20 minutes",
   "details": {
+     "assets": {
+        "host01": [
+            {"file": "access-jenkins-ui.jpg", "target": "/tmp", "chmod": "+r"}
+        ]
+      },
     "steps": [{
       "title": "Step 1 - Installing the mablJenkins server under Docker",
       "text": "step1.md"
