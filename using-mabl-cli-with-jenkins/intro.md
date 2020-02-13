@@ -1,6 +1,5 @@
  * **Educational Objective**
  * **What You Need To Know Before You Start**
- * **Working with mabl CLI tool and Jenkins Pipelines**
  * **Scenario Contents**
  
 ------
@@ -32,7 +31,7 @@ There is no need to type directly into the terminal window. Clicking on a comman
 
 **Step 3** - Understanding `mabl` Tests, Plans, Environments and Deployments
 
-**Step 4** - Creating UI Test using the `mabl` trainer
+**Step 4** - Creating UI Tests using the `mabl` trainer
 
 **Step 5** - Creating the Jenkins Pipeline job to run the `mabl` tests 
 
