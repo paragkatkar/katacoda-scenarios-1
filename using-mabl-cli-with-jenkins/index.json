@@ -1,0 +1,47 @@
+{
+  "title": "Using the mabl CLI Tool To Run UI Tests Within a Jenkins Pipeline Job",
+  "description": "This scenario shows you how to install a special version of Jenkins server that supports using the mabl CLI tool in a Jenkins Pipeline job. Also, the scenario shows you how to create tests in mabl and integrate those tests into the Jenkins Pipeline job",
+  "difficulty": "intermediate",
+  "time": "20 minutes",
+  "details": {
+    "steps": [{
+      "title": "Step 1 - Installing the mablJenkins server under Docker",
+      "text": "step1.md"
+    },
+      {
+        "title": "Step 2 - Creating an Account in mabl",
+        "text": "step2.md"
+      },
+      {
+        "title": "Step 3 - Understanding mabl Tests, Plans, Environments and Deployments",
+        "text": "step3.md"
+      },
+      {
+        "title": "Step 4 - Creating UI Test using the mabl Trainer",
+        "text": "step4.md"
+      },  
+      {
+        "title": "Step 5 - Creating the Jenkins Pipeline Job to Run the mabl Tests",
+        "text": "step5.md"
+      },  
+      {
+        "title": "Step 6 - Running the Jenkins Pipeline Job",
+        "text": "step6.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md",
+      "credits": ""
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "terminal",
+    "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\r\nType 'printenv' to do a basic interaction\u001b[m\r\n"
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}
