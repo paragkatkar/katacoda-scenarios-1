@@ -1,6 +1,6 @@
 {
-  "title": "Using the mabl CLI Tool To Run UI Tests Within a Jenkins Pipeline Job",
-  "description": "This scenario shows you how to install a special version of Jenkins server that supports using the mabl CLI tool in a Jenkins Pipeline job. Also, the scenario shows you how to create tests in mabl and integrate those tests into the Jenkins Pipeline job",
+  "title": "Using the mabl CLI Tool To Run UI Tests Within a Jenkins Pipeline Job (Under Construction)",
+  "description": "Learn how to run mabl tests under Jenkins using the mabl CLI.",
   "difficulty": "intermediate",
   "time": "20 minutes",
   "details": {
