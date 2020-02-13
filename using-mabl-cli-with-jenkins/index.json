@@ -39,7 +39,7 @@
   },
   "environment": {
     "uilayout": "terminal",
-    "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\r\nType 'printenv' to do a basic interaction\u001b[m\r\n"
+    "uimessage1": "\u001b[32mYour interactive terminal for setting up mablJenkins under Docker.\u001b[m\r\n"
   },
   "backend": {
     "imageid": "ubuntu"
