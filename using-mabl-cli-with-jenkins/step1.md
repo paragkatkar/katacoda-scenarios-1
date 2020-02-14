@@ -1,6 +1,6 @@
 **Objective:** The objective of this step is to install a special version of Jenkins that is configured with the [mabl CLI](https://help.mabl.com/docs/mabl-cli) tool. The Jenkins server is named, `mablJenkins` and runs as a container under Docker.
 
-**Step 1:** Clone the `mablrepository code
+**Step 1:** Clone the `mablJenkins` repository code
 
 `git clone https://github.com/reselbob/mabljenkins.git`{{execute}}
 
