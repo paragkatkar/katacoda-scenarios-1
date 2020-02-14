@@ -37,9 +37,9 @@ You'll output that is similar to, but not exactly like the following:
 
 **Step 7:** Bring up the mablJenkins server Web UI
 
-Click on the tab, `mablJenkins' at the top of the Katacoda terminal as shown in the figure below at callout (1).
+Click on the tab, `mablJenkins` at the top of the Katacoda terminal as shown in the figure below at callout (1).
 
-![Katacoda display port page](/tmp/access-jenkins-ui.jpg)
+![Katacoda display port page](https://github.com/reselbob/mabljenkins/blob/master/assets/access-jenkins-ui.jpg?raw=true)
 
 
-This will display a Katacoda web page that you'll use to access the Jenkins server Web. Click the button labeled, `Display Port` (2) to navigate the to Jenkins Web UI to initialize the server.
+This will display a Katacoda web page that you'll use to access the Jenkins server Web. Click the button labeled, `Display Port` ( callout 2) to navigate the to Jenkins Web UI to initialize the server.
