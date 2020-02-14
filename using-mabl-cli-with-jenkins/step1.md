@@ -41,14 +41,20 @@ You'll output that is similar to, but not exactly like the following:
 
 Now that the mablJenkins server is up and running you're going to complete the rest of the scenario by working directly in the Jenkins Web UI.
 
-Click the link below to bring up the Jenkins Web UI in another tab in your browser.
+Click the link below to bring up the Jenkins Web UI within the Katacoda interactive learning environment.
 
 https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com
 
-You'll be presented with a web page that wants you to enter the Login ID your identified in Step 6, as shown in the figure below. Do so.
+You'll be presented with a web page that has a button labeled, `Display Port`. Click that button which will then shows you Jenkins Getting Start page, as shown below.
+
+![Display Port](https://github.com/reselbob/mabljenkins/blob/master/assets/access-ui-katacoda.jpg?raw=true)
+
+Next you'll be shown a web page that wants you to enter the Login ID your identified in Step 6, as shown in the figure below. Do so.
 
 ![Enter Login ID](https://github.com/reselbob/mabljenkins/blob/master/assets/unlock-jenkins.jpg?raw=true)
 
 Then complete the Jenkins initialization process until you arrive at the Jenkins Server Home Page, as shown in the figure below.
 
 ![Jenkins Web UI](https://github.com/reselbob/mabljenkins/blob/master/assets/jenkins-home-page.jpg?raw=true)
+
+This completes the process of setting up the `mablJenkins` server. The steps that follow will have you working within the `mabl` web site to create UI tests. Also, you'll work within this `mablJenkins` server to setup the [Jenkins Pipeline](https://jenkins.io/doc/book/pipeline/getting-started/) job that will run the tests you create in `mabl`.
