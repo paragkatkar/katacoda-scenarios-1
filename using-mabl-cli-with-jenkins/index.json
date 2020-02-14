@@ -4,15 +4,10 @@
   "difficulty": "intermediate",
   "time": "20 minutes",
   "details": {
-     "assets": {
-        "host01": [
-            {"file": "access-jenkins-ui.jpg", "target": "/usr/local/"}
-        ]
-      },
     "steps": [{
-      "title": "Step 1 - Installing the mablJenkins server under Docker",
-      "text": "step1.md"
-    },
+        "title": "Step 1 - Installing the mablJenkins server under Docker",
+        "text": "step1.md"
+      },
       {
         "title": "Step 2 - Creating an Account in mabl",
         "text": "step2.md"
@@ -24,16 +19,22 @@
       {
         "title": "Step 4 - Creating UI Test using the mabl Trainer",
         "text": "step4.md"
-      },  
+      },
       {
         "title": "Step 5 - Creating the Jenkins Pipeline Job to Run the mabl Tests",
         "text": "step5.md"
-      },  
+      },
       {
         "title": "Step 6 - Running the Jenkins Pipeline Job",
         "text": "step6.md"
       }
     ],
+    "assets": {
+      "host01": [{
+        "file": "access-jenkins-ui.jpg",
+        "target": "/tmp/"
+      }]
+    },
     "intro": {
       "text": "intro.md",
       "credits": ""
@@ -43,8 +44,11 @@
     }
   },
   "environment": {
-        "showdashboard": true,
-    "dashboards": [{"name": "mablJenkins", "href": "https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com"}],
+    "showdashboard": true,
+    "dashboards": [{
+      "name": "mablJenkins",
+      "href": "https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com"
+    }],
     "uilayout": "terminal-iframe",
     "uimessage1": "\u001b[32mYour interactive terminal for setting up mablJenkins under Docker.\u001b[m\r\n"
   },
