@@ -29,12 +29,6 @@
         "text": "step6.md"
       }
     ],
-    "assets": {
-      "host01": [{
-        "file": "access-jenkins-ui.jpg",
-        "target": "/tmp/"
-      }]
-    },
     "intro": {
       "text": "intro.md",
       "credits": ""
