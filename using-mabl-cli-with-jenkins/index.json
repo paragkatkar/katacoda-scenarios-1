@@ -6,7 +6,7 @@
   "details": {
      "assets": {
         "host01": [
-            {"file": "access-jenkins-ui.jpg", "target": "/tmp/"}
+            {"file": "access-jenkins-ui.jpg", "target": "/usr/local/"}
         ]
       },
     "steps": [{
