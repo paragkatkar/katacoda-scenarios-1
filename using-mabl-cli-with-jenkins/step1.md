@@ -1,4 +1,4 @@
-**Objective:** The objective of this step is to install a special version of Jenkins that is configured with the [mbl CLI](https://help.mabl.com/docs/mabl-cli) tool. The Jenkins server is named, `mablJenkins` and runs as a container under Docker.
+**Objective:** The objective of this step is to install a special version of Jenkins that is configured with the [mabl CLI](https://help.mabl.com/docs/mabl-cli) tool. The Jenkins server is named, `mablJenkins` and runs as a container under Docker.
 
 **Step 1:** Clone the `mablrepository code
 
@@ -35,11 +35,20 @@ You'll output that is similar to, but not exactly like the following:
 
 `4b36a89b91a24c51a5d4042433c013e2`
 
+**SAVE THE LOGIN ID. You're going to need it when you enter the Jenkins server UI for the first time.**
+
 **Step 7:** Bring up the mablJenkins server Web UI
 
-Click on the tab, `mablJenkins` at the top of the Katacoda terminal as shown in the figure below at callout (1).
+Now that the mablJenkins server is up and running you're going to complete the rest of the scenario by working directly in the Jenkins Web UI.
 
-![Katacoda display port page](https://github.com/reselbob/mabljenkins/blob/master/assets/access-jenkins-ui.jpg?raw=true)
+Click the link below to bring up the Jenkins Web UI in another tab in your browser.
 
+https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com
 
-This will display a Katacoda web page that you'll use to access the Jenkins server Web. Click the button labeled, `Display Port` ( callout 2) to navigate the to Jenkins Web UI to initialize the server.
+You'll be presented with a web page that wants you to enter the Login ID your identified in Step 6, as shown in the figure below. Do so.
+
+![Enter Login ID](https://github.com/reselbob/mabljenkins/blob/master/assets/unlock-jenkins.jpg?raw=true)
+
+Then complete the Jenkins initialization process until you arrive at the Jenkins Server Home Page, as shown in the figure below.
+
+![Jenkins Web UI](https://github.com/reselbob/mabljenkins/blob/master/assets/jenkins-home-page.jpg?raw=true)
