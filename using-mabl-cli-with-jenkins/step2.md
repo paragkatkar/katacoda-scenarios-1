@@ -14,5 +14,5 @@ Once you have an account, you'll be able to create tests using the `mabl` test t
 
 The following minute and a half video provides a brief overview of using the `mabl` test trainer. Feel free to view it before moving on.
 
-[![Watch the video](https://github.com/reselbob/mabljenkins/blob/master/images/yt/easy-setup.png?raw=true)](https://www.youtube.com/watch?v=pbM8nXYEclM)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/pbM8nXYEclM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
