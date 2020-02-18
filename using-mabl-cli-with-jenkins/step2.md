@@ -17,6 +17,6 @@ The following minute and a half video provides a brief overview of using the `ma
 [![Easy Setup](https://github.com/reselbob/mabljenkins/blob/master/assets/step02/easy-setup-a.png?raw=true)](https://mabl.wistia.com/medias/jfc6e28wxv?wvideo=jfc6e28wxv)
 
 
-<p><a href="https://mabl.wistia.com/medias/jfc6e28wxv?wvideo=jfc6e28wxv"><img src="https://embedwistia-a.akamaihd.net/deliveries/f32a34d6998c5928b76ca90a87e3ad9d.jpg?image_play_button_size=2x&amp;image_crop_resized=960x540&amp;image_play_button=1&amp;image_play_button_color=31afb9e0" width="400" height="225" style="width: 400px; height: 225px;"></a></p><p><a href="https://mabl.wistia.com/medias/jfc6e28wxv?wvideo=jfc6e28wxv">Easy Setup - mabl</a></p>
+[![Easy Setup](https://github.com/reselbob/mabljenkins/blob/master/assets/step02/easy-setup-a.png?raw=true)](<p><a href="https://mabl.wistia.com/medias/jfc6e28wxv?wvideo=jfc6e28wxv"><img src="https://embedwistia-a.akamaihd.net/deliveries/f32a34d6998c5928b76ca90a87e3ad9d.jpg?image_play_button_size=2x&amp;image_crop_resized=960x540&amp;image_play_button=1&amp;image_play_button_color=31afb9e0" width="400" height="225" style="width: 400px; height: 225px;"></a></p><p><a href="https://mabl.wistia.com/medias/jfc6e28wxv?wvideo=jfc6e28wxv">Easy Setup - mabl</a></p>)
 
 
