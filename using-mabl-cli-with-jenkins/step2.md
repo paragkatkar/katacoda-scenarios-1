@@ -14,6 +14,5 @@ Once you have an account, you'll be able to create tests using the `mabl` test t
 
 The following minute and a half video provides a brief overview of using the `mabl` test trainer. Feel free to view it before moving on.
 
-<p><a href="https://mabl.wistia.com/medias/jfc6e28wxv?wvideo=jfc6e28wxv"><img src="https://embedwistia-a.akamaihd.net/deliveries/f32a34d6998c5928b76ca90a87e3ad9d.jpg?image_play_button_size=2x&amp;image_crop_resized=960x540&amp;image_play_button=1&amp;image_play_button_color=31afb9e0" width="400" height="225" style="width: 400px; height: 225px;"></a></p><p><a href="https://mabl.wistia.com/medias/jfc6e28wxv?wvideo=jfc6e28wxv">Easy Setup - mabl</a></p>
-
+[![Watch the video](https://github.com/reselbob/mabljenkins/blob/master/images/yt/easy-setup.png?raw=true)](https://www.youtube.com/watch?v=pbM8nXYEclM)
 
