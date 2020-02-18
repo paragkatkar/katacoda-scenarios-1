@@ -8,7 +8,13 @@ If you have an account, login. If not, click on this link, [`No account? Sign Up
 
 ![sign up](https://github.com/reselbob/mabljenkins/blob/master/assets/step02/sign-up.png?raw=true)
 
-Complete with the `mabl` sign up process by filling in the required information to create an account.
+**Step 2:** Complete the sign up form
+
+To create an account, you signup under your Google or GitHub acount. Orr, you can complete the `mabl` sign up process by filling in the required information in the sign up form as shown in the illustration below:
+
+![sign up form](https://github.com/reselbob/mabljenkins/blob/master/assets/step02/signup-form.png?raw=true)
+
+(Check out the `mabl` documentation [here](https://help.mabl.com/docs/quick-start-guide) for a detail explanation of the `mabl` sign up process.)
 
 Once you have an account, you'll be able to create tests using the `mabl` test trainer.
 
