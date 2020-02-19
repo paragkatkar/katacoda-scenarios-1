@@ -43,7 +43,7 @@ Now that the mablJenkins server is up and running you're going to complete the r
 
 Click the link below to bring up the Jenkins Web UI within the Katacoda interactive learning environment.
 
-https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com
+[https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com](https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com)
 
 You'll be presented with a web page that has a button labeled, `Display Port`. Click that button which will then shows you Jenkins Getting Start page, as shown below.
 
