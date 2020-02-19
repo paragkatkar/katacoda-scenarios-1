@@ -1,8 +1,10 @@
-Under Construction
+`Under Construction`
 
 
 
 # Creating the Job
+
+`TO BE PROVIDED`
 
 
 # Encrypting mabl Access Data in Jenkins Secrets
@@ -76,4 +78,6 @@ Congratulations! You've created the two secrets you'll need to configure a Jenki
 ![creating Jenkins Secret 11](https://github.com/reselbob/mabljenkins/blob/master/assets/step05/create-secret-11.png?raw=true)
 
 # Adding the Pipeline Script
+
+`TO BE PROVIDED`
 
