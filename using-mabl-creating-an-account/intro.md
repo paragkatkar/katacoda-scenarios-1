@@ -1,0 +1,1 @@
+The objective of this scenario is to show you how to create a trial `mabl` account.

@@ -1,0 +1,1 @@
+**Congratulations!** You've created a trial account under `mabl`.
