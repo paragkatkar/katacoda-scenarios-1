@@ -20,7 +20,7 @@
   },
   "environment": {
     "showdashboard": true,
-    "dashboards": [{"name": "mabl App Site", "href": "https://app.mabl.com"}],
+    "dashboards": [{"name": "mabl Web Site", "href": "https://app.mabl.com"}],
     "uilayout": "terminal-iframe",
     "uimessage1": "\u001b[32mYour interactive terminal for working with mabl.\u001b[m\r\n"
   },
