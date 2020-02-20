@@ -21,12 +21,17 @@
         "text": "step4.md"
       },
       {
-        "title": "Step 5 - Creating the Jenkins Pipeline Job to Run the mabl Tests",
+        "title": "Step 5 - Creating the Jenkins Pipeline Job for the mabl Tests",
         "text": "step5.md"
       },
+      ,
       {
-        "title": "Step 6 - Running the Jenkins Pipeline Job",
+        "title": "Step 6 - Creating the Pipeline Script",
         "text": "step6.md"
+      },
+      {
+        "title": "Step 7 - Running the Jenkins Pipeline Job",
+        "text": "step7.md"
       }
     ],
     "intro": {

@@ -33,6 +33,8 @@ There is no need to type directly into the terminal window. Clicking on a comman
 
 **Step 4** - Creating UI Tests using the `mabl` trainer
 
-**Step 5** - Creating the Jenkins Pipeline job to run the `mabl` tests 
+**Step 5** - Creating the Jenkins Pipeline job for the `mabl` tests 
 
-**Step 6** - Running the Jenkins Pipeline job
+**Step 6** - Creating the Pipeline Script
+
+**Step 7** - Running the Jenkins Pipeline Job
