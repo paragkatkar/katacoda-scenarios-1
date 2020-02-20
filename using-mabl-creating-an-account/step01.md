@@ -1,6 +1,6 @@
 In this step you're going to create a trial account in mabl. Of course, the assumption is that you do not have an account already.
 
-**Step 1:** Click the tab, `mabl Web Site` at the top of the Katacoda interactive learning environment as shown in the figure below.
+**Step 1:** Click the tab, `mabl App Site` at the top of the Katacoda interactive learning environment as shown in the figure below.
 
 ![mabl Tab](https://katacoda.com/reselbob/scenarios/using-mabl-creating-an-account/assets/mabl-tab.png)
 
