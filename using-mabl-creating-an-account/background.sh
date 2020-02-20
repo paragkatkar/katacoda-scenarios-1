@@ -1,1 +1,0 @@
-RUN npm i -g @mablhq/mabl-cli
