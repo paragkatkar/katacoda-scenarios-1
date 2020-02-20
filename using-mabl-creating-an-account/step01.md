@@ -8,7 +8,7 @@ In this step you're going to create a trial account in mabl. Of course, the assu
 
 If you have an account, login. If not, click on the link as shown in the figure below:
 
-![Sign Up Link](/https://katacoda.com/reselbob/scenarios/using-mabl-creating-an-account/assets/sign-up.png)
+![Sign Up Link](https://katacoda.com/reselbob/scenarios/using-mabl-creating-an-account/assets/sign-up.png)
 
 **Step 3:** Complete the sign up form
 
