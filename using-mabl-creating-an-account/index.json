@@ -1,16 +1,17 @@
 {
   "title": "Creating a mabl Acccount(Under Construction)",
   "description": "Learn how to sign up for a trial account.",
-  "difficulty": "beginner",
+  "difficulty": "Beginner",
   "time": "5 minutes",
   "details": {
     "steps": [{
         "title": "Step 1 - Creating a Trial Account",
-        "text": "step1.md"
+        "text": "step01.md"
       }
     ],
     "intro": {
       "text": "intro.md",
+      "courseData": "background.sh",
       "credits": ""
     },
     "finish": {
