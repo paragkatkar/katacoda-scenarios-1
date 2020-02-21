@@ -1,0 +1,42 @@
+{
+  "title": "Using the a mabl CLI (Under Construction)",
+  "description": "Learn how to setup and use the mabl CLI to execute tests.",
+  "difficulty": "Beginner",
+  "time": "10 minutes",
+  "details": {
+    "steps": [
+      {
+        "title": "Step 1 - Installing the CLI",
+        "text": "step01.md"
+      },
+      {
+        "title": "Step 2 - Logging In to mabl",
+        "text": "step02.md"
+      },
+      {
+        "title": "Step 3 - Defining an Environment",
+        "text": "step03.md"
+      },
+      {
+        "title": "Step 4 - Executing Tests in an Environment",
+        "text": "step03.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md",
+      "credits": ""
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "showdashboard": true,
+    "dashboards": [{"name": "mabl App Site", "href": "https://app.mabl.com"}],
+    "uilayout": "terminal-iframe",
+    "uimessage1": "\u001b[32mYour interactive terminal for working with mabl.\u001b[m\r\n"
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}
