@@ -1,4 +1,4 @@
-In this step you're going to install the `mabl` command line tool (mbl cli) in to the Katacoda interactive learning environment.
+In this step you're going to install the `mabl` command line interface tool (mabl cli) in to the Katacoda interactive learning environment.
 
 **Step 1:** Install the tool using `npm`.
 
@@ -6,6 +6,17 @@ Execute the following command:
 
 
 `npm i -g @mablhq/mabl-cli`{{execute}}
+
+You'll see the following upon completion of the installation process:
+
+```
+ ┌──────────────────────────────────────────────┐
+ │         Welcome to the mabl CLI tool!        │
+ └──────────────────────────────────────────────┘
+ By using this product you agree to the terms of
+ use described in the License.txt file and the
+ terms of service at: https://www.mabl.com/tos
+```
 
 **Step 2:** Confirm the installation is succesful
 

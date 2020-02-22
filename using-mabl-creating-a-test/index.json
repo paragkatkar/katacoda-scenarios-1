@@ -1,0 +1,46 @@
+{
+  "title": "Creating a mabl Teset(Under Construction)",
+  "description": "Learn how to create a broken links test.",
+  "difficulty": "Beginner",
+  "time": "10 minutes",
+  "details": {
+    "steps": [
+     {
+        "title": "Step 1 - Login to your mabl account",
+        "text": "step01.md"
+      },
+       {
+        "title": "Step 2 - Register an external web site",
+        "text": "step01.md"
+      },
+       {
+        "title": "Step 3 - Create a test and test plan",
+        "text": "step01.md"
+      },
+       {
+        "title": "Step 4 - Execute the default web crawler tests",
+        "text": "step01.md"
+      },
+       {
+        "title": "Step 5 - View the test results",
+        "text": "step01.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md",
+      "credits": ""
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "showdashboard": true,
+    "dashboards": [{"name": "mabl App Site", "href": "https://app.mabl.com"}],
+    "uilayout": "terminal-iframe",
+    "uimessage1": "\u001b[32mYour interactive terminal for working with mabl.\u001b[m\r\n"
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}
