@@ -1,4 +1,4 @@
-The objective of this scenario is to show you how to create a `mabl` application against an external website and then create the default test and test plan and application.
+The objective of this scenario is to show you how to create a `mabl` application against an external website and then create the default test and test plan using that application.
 
 In this scenario you will:
 
