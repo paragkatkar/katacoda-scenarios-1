@@ -11,19 +11,19 @@
       },
        {
         "title": "Step 2 - Create an application",
-        "text": "step01.md"
+        "text": "step02.md"
       },
        {
         "title": "Step 3 - Create a test and test plan",
-        "text": "step01.md"
+        "text": "step03.md"
       },
        {
         "title": "Step 4 - Execute the default web crawler tests",
-        "text": "step01.md"
+        "text": "step04.md"
       },
        {
         "title": "Step 5 - View the test results",
-        "text": "step01.md"
+        "text": "step05.md"
       }
     ],
     "intro": {
