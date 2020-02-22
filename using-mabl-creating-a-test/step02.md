@@ -12,3 +12,7 @@
 **Step 2:** 
 
 ![Configure App 2](/reselbob/scenarios/using-mabl-creating-a-test/assets/app-config-02.png)
+
+**Step 3:** 
+
+![Configure App 2](/reselbob/scenarios/using-mabl-creating-a-test/assets/app-config-03.png)
