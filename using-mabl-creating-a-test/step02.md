@@ -2,13 +2,13 @@
 
 **Step 1:** 
 
-![mabl Tab](/reselbob/scenarios/using-mabl-creating-a-test/step02/assets/select-configure.png)
+![Select Configure](/reselbob/scenarios/using-mabl-creating-a-test/step02/assets/select-configure.png)
 
 **Step 2:** 
 
 
-![mabl Tab](/reselbob/scenarios/using-mabl-creating-a-test/step02/assets/app-config-01.png)
+![Configure App 1](/reselbob/scenarios/using-mabl-creating-a-test/step02/assets/app-config-01.png)
 
 **Step 2:** 
 
-![mabl Tab](/reselbob/scenarios/using-mabl-creating-a-test/step02/assets/app-config-02.png)
+![Configure App 2](/reselbob/scenarios/using-mabl-creating-a-test/step02/assets/app-config-02.png)
