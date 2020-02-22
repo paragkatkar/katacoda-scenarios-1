@@ -15,4 +15,4 @@
 
 **Step 4:** 
 
-![Configure App 2](/reselbob/scenarios/using-mabl-creating-a-test/assets/app-config-03.png)
+![Configure App 3](/reselbob/scenarios/using-mabl-creating-a-test/assets/app-config-03.png)
