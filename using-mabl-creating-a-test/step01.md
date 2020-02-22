@@ -2,7 +2,7 @@ In this step you're going to create a UI test under the `mabl` Application Web s
 
 **Step 1:** Click the tab, `mabl App Site` at the top of the Katacoda interactive learning environment as shown in the figure below. 
 
-![mabl Tab](/reselbob/scenarios/using-mabl-creating-a-test/step01/assets/mabl-tab.png)
+![mabl Tab](/reselbob/scenarios/using-mabl-creating-a-test/assets/mabl-tab.png)
 
 You'll be presented with the login page directly in the Katacoda interactive learning environment.
 
@@ -14,8 +14,8 @@ You'll be presented with the login page directly in the Katacoda interactive lea
 
 In order to login to the `mabl` App Site you'll need to provide your email address and password. The, click the button labeled, `LOG IN` as shown the the figure below.
 
-![mabl Tab](/reselbob/scenarios/using-mabl-creating-a-test/assets/step01/login.png)
+![mabl Tab](/reselbob/scenarios/using-mabl-creating-a-test/assets/login.png)
 
 Upon successful login, you'll be presented with the `mabl` Dashboard as shown in the figure below:
 
-![mabl Tab](/reselbob/scenarios/using-mabl-creating-a-test/assets/step01/welcome-to-mabl.png)
+![mabl Tab](/reselbob/scenarios/using-mabl-creating-a-test/assets/welcome-to-mabl.png)
