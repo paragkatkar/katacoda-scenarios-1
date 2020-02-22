@@ -9,10 +9,10 @@
 
 ![Configure App 1](/reselbob/scenarios/using-mabl-creating-a-test/assets/app-config-01.png)
 
-**Step 2:** 
+**Step 3:** 
 
 ![Configure App 2](/reselbob/scenarios/using-mabl-creating-a-test/assets/app-config-02.png)
 
-**Step 3:** 
+**Step 4:** 
 
 ![Configure App 2](/reselbob/scenarios/using-mabl-creating-a-test/assets/app-config-03.png)
