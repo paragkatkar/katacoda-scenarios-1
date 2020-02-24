@@ -1,4 +1,4 @@
-In this step you're going to create a UI test under the `mabl` Application Web site.
+In this step you're going to create an account on `mabl` Application Web site.
 
 **Step 1:** Click the tab, `mabl App Site` at the top of the Katacoda interactive learning environment as shown in the figure below. 
 
