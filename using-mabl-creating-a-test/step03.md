@@ -26,6 +26,6 @@ Take the following the steps within the web page, `Create new test`
 
 ![Create Test 1](/reselbob/scenarios/using-mabl-creating-a-test/assets/create-test-01.png)
 
-**Step 3:** Watch the following video to learn the details for creating the `Cool Cheese Link Test` that will check for broken links on the demonstration website `Cool Cheese` which is declared as part of the custom `mabl` application, `Cool Cheese`.
+**Step 3:** Watch the following video to learn the details for creating the `Cool Cheese Link Test` that will check for broken links on the demonstration website `Cool Cheese` which is declared as part of the custom `mabl` application, `Cool Cheese App`.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/aEYd-tKbulE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
