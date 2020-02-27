@@ -31,7 +31,7 @@ After you click the Application link, you'll be taken to the New application web
 * **Unselect Automatically login** when encountering a login page. The Cool Cheese website has no login page, so you will not need to enter access credentials. (6)
 * **Click the button** labeled, `Save`. (7).
 
-![Configure App 2](/reselbob/scenarios/using-mabl-creating-a-test/assets/app-config-02.png)
+![Configure App 2](/reselbob/scenarios/using-mabl-creating-a-test/assets/app-config-02b.png)
 
 **Step 5:** Review the Application configuration information
 
