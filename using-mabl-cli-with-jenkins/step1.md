@@ -43,7 +43,7 @@ Click on the tab labeled, `mablJenkins` in the horizontal menu bar of the Kataco
 
 You'll be presented the Katacoda page that that has the button labeled, `Display Port` as shown in the figure below.
 
-![mablJenkins](https://katacoda.com/reselbob/scenarios/using-mabl-cli-with-jenkins/assets/select-port-80.png)
+![mablJenkins](https://katacoda.com/reselbob/scenarios/using-mabl-cli-with-jenkins/assets/select-port-80-b.png)
 
 Click the button.
 
@@ -51,7 +51,7 @@ Click the button.
 
 After you click the `Display Port` button as described above in Step 6, you'll login to the Jenkins web server as shown in the figure below.
 
-![mablJenkins](https://katacoda.com/reselbob/scenarios/using-mabl-cli-with-jenkins/assets/login-jenkins.png)
+![mablJenkins](https://katacoda.com/reselbob/scenarios/using-mabl-cli-with-jenkins/assets/login-jenkins-b.png)
 
 The access credentials are as follows:
 
