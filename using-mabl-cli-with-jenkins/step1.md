@@ -16,7 +16,7 @@
 
 `docker run --name jenkins -d -p 80:8080 -p 50000:50000 -v /var/run/docker.sock:/var/run/docker.sock -v /usr/bin/docker:/usr/bin/docker mabljenkins:v1`{{execute}}
 
-**Step 5:** Confirm the `docker` container is running r
+**Step 5:** Confirm the `docker` container is running:
 
 `docker ps -a`{{execute}}
 
@@ -35,11 +35,13 @@ You'll get output similar to the following. But, your version might be different
 
 `0.5.7-beta`
 
-**Step 7:** Bring up the mablJenkins server Web UI
+**Step 7:** Bring up the `mablJenkins` server Web UI
 
 Click on the tab labeled, `mablJenkins` in the horizontal menu bar of the Katacode interactive environment pane.
 
 ![mablJenkins](https://katacoda.com/reselbob/scenarios/using-mabl-cli-with-jenkins/assets/select-mabl-tab.png)
+
+**BE ADVISED:Sometimes it might take a minute or two for the Jenkins server to become operational under Katacoda. So, you might have to try the following step two, three or sometimes even four times.** 
 
 You'll be presented the Katacoda page that that has the button labeled, `Display Port` as shown in the figure below.
 
