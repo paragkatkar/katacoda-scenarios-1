@@ -27,7 +27,15 @@ CONTAINER ID        IMAGE               COMMAND                  CREATED        
 177b9fe064b7        mabljenkins:v1      "/sbin/tini -- /usr/…"   24 seconds ago      Up 24 seconds       0.0.0.0:50000->50000/tcp,0.0.0.0:80->8080/tcp   jenkins
 ```
 
-**Step 5:** Bring up the mablJenkins server Web UI
+**Step 6:** Confirm that the `mabl CLI tool` is running within the `mablJenkins` container.
+
+`docker exec -it jenkins mabl --version`{{execute}}
+
+You'll get output similar to the following. But, your version might be different depending on when you run this `mablJenkins` setup.
+
+`0.5.7-beta`
+
+**Step 7:** Bring up the mablJenkins server Web UI
 
 Click on the tab labeled, `mablJenkins` in the horizontal menu bar of the Katacode interactive environment pane.
 
@@ -39,7 +47,7 @@ You'll be presented the Katacoda page that that has the button labeled, `Display
 
 Click the button.
 
-**Step 7:** Login to the Jenkins web server.
+**Step :** Login to the Jenkins web server.
 
 After you click the `Display Port` button as described above in Step 6, you'll login to the Jenkins web server as shown in the figure below.
 
@@ -49,9 +57,14 @@ The access credentials are as follows:
 
 User name: `admin`
 
-Passowrd: `admin`
+Password: `admin`
 
 
 Then, check the checkbox labeled, `Keep me signed in` and click the button labeled, `Sign in`.
 
-Congratulations! You have Jenkins Server up and running with the `mabl CLI tool` installed.
+The Jenkins main home page will appear, as shown in the figure below.
+
+![mablJenkins](https://katacoda.com/reselbob/scenarios/using-mabl-cli-with-jenkins/assets/jenkins-main-page.png)
+
+
+**Congratulations!** You have Jenkins Server up and running with the `mabl CLI tool` installed.
