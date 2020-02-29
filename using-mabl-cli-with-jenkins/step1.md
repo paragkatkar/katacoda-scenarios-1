@@ -16,9 +16,9 @@
 
 `docker run --name jenkins -d -p 80:8080 -p 50000:50000 -v /var/run/docker.sock:/var/run/docker.sock -v /usr/bin/docker:/usr/bin/docker mabljenkins:v1`{{execute}}
 
-**Step 5:** Confirm the `docker` command works from inside the Jenkins container
+**Step 5:** Confirm the `docker` container is running r
 
-`docker exec -it jenkins docker ps`{{execute}}
+`docker ps -a`{{execute}}
 
 You'll output that is similar to, but not exactly like the following:
 
@@ -27,34 +27,31 @@ CONTAINER ID        IMAGE               COMMAND                  CREATED        
 177b9fe064b7        mabljenkins:v1      "/sbin/tini -- /usr/…"   24 seconds ago      Up 24 seconds       0.0.0.0:50000->50000/tcp,0.0.0.0:80->8080/tcp   jenkins
 ```
 
-**Step 6:** Get the initial login ID that you'll need to access Jenkins
+**Step 5:** Bring up the mablJenkins server Web UI
 
-`docker exec -it jenkins cat /var/jenkins_home/secrets/initialAdminPassword`{{execute}}
+Click on the tab labeled, `mablJenkins` in the horizontal menu bar of the Katacode interactive environment pane.
 
-You'll output that is similar to, but not exactly like the following:
+![mablJenkins](https://katacoda.com/reselbob/scenarios/using-mabl-cli-with-jenkins/assets/select-mabl-tab.png)
 
-`4b36a89b91a24c51a5d4042433c013e2`
+You'll be presented the Katacoda page that that has the button labeled, `Display Port` as shown in the figure below.
 
-**SAVE THE LOGIN ID. You're going to need it when you enter the Jenkins server UI for the first time.**
+![mablJenkins](https://katacoda.com/reselbob/scenarios/using-mabl-cli-with-jenkins/assets/select-port-80.png)
 
-**Step 7:** Bring up the mablJenkins server Web UI
+Click the button.
 
-Now that the mablJenkins server is up and running you're going to complete the rest of the scenario by working directly in the Jenkins Web UI.
+**Step 7:** Login to the Jenkins web server.
 
-Click the link below to bring up the Jenkins Web UI within the Katacoda interactive learning environment.
+After you click the `Display Port` button as described above in Step 6, you'll login to the Jenkins web server as shown in the figure below.
 
-Click [**here**](https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com) to go to the instance of Jenkins server running undre Katacoda.
+![mablJenkins](https://katacoda.com/reselbob/scenarios/using-mabl-cli-with-jenkins/assets/login-jenkins.png)
 
-You'll be presented with a web page that has a button labeled, `Display Port`. Click that button which will then shows you Jenkins Getting Start page, as shown below.
+The access credentials are as follows:
 
-![Display Port](https://github.com/reselbob/mabljenkins/blob/master/assets/access-ui-katacoda.jpg?raw=true)
+User name: `admin`
 
-Next you'll be shown a web page that wants you to enter the Login ID your identified in Step 6, as shown in the figure below. Do so.
+Passowrd: `admin`
 
-![Enter Login ID](https://github.com/reselbob/mabljenkins/blob/master/assets/unlock-jenkins.jpg?raw=true)
 
-Then complete the Jenkins initialization process until you arrive at the Jenkins Server Home Page, as shown in the figure below.
+Then, check the checkbox labeled, `Keep me signed in` and click the button labeled, `Sign in`.
 
-![Jenkins Web UI](https://github.com/reselbob/mabljenkins/blob/master/assets/jenkins-home-page.jpg?raw=true)
-
-This completes the process of setting up the `mablJenkins` server. The steps that follow will have you working within the `mabl` web site to create UI tests. Also, you'll work within this `mablJenkins` server to setup the [Jenkins Pipeline](https://jenkins.io/doc/book/pipeline/getting-started/) job that will run the tests you create in `mabl`.
+Congratulations! You have Jenkins Server up and running with the `mabl CLI tool` installed.
