@@ -31,6 +31,12 @@ You will get a prompt at follows:
 
 `This is a simple message for RMI`{{copy}}
 
+and then string the `ENTER` key
+
+You will get output at the command line as follows:
+
+`Echoing: This is a simple message for RMI`
+
 **Step 6:** Click the command below to go back to the 
 
 `echo`{{execute T2}}
