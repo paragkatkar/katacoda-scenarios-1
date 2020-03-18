@@ -10,5 +10,5 @@
 
 `This is a simple message for RMI`{{copy}}
 
-`go back`{{execute T2}}
+`pwd`{{execute T2}}
 
