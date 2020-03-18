@@ -1,0 +1,47 @@
+{
+  "title": "Understanding Java 2 RMI",
+  "description": "Working the Remote Method Innvocation",
+  "difficulty": "beginner",
+  "time": "15 minutes",
+  "details": {
+    "steps": [{
+      "title": "Step 1 - Get the Code From Git Hub",
+      "text": "step01.md"
+    },
+      {
+        "title": "Step 2 - Compile the RMI Interface",
+        "text": "step02.md"
+      },
+      {
+        "title": "Step 3 - Compile the RMI Server",
+        "text": "step03.md"
+      },
+      {
+        "title": "Step 4 - Compile the RMI Client",
+        "text": "step04.md"
+      },
+      {
+        "title": "Step 5 - Register the Server",
+        "text": "step05.md"
+      },
+      {
+        "title": "Step 5 - Run the Server and the Client",
+        "text": "step06.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md",
+      "credits": ""
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "terminal",
+    "uimessage1": "\u001b[32mYour Interactive Bash Terminal for Working with Java RMI\u001b[m\r\n"
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}
