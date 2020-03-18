@@ -1,7 +1,9 @@
 ## Objective
-The objective of this lesson is to demontrate how to compile the Java code for `RMIInterface.java`.
+The objective of this lesson is to demontrate how to compile the Java code for [Java Interface](https://www.w3schools.com/java/java_interface.asp) `RMIInterface`.
 
-We need to compile the `.java` file that contains the code that defines the [Java Interface](https://www.w3schools.com/java/java_interface.asp) that the server will implement.
+## About `java.rmi.Remote`
+
+The Java RMI framework requires that developers create an interface that defines the methods that will be made avaiable to external clients via Java RMI. Such an interface needs to extend the interface [`java.rmi.Remote`](https://docs.oracle.com/javase/7/docs/api/java/rmi/Remote.html). Once the interface is defined it will be implemented in the RMI server.
 
 ## Steps
 
