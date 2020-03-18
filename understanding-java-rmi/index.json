@@ -5,27 +5,27 @@
   "time": "15 minutes",
   "details": {
     "steps": [{
-      "title": "Step 1 - Get the Code From Git Hub",
+      "title": "Get the Source Code From GitHub",
       "text": "step01.md"
     },
       {
-        "title": "Step 2 - Compile the RMI Interface",
+        "title": "Compile the RMI Interface Code",
         "text": "step02.md"
       },
       {
-        "title": "Step 3 - Compile the RMI Server",
+        "title": "Compile the RMI Server Code",
         "text": "step03.md"
       },
       {
-        "title": "Step 4 - Compile the RMI Client",
+        "title": "Compile the RMI Client Code",
         "text": "step04.md"
       },
       {
-        "title": "Step 5 - Register the Server",
+        "title": "Register the Remote Object",
         "text": "step05.md"
       },
       {
-        "title": "Step 6 - Run the Server and the Client",
+        "title": "Run the Server and the Client",
         "text": "step06.md"
       }
     ],
