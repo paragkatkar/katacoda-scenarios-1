@@ -1,5 +1,5 @@
 ## Objective
-`TO BE PROVIDED`
+The objective of this lesson is performed the tasks necessary to get Java RMI Server and the client that will communicate with server up and running.
 
 ## Steps
 
@@ -14,6 +14,8 @@
 You will get response at the command line as follows:
 
 `Server is up and running!`
+
+This terminal is now tied up running the Java RMI server. The following steps will open additional windoes to do work.
 
 **Step 3:**  Click the command below to mavigate to directlry, `simplermi ` in a third terminal window..
 
