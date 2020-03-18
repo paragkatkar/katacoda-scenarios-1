@@ -1,4 +1,11 @@
+## Objective
+The objective of this lesson is to demontrate how to compile the Java code for RMI client.
+
 We need to compile the `.java` file that defines the client that will call the remote method, `echo(String message)` on the Java server we defined in the previous step.
+
+## Steps
+
+**Step 1:** Compile the Java source code for the RMI client
 
 Click the following command to execute the compilation in the Katacoda interactive terminal.
 
