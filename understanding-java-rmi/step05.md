@@ -1,1 +1,1 @@
-`rmiregistry 5000`{{execute T2}}
+`rmiregistry 5000`{{execute}}

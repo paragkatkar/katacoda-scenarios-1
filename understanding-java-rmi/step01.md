@@ -1,3 +1,3 @@
 `git clone https://github.com/reselbob/simplermi.git`{{execute}}
 
-`cd simplrmi`{{execute}}
+`cd simplermi`{{execute}}

@@ -1,1 +1,1 @@
-`javac RMIInterface.java`{{execute}}
+`javac *.java`{{execute}}
