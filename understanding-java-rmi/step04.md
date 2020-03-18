@@ -1,3 +1,12 @@
+We need to compile the java file that defines the client will call the remote method, `echo(String message)` on the server.
+
+Click the following command to execute the compilation in the Katacoda interactive terminal.
+
+`javac MyClient.java`{{execute}}
+
+## Discussion of Code
+
+
 ```
 import java.net.MalformedURLException;
 import java.rmi.Naming;
@@ -23,4 +32,3 @@ public class MyClient {
 }
 ```
 
-`javac MyClient.java`{{execute}}

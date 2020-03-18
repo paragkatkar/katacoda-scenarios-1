@@ -1,10 +1,15 @@
-```
+We need to compile the java file that defines the server that contains the remote method, `echo(String message)`that will be called by the client.
 
+Click the following command to execute the compilation in the Katacoda interactive terminal.
+
+`javac MyServer.java`{{execute}}
+
+## Discussion of Code
+
+```
 import java.rmi.Naming;
 import java.rmi.RemoteException;
 import java.rmi.server.UnicastRemoteObject;
-
-
 
 public class MyServer extends UnicastRemoteObject implements RMIInterface{
 
@@ -43,4 +48,3 @@ public class MyServer extends UnicastRemoteObject implements RMIInterface{
 }
 ```
 
-`javac MyServer.java`{{execute}}
