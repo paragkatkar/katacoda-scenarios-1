@@ -1,6 +1,6 @@
 {
-  "title": "Understanding Java 2 RMI",
-  "description": "Working the Remote Method Innvocation",
+  "title": "Understanding Java RMI",
+  "description": "Learn how invoke a method call to a remote method using Java's Remote Method Innvocation",
   "difficulty": "beginner",
   "time": "15 minutes",
   "details": {

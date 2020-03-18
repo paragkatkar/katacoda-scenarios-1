@@ -1,4 +1,4 @@
-We need to compile the java file that defines the client will call the remote method, `echo(String message)` on the server.
+We need to compile the `.java` file that defines the client that will call the remote method, `echo(String message)` on the Java server we defined in the previous step.
 
 Click the following command to execute the compilation in the Katacoda interactive terminal.
 
