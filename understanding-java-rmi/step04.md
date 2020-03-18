@@ -1,1 +1,1 @@
-`javac simplermi/MyClient.java`{{execute}}
+`javac MyClient.java`{{execute}}

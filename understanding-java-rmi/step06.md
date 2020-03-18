@@ -1,7 +1,11 @@
-`java simplermi/MyServer`{{execute T3}}
+`cd  simplermi`{{execute T3}}
+
+`java MyServer`{{execute T3}}
 
 
-`java simplermi/MyClient`{{execute T4}}
+`cd  simplermi`{{execute T4}}
+
+`java MyClient`{{execute T4}}
 
 
 `This is a simple message for RMI`{{copy}}

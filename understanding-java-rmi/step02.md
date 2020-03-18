@@ -1,1 +1,1 @@
-`javac simplermi/RMIInterface.java`{{execute}}
+`javac RMIInterface.java`{{execute}}
