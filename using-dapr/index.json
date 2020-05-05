@@ -4,8 +4,7 @@
   "difficulty": "beginner",
   "time": "15 minutes",
   "details": {
-    "steps": [
-      {
+    "steps": [{
         "title": "Setting Up DAPR",
         "text": "step01.md"
       },
