@@ -4,18 +4,19 @@
   "difficulty": "beginner",
   "time": "15 minutes",
   "details": {
-    "steps": [{
-      "title": "Setting Up DAPR",
-      "text": "step01.md"
-    },
+    "steps": [
+      {
+        "title": "Setting Up DAPR",
+        "text": "step01.md"
+      },
       {
         "title": "Running the Node.JS App",
         "text": "step02.md"
       },
-       {
+      {
         "title": "Exercising at Node.JS App",
         "text": "step03.md"
-      },
+      }
     ],
     "intro": {
       "text": "intro.md",
@@ -27,7 +28,7 @@
   },
   "environment": {
     "uilayout": "terminal",
-    "uimessage1": "\u001b[32mYour Interactive Bash Terminal for Working with Java RMI\u001b[m\r\n"
+    "uimessage1": "\\u001b[32mYour Interactive Bash Terminal for Working with Java RMI\\u001b[m\r\n"
   },
   "backend": {
     "imageid": "ubuntu"
