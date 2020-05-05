@@ -5,9 +5,13 @@ The objective of this lesson is to exercise the Node.JS application that is runn
 
 **Step 1:** Invoke an action on the sample Node.JS application
 
-Click the following command to have the sample Node.JS send data to storage using the command set, `dapr invoke`. (The command will execute in a third terminal window in the Katacoda interactive learning environment.)
+Click the following commands to have the sample Node.JS send data to storage using the command set, `dapr invoke`. (The command will execute in a third terminal window in the Katacoda interactive learning environment.)
 
 `dapr invoke --app-id nodeapp --method neworder --payload '{"data": { "orderId": "41" } }'`{{execute T3}}
+
+`dapr invoke --app-id nodeapp --method neworder --payload '{"data": { "orderId": "42" } }'`{{execute T3}}
+
+`dapr invoke --app-id nodeapp --method neworder --payload '{"data": { "orderId": "43" } }'`{{execute T3}}
 
 **Step 2:** Confirm that the invocation was successful
 
