@@ -6,12 +6,11 @@ In this scenario you'll be provided with instructions to download the code from 
 
 This scenario is completely interactive. The instructions you'll be given will be executed directly in terminal windows in the Katacoda interactive learning environment.
 
-
 ## Contents
 
 This scenarios is divided into the following steps.
 
-* **Step 1** - Get the Code From Git Hub
+* **Step 1** - Get the Code From [GitHub](https://github.com/programmableweb/simple-java-rpc)
 * **Step 2** - Compile the RMI Interface
 * **Step 3** - Compile the RMI Server
 * **Step 4** - Compile the RMI Client

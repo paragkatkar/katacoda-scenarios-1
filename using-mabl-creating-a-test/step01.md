@@ -8,7 +8,7 @@ You'll be presented with the login page directly in the Katacoda interactive lea
 
 |                                       **Important Note**                                      |
 |:-------------------------------------------------------------------------------:|
-| In order to work with the `mabl` trainer to create tests, you must use the Google Chroime browser and have the `mabl` trainer extension installed. To learn how to install the `mabl` trainer Chrome extension go [here](https://chrome.google.com/webstore/detail/mabl-trainer/npfildagndinaoofhecikgcfcohfapeo?hl=en-US).|
+| In order to work with the `mabl` trainer to create tests, you must use the Google Chrome browser and have the `mabl` trainer extension installed. To learn how to install the `mabl` trainer Chrome extension go [here](https://chrome.google.com/webstore/detail/mabl-trainer/npfildagndinaoofhecikgcfcohfapeo?hl=en-US).|
 
 **Step 2:**  Login to the `mabl` App Site
 
