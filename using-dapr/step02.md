@@ -21,4 +21,4 @@ Click the following command to navigate to the working directory that contains t
 
 **Step 4:** Start the Node.JS application under DAPR
 
-`dapr run --app-id nodeapp --app-port 3000 --port 3500 node app.js`
+`dapr run --app-id nodeapp --app-port 3000 --port 3500 node app.js`{{execute T2}}
