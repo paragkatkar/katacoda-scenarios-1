@@ -2,7 +2,7 @@ Now we'll create a topic into which we'll publish messages. We'll name the topic
 
 **Task 1:** Go into a third terminal and then into the Kafka director
 
-`cd kafka_2.12-2.2.0`{{execute T3}}
+`cd kafka_2.12-2.5.0`{{execute T3}}
 
 **Task 2:** Create a Topic names, `test`
 

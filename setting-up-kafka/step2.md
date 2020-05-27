@@ -6,7 +6,7 @@ Now that Kafka is installed, we need to start [ZooKeeper](https://zookeeper.apac
 
 **Task 2:** To new terminal and go into the Kafka directory
 
-`cd kafka_2.12-2.2.0/`{{execute T2}}
+`cd kafka_2.12-2.5.0/`{{execute T2}}
 
 **Task 3:** Start Kafka
 
